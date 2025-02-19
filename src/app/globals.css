@@ -5,20 +5,49 @@
 :root {
   width: 100vw;
   min-height: 100vh;
-  --background: #faa49c;
+  --background: #fba39d;
   --foreground: #171717;
-  --text-color:#000ff0;
-  --bg-light:#fad6d5;
-  --nav-text:#000000
+  --text-color: #000000;
+  --bg-light: #fad6d5;
+  --nav-text: #000000;
+  --card-bg: #fad6d5;
+  --hero-bg: #fad6d5;
+  --nav-bg: #fad6d5;
+  --text-right: #fad8dd
 }
 
+/* #fad6d5 */
+/* #faa49c */
+/* #fba39d */
 
-body,html {
-  color: var(--text-color);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+body,
+html {
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  color: var(--text-color);
+}
+
+html{
+  padding-top: 1.5rem;
+}
+
+body {
+  background-color: #f8ecea;
+  border-radius: 20px;
+}
+
+@media screen and (max-width:700px) {
+  html {
+    padding-top: 0;
+  }
+  body {
+    background: transparent;
+  }
+}
+
+html {
+  background: var(--background);
 }
 
 /* Types of dimension measures */

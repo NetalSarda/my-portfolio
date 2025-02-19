@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="flex justify-center items-center" lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased pt-24 container relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased lg:pt-24 container relative`}
       >
         {/* Navbar */}
         <Navbar />

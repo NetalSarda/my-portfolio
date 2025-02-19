@@ -1,7 +1,7 @@
 import React from "react";
 
 const ContactSection = () => {
-  return <div className="h-full w-full lg:w-[30%] bg-orange-800">
+  return <div className="lg:h-full h-screen w-full bg-[var(--card-bg)] lg:w-[30%]">
     Contact Page
   </div>;
 };

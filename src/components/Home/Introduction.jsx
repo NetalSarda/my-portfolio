@@ -6,12 +6,12 @@ import AboutText from "./Introduction/AboutText";
 
 const Introduction = () => {
   return (
-    <div className="h-full flex w-full lg:w-[70%] bg-green-400 flex-col gap-4">
-      <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full gap-4 bg-slate-600">
+    <div className="lg:h-full flex w-full lg:w-[70%]  flex-col gap-4">
+      <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full gap-4 ">
         <Designation />
         <ImageBanner />
       </div>
-      <div className="flex flex-col lg:flex-row h-1/2 w-full gap-4 bg-pink-950">
+      <div className="flex flex-col lg:flex-row h-1/2 w-full gap-4 ">
         <AboutText />
         <AboutRight />
       </div>

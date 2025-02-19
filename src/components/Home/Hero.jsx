@@ -4,7 +4,7 @@ import Introduction from "./Introduction";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full gap-4 bg-purple-700 flex flex-col lg:flex-row px-2 pb-2">
+    <div className="w-full h-auto lg:h-full gap-4 flex flex-col lg:flex-row p-4">
       <Introduction />
       <ContactSection />
     </div>

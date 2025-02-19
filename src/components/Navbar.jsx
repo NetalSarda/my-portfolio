@@ -9,12 +9,12 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="absolute top-0 w-full h-24 px-2 md:px-2 z-50 py-3"
+      className="lg:absolute top-0 w-full h-24 px-4 md:px-4 z-50 pt-4"
     >
-      <div className="bg-[#ffd8d8]/90 backdrop-blur-sm h-full w-full flex items-center justify-between px-2 md:px-12 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl">
+      <div className="bg-[var(--nav-bg)] backdrop-blur-sm h-full w-full flex items-center justify-between px-2 md:px-12 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl">
         <Link
           href="/"
-          className="text-zinc-800 text-xl font-light tracking-wider hover:opacity-70 transition-all duration-300 relative group"
+          className="text-xl font-light tracking-wider hover:opacity-70 transition-all duration-300 relative group"
         >
           <span className="relative z-10">NETAL SARDA</span>
           <motion.div
