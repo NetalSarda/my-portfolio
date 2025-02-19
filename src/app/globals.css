@@ -3,19 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  width: 100vw;
+  min-height: 100vh;
+  --background: #faa49c;
   --foreground: #171717;
+  --text-color:#000ff0;
+  --bg-light:#fad6d5;
+  --nav-text:#000000
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  color: var(--foreground);
+body,html {
+  color: var(--text-color);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
 }
+
+/* Types of dimension measures */
+/* px - Pixels */
+/* Percentage : Parent Some percent  */
+/* Vh/VW : View port height/ viewport width*/

@@ -1,0 +1,26 @@
+"use client"
+import React from "react";
+
+const page = () => {
+  return (
+    <div>
+      <button
+        onClick={() => {
+          alert("Hello");
+        }}
+      >
+        Click Me
+      </button>
+      This Is About Page
+    </div>
+  );
+};
+
+export default page;
+
+
+// Server Side rendering : Sari rendering server pe hogi
+
+// Event listeners : Server cant take browser events...
+
+// Basic Conclusion : Event listener hai toh use client lagega hi
