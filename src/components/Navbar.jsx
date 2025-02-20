@@ -34,7 +34,7 @@ export default function Navbar() {
               href={href}
               className="text-zinc-800 text-sm uppercase tracking-wider relative group px-4 py-2 rounded-lg transition-all duration-300"
             >
-              <span className="relative z-10">Hello Netal {index}</span>
+              <span className="relative z-10">{label}</span>
               <motion.div
                 className="absolute inset-0 -z-0 rounded-lg bg-white/0 group-hover:bg-white/20 transition-all duration-300"
                 layoutId={`highlight-${label}`}

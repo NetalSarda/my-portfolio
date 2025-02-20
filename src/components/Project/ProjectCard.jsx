@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutHero = () => {
+const ProjectCard = () => {
   return (
     <div className="w-full h-auto lg:h-[60vh] mt-4 gap-4 flex flex-col lg:flex-row p-4">
       <div className="bg-purple-800 flex-1 flex flex-col justify-center h-full p-4">
@@ -18,6 +18,11 @@ const AboutHero = () => {
             Get in touch
           </button>
         </div>
+        <div className="flex w-fit flex-wrap gap-2 items-center my-4">
+          {["react", "node jdahsdiauhdoi hasodh asdhao dh", 3, 4, 5, 6, 7, 8, 9, 0].map((el) => (
+            <p className="px-2 py-1 border border-neutral-700 min-w-20 rounded-lg " key={el}>{el}</p>
+          ))}
+        </div>
       </div>
       <div className="bg-red-700 flex-1 h-full">
         {/* Image */}
@@ -31,4 +36,4 @@ const AboutHero = () => {
   );
 };
 
-export default AboutHero;
+export default ProjectCard;

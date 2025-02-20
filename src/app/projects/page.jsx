@@ -1,9 +1,14 @@
+import ProjectCard from '@/components/Project/ProjectCard'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      This is Projects Page
+      {
+        ["1","2","3"].map(el=>{
+          return <ProjectCard key={el}/>
+        })
+      }
     </div>
   )
 }
