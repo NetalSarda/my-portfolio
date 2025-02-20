@@ -12,10 +12,10 @@ const AboutHero = () => {
         </p>
         <div className="flex w-1/2 justify-evenly gap-4">
           <button className="p-2 bg-blue-400 rounded-lg flex-1">
-            Button 1
+            Download Resume
           </button>
           <button className="p-2 bg-blue-400 rounded-lg flex-1">
-            Button 1
+            Get in touch
           </button>
         </div>
       </div>
