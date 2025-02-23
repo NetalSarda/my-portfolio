@@ -7,7 +7,7 @@ const page = () => {
 
   return (
     <>
-      <div>
+      <div className="flex justify-center items-center flex-col w-full">
         {["1", "2", "3"].map((el) => {
           return <ProjectCard key={el} />;
         })}

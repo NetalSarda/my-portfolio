@@ -25,7 +25,7 @@ const AboutHero = () => {
         {/* Image */}
         <img
           className="h-full w-full object-cover rounded-3xl overflow-hidden"
-          src="/images/photo.jpg"
+          src="/images/profile-photo.jpg"
           alt="profile picture"
         />
       </div>

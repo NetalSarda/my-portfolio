@@ -12,27 +12,31 @@
   --bg-light: #fad6d5;
   --nav-text: #000000;
   --card-bg: #fad6d5;
-  --white-bg:#ffffff;
+  --white-bg: #ffffff;
   --hero-bg: #fad6d5;
   --nav-bg: #fad6d5;
-  --text-right: #fad8dd
+  --text-right: #fad8dd;
 }
-
-/* #fad6d5 */
-/* #faa49c */
-/* #fba39d */
 
 body,
 html {
-  height: 100%;
-  min-height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%; /* Ensures it takes at least the viewport height */
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
 }
+
+body {
+  overflow: clip;
+  flex-grow: 1; /* Allows the body to expand based on content */
+}
+
 
 html{
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 body {
