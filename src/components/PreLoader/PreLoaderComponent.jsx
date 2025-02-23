@@ -13,8 +13,7 @@ const PreLoaderComponent = () => {
   return (
     <div className="h-full w-full flex justify-center items-center">
       <div
-        style={{ "--top": "10%", "--left": "10%" }}
-        className="h-1/2 aspect-square move appear bg-purple-800"
+        className="h-1/2 aspect-square bg-purple-800"
         onClick={() => {
           setClicked(true);
         }}
