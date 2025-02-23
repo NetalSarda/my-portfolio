@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutHero = () => {
   return (
-    <div className="w-full h-auto lg:h-[60vh] mt-4 gap-4 flex flex-col lg:flex-row p-8">
+    <div className="w-full h-auto lg:h-[60vh] my-12 gap-4 flex flex-col lg:flex-row p-8">
       <div className="flex-1 flex flex-col justify-center h-full px-8 py-4 space-y-4">
         <h1 className="text-5xl"><b>Netal Sarda</b></h1>
         <p className="text-lg">
@@ -21,7 +21,7 @@ const AboutHero = () => {
           </button>
         </div>
       </div>
-      <div className="p-4 flex-1 h-full">
+      <div className="p-8 flex-1 h-full">
         {/* Image */}
         <img
           className="h-full w-full object-cover rounded-3xl overflow-hidden"
