@@ -1,12 +1,14 @@
 import AboutHero from "@/components/About/AboutHero";
 import Experience from "@/components/About/Experience";
+import Footer from "@/components/Footer";
 import React from "react";
 
 const page = () => {
   return (
     <>
-      <AboutHero/>
-      <Experience/>
+      <AboutHero />
+      <Experience />
+      <Footer />
     </>
   );
 };

@@ -4,10 +4,10 @@ import Introduction from "./Introduction";
 
 const Hero = () => {
   return (
-    <div className="w-full h-auto lg:h-full gap-4 flex flex-col lg:flex-row p-4">
+    <motion className="w-full min-h-screen lg:min-h-full lg:h-[85vh] gap-4 flex flex-col lg:flex-row p-4">
       <Introduction />
       <ContactSection />
-    </div>
+    </motion>
   );
 };
 

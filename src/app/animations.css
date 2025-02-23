@@ -1,0 +1,71 @@
+.appear {
+    animation: appear 1s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.bounce {
+    animation: bounce 1s ease-out;
+}
+
+.grow{
+    animation: grow 1 ease-in-out;
+}
+
+.move {
+    animation: spread 6s ease-in;
+}
+
+@keyframes move {
+    0%{
+        left: var(--final-left);
+        top: var(--final-top);
+        transform: translate(10%, 10%) scale(1);
+        opacity: 1;
+    }
+    100%{
+        left: 0;
+        top: 0;
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+.spread:nth-child(n) {
+    animation-delay: calc(var(--index) * 1s);
+}
+
+
+@keyframes grow{
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    100% {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

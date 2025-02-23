@@ -2,14 +2,21 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useConfig } from "@/contexts/ConfigContext";
 
 export default function Navbar() {
+
+  const config = useConfig()
+
+  if(!config.clicked) return null
+
+
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="lg:absolute top-0 w-full h-24 px-4 md:px-4 z-50 pt-4"
+      className={`lg:absolute top-0 w-full h-24 px-4 md:px-4 z-50 pt-4`}
     >
       <div className="bg-[var(--nav-bg)] backdrop-blur-sm h-full w-full flex items-center justify-between px-2 md:px-12 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl">
         <Link
