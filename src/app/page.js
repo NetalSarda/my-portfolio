@@ -6,8 +6,5 @@ import { useState } from "react";
 
 export default function Page() {
   const { clicked } = useConfig();
-  if (clicked) {
-     return <Hero/>
-  }
-  return <PreLoaderComponent/>
+  return <Hero />;
 }

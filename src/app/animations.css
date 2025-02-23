@@ -2,7 +2,7 @@
     animation: appear 1s;
 }
 
-@keyframes appear {
+@keyframes spread {
     0% {
         opacity: 0;
     }
