@@ -49,7 +49,7 @@ const CursorFollower = ({ isHovered, setIsHovered }) => {
 const HeroLarge = ({ isHovered, setIsHovered }) => {
   const { clicked, setClicked } = useConfig();
   const duration = 2;
-  const stiffness = 75
+  const stiffness = 75;
 
   return (
     <>
@@ -57,7 +57,13 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
         <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full">
           {/* First Div */}
           <motion.div
-            initial={{ x: "225%", y: "50%", scale: 0.7, opacity: 0 }}
+            initial={{
+              x: "225%",
+              y: "50%",
+              scale: 0.7,
+              opacity: 0,
+              width: "25%",
+            }}
             animate={{
               x: clicked ? "225%" : "0%",
               y: clicked ? "50%" : "0%",
@@ -76,11 +82,18 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
 
           {/* Second Div (Triggers Animation) */}
           <motion.div
-            initial={{ x: "125%", y: "50%", opacity: 1 }}
+            initial={{
+              x: "125%",
+              width: "25%",
+              y: "50%",
+              opacity: 1,
+              border: "10px solid #fad6d5",
+            }}
             animate={{
               x: clicked ? "125%" : "0%",
               y: clicked ? "50%" : "0%",
               width: clicked ? "25%" : "40%",
+              border: clicked ? "10px solid #fad6d5" : "none",
             }}
             transition={{
               type: "spring",
@@ -88,13 +101,13 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-green-500 [var(--card-bg)] m-2 rounded-lg z-30 bigger-cursor"
+            className="bg-transparent m-2 rounded-2xl overflow-hidden z-30 bigger-cursor"
             onClick={() => setClicked(false)}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-lg overflow-hidden"
               src="/images/profile-photo.jpg"
             />
           </motion.div>

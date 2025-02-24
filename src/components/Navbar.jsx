@@ -32,8 +32,8 @@ export default function Navbar() {
 
         <nav className="flex items-center gap-8 md:gap-12">
           {[
-            { href: "/projects", label: "PROJECTS" },
             { href: "/about", label: "ABOUT" },
+            { href: "/portfolio", label: "PORTFOLIO" },
             { href: "/contact", label: "CONTACT" },
           ].map(({ href, label }, index) => (
             <Link
