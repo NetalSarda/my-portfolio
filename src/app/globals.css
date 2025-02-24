@@ -18,9 +18,16 @@
   --text-right: #fad8dd;
 }
 
+.bigger-cursor:hover {
+  cursor: none;
+}
+
 body,
 html {
-  min-height: 100%; /* Ensures it takes at least the viewport height */
+  /* cursor: url('/images/circle-outline.png') 20 20, auto; */
+  /* cursor: none; */
+  min-height: 100%;
+  /* Ensures it takes at least the viewport height */
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
@@ -30,11 +37,12 @@ html {
 
 body {
   overflow: clip;
-  flex-grow: 1; /* Allows the body to expand based on content */
+  flex-grow: 1;
+  /* Allows the body to expand based on content */
 }
 
 
-html{
+html {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -48,6 +56,7 @@ body {
   html {
     padding-top: 0;
   }
+
   body {
     background: transparent;
   }
@@ -63,3 +72,50 @@ html {
 /* px - Pixels */
 /* Percentage : Parent Some percent  */
 /* Vh/VW : View port height/ viewport width*/
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--card-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--card-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid var(--card-bg);
+  box-shadow:
+    inset 0 0 20px var(--card-bg),
+    0 0 10px var(--card-bg);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--card-bg);
+  border: 1px solid var(--card-bg);
+  box-shadow:
+    inset 0 0 30px var(--card-bg),
+    0 0 15px var(--card-bg);
+}
+
+/* When scrollbar is in active/clicked state */
+::-webkit-scrollbar-thumb:active {
+  background: var(--card-bg);
+  border: 1px solid var(--card-bg);
+  box-shadow:
+    inset 0 0 40px var(--card-bg),
+    0 0 20px var(--card-bg);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

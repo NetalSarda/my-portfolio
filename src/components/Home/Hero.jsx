@@ -1,19 +1,55 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useConfig } from "@/contexts/ConfigContext";
 
 const Hero = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <motion.div className="w-full min-h-screen lg:min-h-full lg:h-[85vh] flex flex-col lg:flex-row lg:p-4">
-      <HeroLarge />
+    <motion.div className="w-full min-h-screen lg:min-h-full lg:h-[85vh] flex flex-col lg:flex-row lg:p-4 relative">
+      <CursorFollower {...{ isHovered, setIsHovered }} />
+      <HeroLarge {...{ isHovered, setIsHovered }} />
     </motion.div>
   );
 };
 
-const HeroLarge = () => {
-  const { clicked, setClicked } = useConfig();
+// Cursor Follower Component
+const CursorFollower = ({ isHovered, setIsHovered }) => {
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
-  const duration = 2
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      setCursorPosition({ x: e.clientX, y: e.clientY });
+    };
+
+    document.addEventListener("mousemove", handleMouseMove);
+    return () => document.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
+  return (
+    <motion.div
+      className="fixed top-0 left-0 pointer-events-none z-50"
+      animate={{
+        x: cursorPosition.x - (isHovered ? 40 : 20),
+        y: cursorPosition.y - (isHovered ? 40 : 20),
+        width: isHovered ? 80 : 40,
+        height: isHovered ? 80 : 40,
+        opacity: 1,
+      }}
+      transition={{ duration: 0.1, ease: "linear" }} // Fast & smooth transition
+      style={{
+        background: "url('/images/circle-outline.png') no-repeat center",
+        backgroundSize: "contain",
+      }}
+    />
+  );
+};
+
+// Main Hero Section
+const HeroLarge = ({ isHovered, setIsHovered }) => {
+  const { clicked, setClicked } = useConfig();
+  const duration = 2;
+  const stiffness = 75
 
   return (
     <>
@@ -31,14 +67,14 @@ const HeroLarge = () => {
             }}
             transition={{
               type: "spring",
-              stiffness: 200,
+              stiffness: stiffness,
               damping: 20,
               duration: duration,
             }}
             className="bg-[var(--card-bg)] m-2 rounded-lg"
           ></motion.div>
 
-          {/* Second Div (Clickable to trigger animations) */}
+          {/* Second Div (Triggers Animation) */}
           <motion.div
             initial={{ x: "125%", y: "50%", opacity: 1 }}
             animate={{
@@ -48,12 +84,14 @@ const HeroLarge = () => {
             }}
             transition={{
               type: "spring",
-              stiffness: 200,
+              stiffness: stiffness,
               damping: 20,
               duration: duration,
             }}
-            className="bg-green-500 [var(--card-bg)] m-2 rounded-lg"
+            className="bg-green-500 [var(--card-bg)] m-2 rounded-lg z-30 bigger-cursor"
             onClick={() => setClicked(false)}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
           >
             <img
               className="h-full w-full object-cover"
@@ -75,7 +113,7 @@ const HeroLarge = () => {
             }}
             transition={{
               type: "spring",
-              stiffness: 200,
+              stiffness: stiffness,
               damping: 20,
               duration: duration,
             }}
@@ -94,7 +132,7 @@ const HeroLarge = () => {
             }}
             transition={{
               type: "spring",
-              stiffness: 200,
+              stiffness: stiffness,
               damping: 20,
               duration: duration,
             }}
@@ -115,7 +153,7 @@ const HeroLarge = () => {
         }}
         transition={{
           type: "spring",
-          stiffness: 200,
+          stiffness: stiffness,
           damping: 20,
           duration: duration,
         }}
