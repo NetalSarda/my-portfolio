@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { useConfig } from "@/contexts/ConfigContext";
 
 const Hero = () => {
   return (
@@ -10,7 +11,9 @@ const Hero = () => {
 };
 
 const HeroLarge = () => {
-  const [active, setActive] = useState(true);
+  const { clicked, setClicked } = useConfig();
+
+  const duration = 2
 
   return (
     <>
@@ -20,29 +23,42 @@ const HeroLarge = () => {
           <motion.div
             initial={{ x: "225%", y: "50%", scale: 0.7, opacity: 0 }}
             animate={{
-              x: active ? "225%" : "0%",
-              y: active ? "50%" : "0%",
-              scale: active ? 0.7 : 1,
-              opacity: active ? 0 : 1,
-              width: active ? "25%" : "90%",
+              x: clicked ? "225%" : "0%",
+              y: clicked ? "50%" : "0%",
+              scale: clicked ? 0.7 : 1,
+              opacity: clicked ? 0 : 1,
+              width: clicked ? "25%" : "90%",
             }}
-            transition={{ type: "spring", stiffness: 200, damping: 20, duration: 1 }}
-            className="bg-purple-400"
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 20,
+              duration: duration,
+            }}
+            className="bg-[var(--card-bg)] m-2 rounded-lg"
           ></motion.div>
 
           {/* Second Div (Clickable to trigger animations) */}
           <motion.div
             initial={{ x: "125%", y: "50%", opacity: 1 }}
             animate={{
-              x: active ? "125%" : "0%",
-              y: active ? "50%" : "0%",
-              width: active ? "25%" : "40%",
+              x: clicked ? "125%" : "0%",
+              y: clicked ? "50%" : "0%",
+              width: clicked ? "25%" : "40%",
             }}
-            transition={{ type: "spring", stiffness: 200, damping: 20, duration: 1 }}
-            className="bg-green-500 z-20"
-            onClick={() => setActive(false)}
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 20,
+              duration: duration,
+            }}
+            className="bg-green-500 [var(--card-bg)] m-2 rounded-lg"
+            onClick={() => setClicked(false)}
           >
-            <img className="h-full w-full object-cover" src="/images/photo.jpg" />
+            <img
+              className="h-full w-full object-cover"
+              src="/images/profile-photo.jpg"
+            />
           </motion.div>
         </div>
 
@@ -51,28 +67,38 @@ const HeroLarge = () => {
           <motion.div
             initial={{ x: "225%", y: "-50%", scale: 0.7, opacity: 0 }}
             animate={{
-              x: active ? "225%" : "0%",
-              y: active ? "-50%" : "0%",
-              scale: active ? 0.7 : 1,
-              opacity: active ? 0 : 1,
-              width: active ? "25%" : "50%",
+              x: clicked ? "225%" : "0%",
+              y: clicked ? "-50%" : "0%",
+              scale: clicked ? 0.7 : 1,
+              opacity: clicked ? 0 : 1,
+              width: clicked ? "25%" : "50%",
             }}
-            transition={{ type: "spring", stiffness: 200, damping: 20, duration: 1 }}
-            className="bg-red-500"
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 20,
+              duration: duration,
+            }}
+            className="bg-[var(--card-bg)] m-2 rounded-lg"
           ></motion.div>
 
           {/* Fourth Div */}
           <motion.div
             initial={{ x: "125%", y: "-50%", scale: 0.7, opacity: 0 }}
             animate={{
-              x: active ? "125%" : "0%",
-              y: active ? "-50%" : "0%",
-              scale: active ? 0.7 : 1,
-              opacity: active ? 0 : 1,
-              width: active ? "25%" : "50%",
+              x: clicked ? "125%" : "0%",
+              y: clicked ? "-50%" : "0%",
+              scale: clicked ? 0.7 : 1,
+              opacity: clicked ? 0 : 1,
+              width: clicked ? "25%" : "50%",
             }}
-            transition={{ type: "spring", stiffness: 200, damping: 20, duration: 1 }}
-            className="bg-yellow-500"
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 20,
+              duration: duration,
+            }}
+            className="bg-[var(--card-bg)] m-2 rounded-lg"
           ></motion.div>
         </div>
       </div>
@@ -81,14 +107,19 @@ const HeroLarge = () => {
       <motion.div
         initial={{ x: "-250%", y: "50%", scale: 0.7, opacity: 0 }}
         animate={{
-          x: active ? "-250%" : "0%",
-          y: active ? "50%" : "0%",
-          scale: active ? 0.7 : 1,
-          opacity: active ? 0 : 1,
-          width: active ? "10%" : "30%",
+          x: clicked ? "-250%" : "0%",
+          y: clicked ? "50%" : "0%",
+          scale: clicked ? 0.7 : 1,
+          opacity: clicked ? 0 : 1,
+          width: clicked ? "10%" : "30%",
         }}
-        transition={{ type: "spring", stiffness: 200, damping: 20, duration: 1 }}
-        className="bg-orange-500"
+        transition={{
+          type: "spring",
+          stiffness: 200,
+          damping: 20,
+          duration: duration,
+        }}
+        className="bg-[var(--card-bg)] m-2 rounded-lg"
       ></motion.div>
     </>
   );

@@ -4,11 +4,11 @@ import { createContext, useContext, useState, useEffect } from "react";
 const ConfigContext = createContext();
 
 export const ConfigProvider = ({ children }) => {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
 
   useEffect(()=>{
     if(window.location.pathname != "/"){
-        setClicked(true)
+        setClicked(false)
     }
   },[])
 

@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const config = useConfig()
 
-  if(!config.clicked) return null
+  if(config.clicked) return null
 
 
   return (
