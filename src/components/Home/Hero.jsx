@@ -70,7 +70,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-transparent m-2 rounded-2xl overflow-hidden z-30 bigger-cursor"
+            className="bg-transparent m-2 rounded-2xl overflow-hidden z-30 cursor-pointer"
             onClick={() => setClicked(false)}
           >
             <img

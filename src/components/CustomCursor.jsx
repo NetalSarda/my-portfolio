@@ -33,8 +33,8 @@ const CustomCursor = () => {
       animate={{
         x: cursorPosition.x - (isHovered ? 40 : 20),
         y: cursorPosition.y - (isHovered ? 40 : 20),
-        width: isHovered ? 80 : 40,
-        height: isHovered ? 80 : 40,
+        width: isHovered ? 80 : 30,
+        height: isHovered ? 80 : 30,
         rotate: rotation,
         opacity: 1,
       }}

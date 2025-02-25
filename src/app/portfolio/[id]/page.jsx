@@ -38,7 +38,7 @@ const page = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <Link
-            href="/"
+            href="/portfolio"
             className="inline-flex items-center text-sm text-gray-400 hover:text-gray-300 transition-colors"
           >
             <ChevronLeft className="w-4 h-4 mr-1" />

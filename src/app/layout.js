@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <ConfigProvider>
           {/* Navbar */}
           <Navbar />
-          <CustomCursor />
+          {/* <CustomCursor /> */}
           {children}
         </ConfigProvider>
       </body>
