@@ -6,7 +6,7 @@ import AboutText from "./Introduction/AboutText";
 
 const Introduction = () => {
   return (
-    <div className="lg:h-full flex w-full lg:w-[70%]  flex-col gap-4">
+    <div className="lg:h-full sm:hidden flex w-full lg:w-[70%]  flex-col gap-4">
       <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full gap-4 ">
         <Designation />
         <ImageBanner />

@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutHero = () => {
   return (
-    <div className="w-full h-auto lg:h-[60vh] my-12 gap-4 flex flex-col lg:flex-row p-8">
-      <div className="flex-1 flex flex-col justify-center h-full px-8 py-4 space-y-4">
+    <div className="w-full h-auto lg:h-[60vh] sm:my-12 gap-4 flex flex-col-reverse lg:flex-row p-4 sm:p-8">
+      <div className="flex-1 flex flex-col justify-center h-full sm:px-8 sm:py-4 sm:space-y-4">
         <h1 className="text-5xl"><b>Netal Sarda</b></h1>
         <p className="text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -12,7 +12,7 @@ const AboutHero = () => {
           exercitationem voluptas quaerat obcaecati at reiciendis consectetur
           ipsum odio omnis maxime?
         </p>
-        <div className="flex w-1/2 justify-evenly gap-4">
+        <div className="flex sm:w-3/4 w-full py-4 justify-evenly gap-4">
           <button className="p-2 bg-[var(--background)] rounded-lg flex-1">
             Download Resume
           </button>

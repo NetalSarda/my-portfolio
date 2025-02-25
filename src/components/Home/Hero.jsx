@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useConfig } from "@/contexts/ConfigContext";
+import Introduction from "./Introduction";
+import ContactSection from "./ContactSection";
 
 const Hero = () => {
 
   return (
     <motion.div className="w-full min-h-screen lg:min-h-full lg:h-[85vh] flex flex-col lg:flex-row lg:p-4 relative">
       <HeroLarge />
+      <Introduction/>
+      <ContactSection/>
     </motion.div>
   );
 };
@@ -22,7 +26,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
 
   return (
     <>
-      <div className="lg:h-full flex w-full lg:w-[70%] relative flex-col">
+      <div className="lg:h-full hidden sm:flex w-full lg:w-[70%] relative flex-col">
         <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full">
           {/* First Div */}
           <motion.div
