@@ -3,47 +3,16 @@ import { motion } from "framer-motion";
 import { useConfig } from "@/contexts/ConfigContext";
 
 const Hero = () => {
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <motion.div className="w-full min-h-screen lg:min-h-full lg:h-[85vh] flex flex-col lg:flex-row lg:p-4 relative">
-      <CursorFollower {...{ isHovered, setIsHovered }} />
-      <HeroLarge {...{ isHovered, setIsHovered }} />
+      <HeroLarge />
     </motion.div>
   );
 };
 
 // Cursor Follower Component
-const CursorFollower = ({ isHovered, setIsHovered }) => {
-  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setCursorPosition({ x: e.clientX, y: e.clientY });
-    };
-
-    document.addEventListener("mousemove", handleMouseMove);
-    return () => document.removeEventListener("mousemove", handleMouseMove);
-  }, []);
-
-  return (
-    <motion.div
-      className="fixed top-0 left-0 pointer-events-none z-50"
-      animate={{
-        x: cursorPosition.x - (isHovered ? 40 : 20),
-        y: cursorPosition.y - (isHovered ? 40 : 20),
-        width: isHovered ? 80 : 40,
-        height: isHovered ? 80 : 40,
-        opacity: 1,
-      }}
-      transition={{ duration: 0.1, ease: "linear" }} // Fast & smooth transition
-      style={{
-        background: "url('/images/circle-outline.png') no-repeat center",
-        backgroundSize: "contain",
-      }}
-    />
-  );
-};
 
 // Main Hero Section
 const HeroLarge = ({ isHovered, setIsHovered }) => {
@@ -103,8 +72,6 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
             }}
             className="bg-transparent m-2 rounded-2xl overflow-hidden z-30 bigger-cursor"
             onClick={() => setClicked(false)}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
           >
             <img
               className="h-full w-full object-cover rounded-lg overflow-hidden"
