@@ -64,7 +64,7 @@ export default function CertificateCards() {
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="bg-[var(--card-bg)] max-w-[25%]"
+          className="bg-[var(--card-bg)] w-full sm:max-w-[25%]"
         >
           <div className="p-3 space-y-3">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
@@ -79,9 +79,7 @@ export default function CertificateCards() {
               <h3 className="text-lg font-semibold text-[var(--foreground)]">
                 {project.title}
               </h3>
-              <p className="text-sm text-[var(--text-color)] line-clamp-2">
-                {project.description}
-              </p>
+
             </div>
             <div className="flex items-center justify-between pt-3">
               <Link

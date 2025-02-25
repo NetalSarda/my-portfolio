@@ -64,7 +64,7 @@ export default function ProjectCards() {
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="bg-[var(--card-bg)] max-w-[25%]"
+          className="bg-[var(--card-bg)] sm:max-w-[25%]"
         >
           <div className="p-3 space-y-3">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">

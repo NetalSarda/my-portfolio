@@ -102,11 +102,11 @@ export function Card({ className, children, ...props }) {
 
 export default function CertificateCards() {
   return (
-    <div className="flex flex-wrap w-3/4 justify-left gap-8 p-4 px-8">
+    <div className="sm:flex grid grid-cols-2 flex-wrap w-3/4 justify-left sm:gap-8 sm:p-4 sm:px-8 gap-2 mt-4">
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="bg-[var(--card-bg)] max-w-[25%] w-1/12 aspect-square"
+          className="bg-[var(--card-bg)] w-full sm:w-1/12 aspect-square"
         >
           <div className="p-3 space-y-3">
             
