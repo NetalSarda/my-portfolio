@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "title": "Netals Portfolio",
+    "description": "A web-based task management application for teams.",
+    "link": "https://taskmanager.com",
+    "technologyUsed": ["react", "node", "express", "mongodb"],
+    "github": "https://github.com/user/task-manager",
+    "features": [
+      "User authentication",
+      "Task assignment",
+      "Real-time notifications",
+      "Drag and drop task organization",
+      "Dark mode support"
+    ],
+    "image": "/portfolio/projects/last_take.png"
+  },
+  {
+    "id": "p2",
+    "title": "E-Commerce Platform",
+    "description": "A full-fledged e-commerce application with payment integration.",
+    "link": "https://ecommerce.com",
+    "technologyUsed": ["next.js", "node", "stripe", "mongodb"],
+    "github": "https://github.com/user/ecommerce-platform",
+    "features": [
+      "Netal Is an Idiot",
+      "Shopping cart and checkout",
+      "Secure payment processing",
+      "Admin dashboard for inventory management",
+      "Order tracking system"
+    ],
+    "image": "/images/profile-photo.jpg"
+  },
+  {
+    "id": "p3",
+    "title": "Chat Application",
+    "description": "A real-time chat application with end-to-end encryption.",
+    "link": "https://chatapp.com",
+    "technologyUsed": ["react", "socket.io", "node", "mongodb"],
+    "github": "https://github.com/user/chat-application",
+    "features": [
+      "Real-time messaging",
+      "Group chat functionality",
+      "Voice and video calls",
+      "Message encryption",
+      "Customizable themes"
+    ],
+    "image": "/images/profile-photo.jpg"
+  },
+  {
+    "id": "p4",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website showcasing projects and blogs.",
+    "link": "https://portfolio.com",
+    "technologyUsed": ["next.js", "tailwind", "typescript"],
+    "github": "https://github.com/user/portfolio-website",
+    "features": [
+      "Project showcase",
+      "Blog section",
+      "Contact form with email integration",
+      "Light and dark mode",
+      "SEO optimization"
+    ],
+    "image": "/images/profile-photo.jpg"
+  },
+  {
+    "id": "p5",
+    "title": "AI-Powered Resume Builder",
+    "description": "An AI-powered tool to generate resumes based on user input.",
+    "link": "https://resumebuilder.com",
+    "technologyUsed": ["react", "openai", "node", "express"],
+    "github": "https://github.com/user/ai-resume-builder",
+    "features": [
+      "AI-powered resume generation",
+      "Customizable templates",
+      "PDF export functionality",
+      "Skill-based recommendations",
+      "User profile and saved resumes"
+    ],
+    "image": "/images/profile-photo.jpg"
+  }
+]

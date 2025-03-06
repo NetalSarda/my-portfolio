@@ -26,8 +26,8 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
 
   return (
     <>
-      <div className="lg:h-full hidden sm:flex w-full lg:w-[70%] relative flex-col">
-        <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full">
+      <div className="lg:h-full hidden sm:flex w-full lg:w-[65%] relative flex-col">
+        <div className="flex h-full lg:flex-row flex-col lg:h-[60%] w-full">
           {/* First Div */}
           <motion.div
             initial={{
@@ -42,7 +42,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               y: clicked ? "50%" : "0%",
               scale: clicked ? 0.7 : 1,
               opacity: clicked ? 0 : 1,
-              width: clicked ? "25%" : "90%",
+              width: clicked ? "25%" : "70%",
             }}
             transition={{
               type: "spring",
@@ -79,12 +79,12 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
           >
             <img
               className="h-full w-full object-cover rounded-lg overflow-hidden"
-              src="/images/profile-photo.jpg"
+              src="/images/photo.jpg"
             />
           </motion.div>
         </div>
 
-        <div className="flex flex-col lg:flex-row h-full lg:h-1/2 w-full">
+        <div className="flex flex-col lg:flex-row h-full lg:h-[40%] w-full">
           {/* Third Div */}
           <motion.div
             initial={{ x: "225%", y: "-50%", scale: 0.7, opacity: 0 }}
@@ -133,7 +133,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
           y: clicked ? "50%" : "0%",
           scale: clicked ? 0.7 : 1,
           opacity: clicked ? 0 : 1,
-          width: clicked ? "10%" : "30%",
+          width: clicked ? "10%" : "35%",
         }}
         transition={{
           type: "spring",

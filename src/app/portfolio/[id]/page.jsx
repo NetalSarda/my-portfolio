@@ -1,7 +1,9 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ChevronLeft, ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
+import projects from "@/data/Projects.json";
 
 export function Card({ className, children, ...props }) {
   return (
@@ -33,6 +35,17 @@ const features = [
 ];
 
 const page = () => {
+  const [projectDetails, setProjectDetails] = useState({});
+
+  useEffect(() => {
+    const pid = window?.location.pathname.split("/").pop();
+    const currentProject = projects.find((project) => (project.id === pid));
+    console.log(currentProject);
+    setProjectDetails(currentProject);
+  }, []);
+
+  if (!projectDetails) return <h1>Project Not Found</h1>;
+
   return (
     <div className="min-h-screen bg-black text-white p-8">
       <div className="container mx-auto px-4 py-8">
@@ -48,12 +61,9 @@ const page = () => {
 
         <div className="space-y-8">
           <div>
-            <h1 className="text-4xl font-bold mb-4">AutoChat-Discord</h1>
+            <h1 className="text-4xl font-bold mb-4">{projectDetails.title}</h1>
             <p className="text-gray-400 max-w-3xl">
-              AutoChat adalah solusi otomatisasi untuk mengirim pesan ke saluran
-              Discord secara terjadwal. Program ini berjalan 24/7, memungkinkan
-              pengiriman pesan otomatis tanpa intervensi manual, sehingga
-              memudahkan proses serta komunikasi di Discord secara efisien.
+              {projectDetails.description}
             </p>
           </div>
 
@@ -61,11 +71,11 @@ const page = () => {
             <Card className="bg-gray-900/50 border-gray-800">
               <div className="p-6">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src={projectDetails.image}
                   alt="AutoChat-Discord Preview"
                   width={600}
                   height={400}
-                  className="rounded-lg"
+                  className="rounded-lg aspect-video object-cover"
                 />
               </div>
             </Card>
@@ -74,7 +84,7 @@ const page = () => {
               <div>
                 <h2 className="text-xl font-semibold mb-4">Key Features</h2>
                 <ul className="space-y-3">
-                  {features.map((feature, index) => (
+                  {projectDetails?.features?.map((feature, index) => (
                     <li key={index} className="flex items-start">
                       <span className="text-yellow-400 mr-2">•</span>
                       <span className="text-gray-300">{feature}</span>
@@ -83,39 +93,45 @@ const page = () => {
                 </ul>
               </div>
 
-              <div>
-                <h2 className="text-xl font-semibold mb-4">
-                  Technologies Used
-                </h2>
-                <div className="flex flex-wrap gap-2">
-                  {technologies.map((tech) => {
-                    return (
-                      <div
-                        className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-secondary/80 bg-gray-800 text-gray-300"
-                        data-v0-t="badge"
-                      >
-                        {tech}
-                      </div>
-                    );
-                  })}
+              {projectDetails.technologyUsed && (
+                <div>
+                  <h2 className="text-xl font-semibold mb-4">
+                    Technologies Used
+                  </h2>
+                  <div className="flex flex-wrap gap-2">
+                    {projectDetails?.technologyUsed?.map((tech) => {
+                      return (
+                        <div
+                          className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-secondary/80 bg-gray-800 text-gray-300"
+                          data-v0-t="badge"
+                        >
+                          {tech}
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
+              )}
 
               <div className="flex gap-4">
-                <Link
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition-colors"
-                >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Live Demo
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
-                >
-                  <Github className="w-4 h-4 mr-2" />
-                  GitHub
-                </Link>
+                {projectDetails.link && (
+                  <Link
+                    href={projectDetails.link}
+                    className="inline-flex items-center px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Live Demo
+                  </Link>
+                )}
+                {projectDetails.github && (
+                  <Link
+                    href={projectDetails.github}
+                    className="inline-flex items-center px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
+                  >
+                    <Github className="w-4 h-4 mr-2" />
+                    GitHub
+                  </Link>
+                )}
               </div>
             </div>
           </div>

@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import CertificateCards from "@/components/Portfolio/CertificateCards";
 import ProjectCards from "@/components/Portfolio/ProjectCard";
 import SkillCards from "@/components/Portfolio/SkillCards";
+import TestimonialCards from "@/components/Portfolio/TestimonialCards";
 import React, { useState } from "react";
 
 const page = () => {
@@ -11,7 +12,7 @@ const page = () => {
     <ProjectCards />,
     <SkillCards />,
     <CertificateCards />,
-    <CertificateCards />,
+    <TestimonialCards />,
   ];
 
   return (
