@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Full Stack Developer Intern",
+    "company": "Zen Study",
+    "duration": "Dec 2024 - Current",
+    "tasks": [
+      "Worked on an education platform where educators can stream and upload videos for students.",
+      "Embedded DRM-protected Shaka Player to prevent content piracy.",
+      "Incorporated live class streaming, automatically storing session recordings on AWS S3."
+    ]
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "company": "33 Solutions",
+    "duration": "Nov 2024 - Feb 2025",
+    "tasks": [
+      "Developed a Bounty Reward Platform to boost sales for 5 businesses.",
+      "Built Azure serverless functions to process KERN Seed data for 500+ farmers.",
+      "Created a CRM dashboard for Mehek Chemicals, streamlining orders and dispatches for 1,000+ customers and 200+ employees."
+    ]
+  },
+  {
+    "role": "Frontend Developer",
+    "company": "Hashtag City",
+    "duration": "March 2022 - April 2022",
+    "tasks": [
+      "Collaborated with the team to design and develop the UI and animations.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers."
+    ]
+  }
+]

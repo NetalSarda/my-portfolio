@@ -1,7 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-import { ArrowRight, ExternalLink } from "lucide-react";
-
 const projects = [
   {
     id: "Certificate 1",
@@ -106,10 +102,14 @@ export default function CertificateCards() {
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="bg-[var(--card-bg)] w-full sm:w-1/12 aspect-square"
+          className="bg-[var(--card-bg)] w-full sm:w-1/12 rounded-xl overflow-hidden aspect-square"
         >
-          <div className="p-3 space-y-3">
-            
+          <div className="h-full w-full">
+            <img
+              src="/images/photo.jpg"
+              className="h-full w-full object-cover"
+              alt=""
+            />
           </div>
         </Card>
       ))}

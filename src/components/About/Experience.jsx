@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
-import { Code2, Briefcase } from "lucide-react"
+import { Code2, Briefcase } from "lucide-react";
+import experience from "@/data/Experience.json";
 
 // interface TimelineItem {
 //   title: string
@@ -59,15 +60,19 @@ const timelineData = [
     ],
     side: "right",
   },
-]
+];
 
 export default function WorkExperience() {
   return (
     <div className="min-h-screen bg-[var(--white-bg)] px-4 py-16 text-[var(--text-color)] md:px-8 lg:px-16">
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
-          <h2 className="mb-2 text-sm uppercase tracking-wider text-black">WHAT I HAVE DONE SO FAR</h2>
-          <h1 className="text-4xl text-black font-bold sm:text-5xl md:text-6xl">Work Experience.</h1>
+          <h2 className="mb-2 text-sm uppercase tracking-wider text-black">
+            WHAT I HAVE DONE SO FAR
+          </h2>
+          <h1 className="text-4xl text-black font-bold sm:text-5xl md:text-6xl">
+            Work Experience.
+          </h1>
         </div>
 
         <div className="relative">
@@ -78,13 +83,17 @@ export default function WorkExperience() {
           <div className="absolute left-4 top-0 h-full w-px bg-[var(--background)] md:hidden" />
 
           <div className="relative space-y-8">
-            {timelineData.map((item, index) => (
+            {experience.map((item, index) => (
               <div key={index} className="relative">
                 {/* Desktop layout */}
                 <div
-                  className={`hidden items-center md:flex ${item.side === "left" ? "flex-row" : "flex-row-reverse"}`}
+                  className={`hidden items-center md:flex ${
+                    index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+                  }`}
                 >
-                  <div className={`w-1/2 ${item.side === "left" ? "pr-12" : "pl-12"}`}>
+                  <div
+                    className={`w-1/2 ${index % 2 === 0 ? "pr-12" : "pl-12"}`}
+                  >
                     <TimelineCard {...item} />
                   </div>
                   <div className="relative flex h-8 w-8 items-center justify-center">
@@ -112,26 +121,25 @@ export default function WorkExperience() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-function TimelineCard({ title, company, date, points }) {
+function TimelineCard({ role, company, duration, tasks }) {
   return (
     <div className="rounded-lg bg-[var(--bg-light)] p-6 shadow-lg">
-      <h3 className="mb-1 text-xl font-bold">{title}</h3>
+      <h3 className="mb-1 text-xl font-bold">{role}</h3>
       <p className="mb-2 text-[var(--text-color)]">{company}</p>
       <div className="mb-4 flex items-center gap-2 text-sm text-[var(--text-color)]">
         <Briefcase className="h-4 w-4" />
-        {date}
+        {duration}
       </div>
       <ul className="list-inside space-y-2 text-sm text-[var(--text-color)]">
-        {points.map((point, index) => (
+        {tasks.map((point, index) => (
           <li key={index} className="list-disc">
             {point}
           </li>
         ))}
       </ul>
     </div>
-  )
+  );
 }
-

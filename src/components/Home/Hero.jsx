@@ -5,18 +5,16 @@ import Introduction from "./Introduction";
 import ContactSection from "./ContactSection";
 
 const Hero = () => {
-
   return (
     <motion.div className="w-full min-h-screen lg:min-h-full lg:h-[85vh] flex flex-col lg:flex-row lg:p-4 relative">
       <HeroLarge />
-      <Introduction/>
-      <ContactSection/>
+      <Introduction />
+      <ContactSection />
     </motion.div>
   );
 };
 
 // Cursor Follower Component
-
 
 // Main Hero Section
 const HeroLarge = ({ isHovered, setIsHovered }) => {
@@ -50,20 +48,27 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-[var(--card-bg)] m-2 rounded-lg"
-          ></motion.div>
+            className="bg-[var(--card-bg)] m-2 rounded-lg px-4 py-8 flex justify-center items-end"
+          >
+            <h1 className="text-[2.9vw] text-[#685957] leading-none">
+              <b>Full Stack Developer</b> Redefining <b>Web Applications</b>{" "}
+              with <b>Innovative Solutions</b>
+            </h1>
+          </motion.div>
 
           {/* Second Div (Triggers Animation) */}
           <motion.div
             initial={{
-              x: "125%",
+              height: "75%",
+              x: "145%",
               width: "25%",
               y: "50%",
               opacity: 1,
               border: "10px solid #fad6d5",
             }}
             animate={{
-              x: clicked ? "125%" : "0%",
+              height: clicked ? "75%" : "auto",
+              x: clicked ? "145%" : "0%",
               y: clicked ? "50%" : "0%",
               width: clicked ? "25%" : "40%",
               border: clicked ? "10px solid #fad6d5" : "none",
@@ -101,8 +106,15 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-[var(--card-bg)] m-2 rounded-lg"
-          ></motion.div>
+            className="bg-[var(--card-bg)] m-2 rounded-lg px-4 py-8 flex items-end text-lg"
+          >
+            <p className="text-justify w-11/12">
+              Mushan Khan is a skilled Full Stack Web Developer with expertise
+              in Python and a range of web technologies. He creates dynamic,
+              user-friendly websites and handles both front-end and back-end
+              tasks efficiently.
+            </p>
+          </motion.div>
 
           {/* Fourth Div */}
           <motion.div
@@ -120,7 +132,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-[var(--card-bg)] m-2 rounded-lg"
+            className="bg-[var(--card-dark-bg)] m-2 rounded-lg"
           ></motion.div>
         </div>
       </div>

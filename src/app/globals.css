@@ -12,6 +12,7 @@
   --bg-light: #fad6d5;
   --nav-text: #000000;
   --card-bg: #fad6d5;
+  --card-dark-bg: #F9A49C;
   --white-bg: #ffffff;
   --hero-bg: #fad6d5;
   --nav-bg: #fad6d5;
@@ -54,7 +55,8 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
-  body{
+
+  body {
     border-radius: 0;
   }
 }

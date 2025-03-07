@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, ExternalLink } from "lucide-react";
+import certificateData from "@/data/Certification.json"
 
 const projects = [
   {
@@ -61,7 +62,7 @@ export function Card({ className, children, ...props }) {
 export default function CertificateCards() {
   return (
     <div className="flex flex-wrap justify-center w-full gap-8 p-4 px-8">
-      {projects.map((project, index) => (
+      {certificateData.map((certificate, index) => (
         <Card
           key={index}
           className="bg-[var(--card-bg)] w-full sm:max-w-[25%]"
@@ -69,32 +70,25 @@ export default function CertificateCards() {
           <div className="p-3 space-y-3">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src={project.image || "/placeholder.svg"}
-                alt={project.title}
+                src={certificate.image || "/placeholder.svg"}
+                alt={certificate.name}
                 fill
                 className="object-cover"
               />
             </div>
             <div className="space-y-1">
               <h3 className="text-lg font-semibold text-[var(--foreground)]">
-                {project.title}
+                {certificate.name}
               </h3>
 
             </div>
             <div className="flex items-center justify-between pt-3">
               <Link
-                href="#"
+                href={certificate.link}
                 className="inline-flex items-center text-sm text-[var(--foreground)] hover:text-[var(--text-color)] transition-colors"
               >
                 <ExternalLink className="w-4 h-4 mr-1" />
-                Live Demo
-              </Link>
-              <Link
-                href={`/portfolio/${project.id}`}
-                className="inline-flex items-center text-sm text-[var(--foreground)] hover:text-[var(--text-color)] transition-colors"
-              >
-                Details
-                <ArrowRight className="w-4 h-4 ml-1" />
+                Verify
               </Link>
             </div>
           </div>
