@@ -28,7 +28,7 @@ const ProjectCard = () => {
         {/* Image */}
         <img
           className="aspect-square w-full object-cover rounded-3xl overflow-hidden"
-          src="/images/profile-photo.jpg"
+          src="/images/photo.jpg"
           alt="profile picture"
         />
       </div>

@@ -19,16 +19,17 @@ const page = () => {
     <>
       <div className="container mx-auto px-4 pt-4 mt-8">
         <div className="sm:text-center">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[var(--gradient-start)] to-[var(--gradient-end)] bg-clip-text text-transparent">
             Portfolio Showcase
           </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-[var(--text-color)] max-w-2xl mx-auto">
             Explore my journey through projects, certifications, and technical
             expertise. Each section represents a milestone in my continuous
             learning path.
           </p>
         </div>
       </div>
+
       <div className="container mx-auto px-4 py-8 sm:mt-8 flex justify-center items-center flex-col">
         <div className="sm:flex gap-2 justify-evenly items-center grid grid-cols-2 w-full sm:w-3/4 sm:gap-8 mb-4">
           {["Projects", "Skills", "Certifications", "Testimonials"].map(
@@ -43,7 +44,7 @@ const page = () => {
               >
                 <div
                   onClick={() => setTab(index)}
-                  className="py-4 sm:px-10 cursor-pointer text-lg font-semibold bg-gradient-to-r from-slate-400 to-red-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"
+                  className="py-4 sm:px-10 cursor-pointer text-lg font-semibold bg-gradient-to-r from-[var(--gradient-start)] to-[var(--gradient-end)] bg-clip-text text-transparent hover:scale-[var(--hover-scale)] transition-transform duration-[var(--transition-speed)]"
                 >
                   {section}
                 </div>
@@ -53,7 +54,8 @@ const page = () => {
         </div>
         {tabMap[tab]}
       </div>
-      <Footer/>
+
+      <Footer />
     </>
   );
 };

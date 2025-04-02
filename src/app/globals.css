@@ -2,22 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default Theme Do not Touch */
 :root {
   width: 100vw;
   min-height: 100vh;
   overflow-x: clip;
+
   --background: #fba39d;
   --foreground: #171717;
   --text-color: #000000;
   --bg-light: #fad6d5;
+  --bg-body: #ffffff;
+
   --nav-text: #000000;
-  --card-bg: #fad6d5;
-  --card-dark-bg: #F9A49C;
-  --white-bg: #ffffff;
-  --hero-bg: #fad6d5;
   --nav-bg: #fad6d5;
   --text-right: #fad8dd;
+  --head-text: #685957;
+
+  /* 🖼️ Cards & UI Elements */
+  --card-bg: #fad6d5;
+  --card-dark-bg: #F9A49C;
+  --hero-bg: #fad6d5;
+  --card-dark-text: #8F5953;
+  --card-dark-text-light: #ffffff;
+
+  --gradient-start: #2a021a;
+  --gradient-end: #360729;
+  --hover-scale: 1.05;
+  --transition-speed: 300ms;
 }
+
+:root {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: clip;
+
+  --background: #121212;
+  --foreground: #ffffff;
+  --text-color: #e0e0e0;
+  --bg-light: #1e1e1e;
+  --bg-body: #181818;
+
+  --nav-text: #e0e0e0;
+  --nav-bg: #1a1a1a;
+  --text-right: #b89e79;
+  --head-text: #d4af37;
+
+  /* 🖼️ Cards & UI Elements */
+  --card-bg: #1c1c1c;
+  --card-dark-bg: #252525;
+  --hero-bg: #181818;
+  --card-dark-text: #f5c97b;
+  --card-dark-text-light: #ffffff;
+
+  --gradient-start: #ffffff;
+  --gradient-end: #efffef;
+  --hover-scale: 1.05;
+  --transition-speed: 300ms;
+}
+
+
+
 
 
 body,
@@ -46,7 +91,7 @@ html {
 }
 
 body {
-  background-color: #f8ecea;
+  background-color: var(--bg-body);
   border-radius: 20px;
 }
 

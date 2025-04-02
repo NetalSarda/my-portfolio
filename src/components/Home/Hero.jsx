@@ -3,6 +3,11 @@ import { motion } from "framer-motion";
 import { useConfig } from "@/contexts/ConfigContext";
 import Introduction from "./Introduction";
 import ContactSection from "./ContactSection";
+import { ArrowRight, ArrowUpRight, MoveUpRight } from "lucide-react";
+import LeftContent from "./Content/LeftContent";
+import IntroContent from "./Content/IntroContent";
+import RightContent from "./Content/RightContent";
+import Contact from "./Content/Contact";
 
 const Hero = () => {
   return (
@@ -50,10 +55,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
             }}
             className="bg-[var(--card-bg)] m-2 rounded-lg px-4 py-8 flex justify-center items-end"
           >
-            <h1 className="text-[2.9vw] text-[#685957] leading-none">
-              <b>Full Stack Developer</b> Redefining <b>Web Applications</b>{" "}
-              with <b>Innovative Solutions</b>
-            </h1>
+            <IntroContent/>
           </motion.div>
 
           {/* Second Div (Triggers Animation) */}
@@ -108,12 +110,7 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
             }}
             className="bg-[var(--card-bg)] m-2 rounded-lg px-4 py-8 flex items-end text-lg"
           >
-            <p className="text-justify w-11/12">
-              Mushan Khan is a skilled Full Stack Web Developer with expertise
-              in Python and a range of web technologies. He creates dynamic,
-              user-friendly websites and handles both front-end and back-end
-              tasks efficiently.
-            </p>
+            <LeftContent />
           </motion.div>
 
           {/* Fourth Div */}
@@ -132,8 +129,10 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
               damping: 20,
               duration: duration,
             }}
-            className="bg-[var(--card-dark-bg)] m-2 rounded-lg"
-          ></motion.div>
+            className="bg-[var(--card-dark-bg)] flex justify-between flex-col m-2 rounded-lg px-6 pt-4 pb-8"
+          >
+            <RightContent/>
+          </motion.div>
         </div>
       </div>
 
@@ -154,7 +153,9 @@ const HeroLarge = ({ isHovered, setIsHovered }) => {
           duration: duration,
         }}
         className="bg-[var(--card-bg)] m-2 rounded-lg"
-      ></motion.div>
+      >
+        <Contact/>
+      </motion.div>
     </>
   );
 };

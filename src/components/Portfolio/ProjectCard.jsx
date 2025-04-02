@@ -31,7 +31,7 @@ export function Card({ className, children, ...props }) {
 //     "Light and dark mode",
 //     "SEO optimization"
 //   ],
-//   "image": "/images/profile-photo.jpg"
+//   "image": "/images/photo.jpg"
 // },
 
 
@@ -48,7 +48,6 @@ export default function ProjectCards() {
               <img
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
-                fill
                 className="object-cover"
               />
             </div>

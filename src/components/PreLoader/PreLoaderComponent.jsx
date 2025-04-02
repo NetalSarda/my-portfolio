@@ -20,7 +20,7 @@ const PreLoaderComponent = () => {
       >
         <img
           className="h-full w-full grow aspect-square"
-          src="/images/profile-photo.jpg"
+          src="/images/photo.jpg"
         />
       </div>
     </div>

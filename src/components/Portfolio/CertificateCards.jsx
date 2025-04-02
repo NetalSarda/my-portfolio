@@ -69,10 +69,9 @@ export default function CertificateCards() {
         >
           <div className="p-3 space-y-3">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
-              <Image
+              <img
                 src={certificate.image || "/placeholder.svg"}
                 alt={certificate.name}
-                fill
                 className="object-cover"
               />
             </div>

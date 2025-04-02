@@ -29,7 +29,7 @@
       "Admin dashboard for inventory management",
       "Order tracking system"
     ],
-    "image": "/images/profile-photo.jpg"
+    "image": "/images/photo.jpg"
   },
   {
     "id": "p3",
@@ -45,7 +45,7 @@
       "Message encryption",
       "Customizable themes"
     ],
-    "image": "/images/profile-photo.jpg"
+    "image": "/images/photo.jpg"
   },
   {
     "id": "p4",
@@ -61,7 +61,7 @@
       "Light and dark mode",
       "SEO optimization"
     ],
-    "image": "/images/profile-photo.jpg"
+    "image": "/images/photo.jpg"
   },
   {
     "id": "p5",
@@ -77,6 +77,6 @@
       "Skill-based recommendations",
       "User profile and saved resumes"
     ],
-    "image": "/images/profile-photo.jpg"
+    "image": "/images/photo.jpg"
   }
 ]

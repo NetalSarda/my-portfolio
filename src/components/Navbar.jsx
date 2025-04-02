@@ -23,7 +23,7 @@ const HamBurgerMenu = ({ open ,setOpen }) => {
           <Link
             key={href}
             href={href}
-            className="text-zinc-800 text-lg uppercase font-semibold tracking-wider relative group px-6 py-2 rounded-lg transition-all duration-300"
+            className="text-[var(--nav-link)] text-lg uppercase font-semibold tracking-wider relative group px-6 py-2 rounded-lg transition-all duration-300"
           >
             <span className="relative z-10">{label}</span>
             <motion.div
@@ -76,7 +76,7 @@ export default function Navbar() {
             <Link
               key={href}
               href={href}
-              className="text-zinc-800 text-sm uppercase tracking-wider relative group px-4 py-2 rounded-lg transition-all duration-300"
+              className="text-[var(--nav-link)] text-sm uppercase tracking-wider relative group px-4 py-2 rounded-lg transition-all duration-300"
             >
               <span className="relative z-10">{label}</span>
               <motion.div

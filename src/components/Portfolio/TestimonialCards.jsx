@@ -68,11 +68,10 @@ export default function TestimonialCards() {
         >
           <div className="p-3 space-y-3">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
-              <Image
+              <img
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
-                fill
-                className="object-cover"
+                className="object-cover h-full w-full"
               />
             </div>
             <div className="space-y-1">
