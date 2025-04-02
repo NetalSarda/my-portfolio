@@ -32,34 +32,6 @@
   --transition-speed: 300ms;
 }
 
-:root {
-  width: 100vw;
-  min-height: 100vh;
-  overflow-x: clip;
-
-  --background: #121212;
-  --foreground: #ffffff;
-  --text-color: #e0e0e0;
-  --bg-light: #1e1e1e;
-  --bg-body: #181818;
-
-  --nav-text: #e0e0e0;
-  --nav-bg: #1a1a1a;
-  --text-right: #b89e79;
-  --head-text: #d4af37;
-
-  /* 🖼️ Cards & UI Elements */
-  --card-bg: #1c1c1c;
-  --card-dark-bg: #252525;
-  --hero-bg: #181818;
-  --card-dark-text: #f5c97b;
-  --card-dark-text-light: #ffffff;
-
-  --gradient-start: #ffffff;
-  --gradient-end: #efffef;
-  --hover-scale: 1.05;
-  --transition-speed: 300ms;
-}
 
 
 
