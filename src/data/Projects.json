@@ -65,7 +65,7 @@
   },
   {
     "id": "p5",
-    "title": "AI-Powered Resume Builder",
+    "title": "AI-Powered Resume Buil",
     "description": "An AI-powered tool to generate resumes based on user input.",
     "link": "https://resumebuilder.com",
     "technologyUsed": ["react", "openai", "node", "express"],
