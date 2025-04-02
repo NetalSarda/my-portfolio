@@ -16,7 +16,7 @@
     animation: bounce 1s ease-out;
 }
 
-.grow{
+.grow{     
     animation: grow 1 ease-in-out;
 }
 
