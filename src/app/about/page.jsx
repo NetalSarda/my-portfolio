@@ -5,11 +5,11 @@ import React from "react";
 
 const page = () => {
   return (
-    <>
+    <div className="">
       <AboutHero />
       <Experience />
       <Footer />
-    </>
+    </div>
   );
 };
 

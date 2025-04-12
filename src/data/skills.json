@@ -1,0 +1,112 @@
+[
+    {
+      "name": "AWS",
+      "iconName": "aws"
+    },
+    {
+      "name": "Azure",
+      "iconName": "azure"
+    },
+    {
+      "name": "Google Cloud",
+      "iconName": "gcloud"
+    },
+    {
+      "name": "Fire Base",
+      "iconName": "firebase"
+    },
+    {
+      "name": "Docker",
+      "iconName": "docker"
+    },
+    {
+      "name": "Java",
+      "iconName": "java"
+    },
+    {
+      "name": "C++",
+      "iconName": "c++"
+    },
+    {
+      "name": "Python",
+      "iconName": "python"
+    },
+    {
+      "name": "Flask",
+      "iconName": "flask"
+    },
+    {
+      "name": "Node.js",
+      "iconName": "nodejs"
+    },
+    {
+      "name": "PostgreSQL",
+      "iconName": "postgresql"
+    },
+    {
+      "name": "MySQL",
+      "iconName": "mysql"
+    },
+    {
+      "name": "MongoDB",
+      "iconName": "mongodb"
+    },
+    {
+      "name": "GraphQL",
+      "iconName": "graphql"
+    },
+
+    {
+      "name": "Redux",
+      "iconName": "redux"
+    },
+    {
+      "name": "TypeScript",
+      "iconName": "typescript"
+    },
+    {
+      "name": "JavaScript",
+      "iconName": "js"
+    },
+    {
+      "name": "React",
+      "iconName": "reactjs"
+    },
+    {
+      "name": "Next.js",
+      "iconName": "nextjs"
+    },
+    {
+      "name": "Three.js",
+      "iconName": "threejs"
+    },
+    {
+      "name": "Tailwind CSS",
+      "iconName": "tailwindcss"
+    },
+    {
+      "name": "CSS",
+      "iconName": "css3"
+    },
+    {
+      "name": "HTML",
+      "iconName": "html5"
+    },
+    {
+      "name": "Postman",
+      "iconName": "postman"
+    },
+    {
+      "name": "Git",
+      "iconName": "git"
+    },
+    {
+      "name": "GitHub",
+      "iconName": "github"
+    },
+    {
+      "name": "Figma",
+      "iconName": "figma"
+    }
+  ]
+  

@@ -1,7 +1,169 @@
 [
     {
-        "name":"Getting Started With Python",
-        "imageSrc":"",
-        "link":"https://coursera.com"
+      "name": "Introduction to Microsoft Azure Cloud Services",
+      "provider": "Microsoft",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Microsoft Azure Management Tools and Security Solutions",
+      "provider": "Microsoft",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Microsoft Azure Services and Lifecycles",
+      "provider": "Microsoft",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Data Storage in Microsoft Azure",
+      "provider": "Microsoft",
+      "grade": "98.44%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Natural Language Processing",
+      "provider": "DeepLearning.AI",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Natural Language Processing with Classification and Vector Spaces",
+      "provider": "DeepLearning.AI",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Natural Language Processing with Attention Models",
+      "provider": "DeepLearning.AI",
+      "grade": "93.96%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Natural Language Processing with Probabilistic Models",
+      "provider": "DeepLearning.AI",
+      "grade": "89.60%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Natural Language Processing with Sequence Models",
+      "provider": "DeepLearning.AI",
+      "grade": "81.10%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Generative Adversarial Networks (GANs)",
+      "provider": "DeepLearning.AI",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Build Better Generative Adversarial Networks (GANs)",
+      "provider": "DeepLearning.AI",
+      "grade": "98.12%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Apply Generative Adversarial Networks (GANs)",
+      "provider": "DeepLearning.AI",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Build Basic Generative Adversarial Networks (GANs)",
+      "provider": "DeepLearning.AI",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Advanced React",
+      "provider": "Meta",
+      "grade": "93.33%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "React Native",
+      "provider": "Meta",
+      "grade": "97.50%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "React Basics",
+      "provider": "Meta",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Version Control",
+      "provider": "Meta",
+      "grade": "100%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Introduction to MongoDB",
+      "provider": "MongoDB Inc.",
+      "grade": "72.84%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Developing Back-End Apps with Node.js and Express",
+      "provider": "IBM",
+      "grade": "85%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Python for Data Science, AI & Development",
+      "provider": "IBM",
+      "grade": "88.33%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Programming for Everybody (Getting Started with Python)",
+      "provider": "University of Michigan",
+      "grade": "97.52%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Python Data Structures",
+      "provider": "University of Michigan",
+      "grade": "96.80%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "AWS Cloud Technical Essentials",
+      "provider": "Amazon Web Services",
+      "grade": "98.33%",
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "name": "Foundations: Data, Data, Everywhere",
+      "provider": "Google",
+      "grade": "95%",
+      "link": "",
+      "pdf": ""
     }
-]
+  ]
+  

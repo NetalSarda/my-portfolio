@@ -20,13 +20,46 @@ export const metadata = {
   title: "Netal's Portfolio",
   description: "Hi Im Netal Sarda",
 };
-
+// Background floating orbs
+const orbs = [
+  {
+    size: "w-80 h-80",
+    position: "-top-40 -left-40",
+    delay: "0s",
+    duration: "15s",
+  },
+  {
+    size: "w-96 h-96",
+    position: "-bottom-60 -right-60",
+    delay: "2s",
+    duration: "18s",
+  },
+  {
+    size: "w-64 h-64",
+    position: "top-1/3 -right-32",
+    delay: "5s",
+    duration: "12s",
+  },
+];
 export default function RootLayout({ children }) {
   return (
     <html className="flex justify-center items-center" lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-full lg:pt-24 container relative`}
       >
+        {orbs.map((orb, index) => (
+          <div
+            key={index}
+            className={`absolute rounded-full opacity-10 animate-pulse-slow ${orb.position} ${orb.size}`}
+            style={{
+              background:
+                "linear-gradient(135deg, var(--gradient-end), var(--gradient-start))",
+              filter: "blur(80px)",
+              animation: `float ${orb.duration} infinite alternate-reverse`,
+              animationDelay: orb.delay,
+            }}
+          />
+        ))}
         <ConfigProvider>
           {/* Navbar */}
           <Navbar />
