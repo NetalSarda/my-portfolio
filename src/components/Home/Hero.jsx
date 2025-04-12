@@ -12,17 +12,7 @@ import RightContent from "./Content/RightContent";
 import Contact from "./Content/Contact";
 
 const Hero = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorVariant, setCursorVariant] = useState("default");
-  
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
 
   return (
     <motion.div 
@@ -46,30 +36,7 @@ const Hero = () => {
         }}
       />
       
-      {/* Custom Cursor */}
-      <motion.div
-        className="fixed w-8 h-8 rounded-full z-50 pointer-events-none hidden lg:flex items-center justify-center"
-        style={{
-          backgroundColor: "rgba(255, 255, 255, 0.05)",
-          border: "1px solid rgba(255, 255, 255, 0.1)",
-          backdropFilter: "blur(4px)",
-        }}
-        animate={{
-          x: mousePosition.x - 16,
-          y: mousePosition.y - 16,
-          scale: cursorVariant === "hover" ? 1.5 : 1,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 500,
-          damping: 28,
-          mass: 0.5,
-        }}
-      >
-        {cursorVariant === "hover" && (
-          <MousePointer size={12} className="text-white opacity-80" />
-        )}
-      </motion.div>
+    
       
       <HeroLarge 
         setGlobalCursorVariant={setCursorVariant} 
