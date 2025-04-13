@@ -43,28 +43,12 @@ const PortfolioPage = () => {
     setTab(index);
   };
 
-  // Background floating orbs
-  const orbs = [
-    { size: 'w-80 h-80', position: '-top-40 -left-40', delay: '0s', duration: '15s' },
-    { size: 'w-96 h-96', position: '-bottom-60 -right-60', delay: '2s', duration: '18s' },
-    { size: 'w-64 h-64', position: 'top-1/3 -right-32', delay: '5s', duration: '12s' },
-  ];
+
 
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* Animated background orbs */}
-      {orbs.map((orb, index) => (
-        <div
-          key={index}
-          className={`absolute rounded-full opacity-10 animate-pulse-slow ${orb.position} ${orb.size}`}
-          style={{
-            background: "linear-gradient(135deg, var(--gradient-end), var(--gradient-start))",
-            filter: "blur(80px)",
-            animation: `float ${orb.duration} infinite alternate-reverse`,
-            animationDelay: orb.delay,
-          }}
-        />
-      ))}
+      
 
       <div className="container mx-auto px-4 pt-12 mt-8 relative z-10">
         <div 

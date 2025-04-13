@@ -48,7 +48,7 @@ export default function CertificateCards() {
   }, []);
 
   return (
-    <div className="min-h-screen py-16 px-4 sm:px-8 relative overflow-hidden">
+    <div className="min-h-screen lg:py-16 px-4 md:px-8 relative overflow-hidden">
       
       
       <div className="mx-auto max-w-6xl relative z-10">
@@ -76,7 +76,7 @@ export default function CertificateCards() {
           </h1>
         </div>
       
-        <div className="flex flex-wrap justify-center w-full gap-6 md:gap-8 p-4">
+        <div className="flex flex-wrap justify-center w-full gap-6 md:gap-8 md:p-4">
           {certificateData.map((certificate, index) => (
             <Card
               key={index}

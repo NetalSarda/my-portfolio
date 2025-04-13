@@ -3,14 +3,14 @@
         "name": "Introduction to Microsoft Azure Cloud Services",
         "provider": "Microsoft",
         "grade": "100%",
-        "link": "https://coursera.org/share/236b35527f2ca7e852c69e0ca25c46ad",
+        "link": "",
         "pdf": "/courses/Introduction_to_Microsoft_Azure_Cloud_Services.pdf"
     },
     {
         "name": "Microsoft Azure Management Tools and Security Solutions",
         "provider": "Microsoft",
         "grade": "100%",
-        "link": "https://coursera.org/share/1071604dd020db67d46f250fd10ba005",
+        "link": "",
         "pdf": "/courses/Microsoft_Azure_Management_Tools_and_Security_Solutions.pdf"
     },
     {
@@ -24,7 +24,7 @@
         "name": "Data Storage in Microsoft Azure",
         "provider": "Microsoft",
         "grade": "98.44%",
-        "link": "https://coursera.org/share/ec7f39f2fd46047dc0f9c9ea780d91ca",
+        "link": "",
         "pdf": "/courses/Data_Storage_in_Microsoft_Azure.pdf"
     },
     {
@@ -65,28 +65,28 @@
         "name": "Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
         "link": "https://coursera.org/share/311f1f29650ba8123dd9322fadab0a39",
-        "pdf": "/courses/Generative_Adversarial_Networks.pdf"
+        "pdf": "/courses/Generative_Adversarial_Networks_(GANs).pdf"
     },
     {
         "name": "Build Better Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
         "grade": "98.12%",
         "link": "https://coursera.org/share/a81e293a18dcb20c9a3b7bb6bcc9edaf",
-        "pdf": "/courses/Build_Better_Generative_Adversarial_Networks.pdf"
+        "pdf": "/courses/Build_Better_Generative_Adversarial_Networks_(GANs).pdf"
     },
     {
         "name": "Apply Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
         "grade": "100%",
         "link": "https://coursera.org/share/3b76a9539153189f46d06c00a6b0cc11",
-        "pdf": "/courses/Apply_Generative_Adversarial_Networks.pdf"
+        "pdf": "/courses/Apply_Generative_Adversarial_Networks_(GANs).pdf"
     },
     {
         "name": "Build Basic Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
         "grade": "100%",
         "link": "https://coursera.org/share/62b487f311446e613e03d66c25c0391c",
-        "pdf": "/courses/Build_Basic_Generative_Adversarial_Networks.pdf"
+        "pdf": "/courses/Build_Basic_Generative_Adversarial_Networks_(GANs).pdf"
     },
     {
         "name": "Advanced React",
@@ -142,7 +142,7 @@
         "provider": "University of Michigan",
         "grade": "97.52%",
         "link": "https://coursera.org/share/35baca2983b8c3b67bc80752f988ca27",
-        "pdf": "/courses/Programming_for_Everybody.pdf"
+        "pdf": "/courses/Programming_for_Everybody_(Getting_Started_with_Python).pdf"
     },
     {
         "name": "Python Data Structures",
@@ -162,7 +162,7 @@
         "name": "Foundations: Data, Data, Everywhere",
         "provider": "Google",
         "grade": "95%",
-        "link": "https://coursera.org/share/88a2d8451da100875fba5cf3234dbafd",
-        "pdf": "/courses/Foundations_Data_Data_Everywhere.pdf"
+        "link": "",
+        "pdf": "/courses/Foundations:_Data,_Data,_Everywhere.pdf"
     }
 ]
