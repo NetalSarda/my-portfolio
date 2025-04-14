@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Netal's Portfolio",
-  description: "Hi Im Netal Sarda",
+  title: "Mushan Khan",
+  description: "Hi Im Mushan Khan a Software Engineer",
 };
 // Background floating orbs
 const orbs = [
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
         <ConfigProvider>
           {/* Navbar */}
           <Navbar />
-          {/* <CustomCursor /> */}
+          <CustomCursor />
           {children}
         </ConfigProvider>
       </body>

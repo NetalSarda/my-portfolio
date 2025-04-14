@@ -24,7 +24,7 @@ export function SkillCard({ skill, index, isVisible }) {
       onMouseLeave={() => setHover(false)}
     >
       {/* Icon container */}
-      <div className="h-full w-full flex items-center justify-center relative">
+      <div className="h-full p-2 w-full flex items-center justify-center relative">
         <div 
           className="transition-transform duration-500"
           style={{

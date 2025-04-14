@@ -65,7 +65,7 @@ const PortfolioPage = () => {
           <h1 
             className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[var(--text-gradient-start)] to-[var(--text-gradient-end)] bg-clip-text text-transparent mb-4"
             style={{
-              textShadow: "0 5px 15px rgba(0, 0, 0, 0.2)",
+              textShadow: "0 5px 15px var(--text-shadow)",
             }}
           >
             Portfolio Showcase
@@ -74,7 +74,7 @@ const PortfolioPage = () => {
             className="text-[var(--text-color)] max-w-2xl mx-auto text-lg"
             style={{
               color: "var(--head-text)",
-              textShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
+              textShadow: "0 2px 10px var(--text-shadow)",
             }}
           >
             Explore my journey through projects, certifications, and technical
@@ -108,15 +108,11 @@ const PortfolioPage = () => {
                     onClick={() => handleTabChange(index)}
                     className={`w-full py-4 px-3 sm:px-6 rounded-xl text-lg font-semibold transition-all duration-300 relative overflow-hidden`}
                     style={{
-                      background: isActive 
-                        ? "rgba(40, 40, 40, 0.8)" 
-                        : "rgba(30, 30, 30, 0.5)",
-                      backdropFilter: "blur(10px)",
-                      color: isActive ? "var(--card-dark-text-light)" : "var(--head-text)",
-                      boxShadow: isActive 
-                        ? "0 10px 25px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.1)" 
-                        : "0 5px 15px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05)",
-                      border: "1px solid rgba(255, 255, 255, 0.05)",
+                      background:!isActive?
+                      "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))"
+                      : "linear-gradient(0deg, var(--gradient-start),var(--gradient-end), var(--gradient-end))",
+                      color: "var(--foreground)",
+                      boxShadow: "0 10px 25px var(--text-shadow)",
                     }}
                   >
                     {section}

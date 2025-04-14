@@ -58,7 +58,7 @@ const Contact = () => {
               "linear-gradient(to right, var(--text-gradient-start, #ffffff), var(--text-gradient-end, #d1d5db))",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
-            textShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
+            textShadow: "0 2px 10px var(--text-shadow)",
           }}
         >
           Contact Us

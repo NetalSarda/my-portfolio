@@ -44,6 +44,7 @@
   --background: #121212;
   --foreground: #ffffff;
   --text-color: #e0e0e0;
+  --text-shadow:rgba(0, 0, 0, 0.2);
   --bg-light: #1e1e1e;
   --bg-body: #181818;
 
@@ -90,6 +91,7 @@ body {
   flex-grow: 1;
   /* Allows the body to expand based on content */
 }
+
 
 
 html {

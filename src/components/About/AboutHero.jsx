@@ -28,7 +28,7 @@ const AboutHero = () => {
           style={{
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
-            textShadow: "0 5px 15px rgba(0, 0, 0, 0.2)",
+            textShadow: "0 5px 15px var(--text-shadow)",
           }}
         >
           Netal Sarda
@@ -78,7 +78,7 @@ const AboutHero = () => {
             style={{
               background: "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
               color: "var(--foreground)",
-              boxShadow: "0 10px 25px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0 10px 25px var(--text-shadow)",
             }}
           >
             <Download size={18} className="transition-transform duration-500 group-hover:translate-y-1" />

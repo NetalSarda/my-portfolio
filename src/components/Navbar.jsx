@@ -60,7 +60,7 @@ export default function Navbar() {
           href="/"
           className="text-xl font-light tracking-wider hover:opacity-70 transition-all duration-300 relative group"
         >
-          <span className="relative px-4 z-10 font-serif">NETAL SARDA</span>
+          <span className="relative px-4 z-10 font-serif">MUSHAN KHAN</span>
           <motion.div
             className="absolute inset-0 -z-0 rounded-lg bg-white/0 group-hover:bg-white/20 transition-all duration-300"
             layoutId="highlight"

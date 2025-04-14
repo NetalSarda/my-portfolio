@@ -20,6 +20,26 @@
     ]
   },
   {
+    "role": "President",
+    "company": "The CodeBreakers Club",
+    "duration": "Sep 2024 - Current",
+    "tasks": [
+      "Organized workshops and hackathons to enhance coding skills among members.",
+      "Collaborated with industry experts to provide mentorship and guidance.",
+      "Led a team of 20+ members in various coding competitions and projects."
+    ]
+  },
+  {
+    "role": "Content Lead",
+    "company": "The CodeBreakers Club",
+    "duration": "Sep 2023 - Sep 2024",
+    "tasks": [
+      "Developed and managed content for the club's website and social media platforms.",
+      "Coordinated with team members to create engaging articles and tutorials.",
+      "Organized events and workshops to promote coding and technology awareness."
+    ]
+  },
+  {
     "role": "Frontend Developer",
     "company": "Hashtag City",
     "duration": "March 2022 - April 2022",

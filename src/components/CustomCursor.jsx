@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowBigDown, ArrowBigLeft, ArrowRight, SmileIcon } from "lucide-react";
+import { AirplayIcon, ArrowBigDown, ArrowBigLeft, ArrowRight, Send, SendHorizonalIcon, SmileIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const CustomCursor = () => {
@@ -43,7 +43,7 @@ const CustomCursor = () => {
         backgroundSize: "contain",
       }}
     >
-        <SmileIcon className="h-full w-full"/>
+        <SendHorizonalIcon className="h-full text-[var(--text-gradient-start)]  w-full "/>
     </motion.div>
   );
 };

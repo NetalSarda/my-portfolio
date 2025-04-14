@@ -8,7 +8,7 @@ import projects from "@/data/Projects.json";
 export function Card({ className, children, ...props }) {
   return (
     <div
-      className={`rounded-md border bg-card-bg text-card-dark-text shadow-md ${className}`}
+      className={`rounded-md bg-card-bg text-card-dark-text shadow-md ${className}`}
       {...props}
     >
       {children}
@@ -25,59 +25,50 @@ const page = () => {
     setProjectDetails(currentProject);
   }, []);
 
-  if (!projectDetails) return <h1 className="text-head-text">Project Not Found</h1>;
+  if (!projectDetails)
+    return <h1 className="text-head-text">Project Not Found</h1>;
 
   return (
     <div className="h-full bg-bg-body text-text-color p-8">
-      <div className="container mx-auto px-4 py-8">
-        <div className="mb-8">
-          <Link
-            href="/portfolio"
-            className="inline-flex items-center text-sm text-nav-text hover:opacity-80 transition"
-          >
-            <ChevronLeft className="w-4 h-4 mr-1" />
-            Back
-          </Link>
-        </div>
-
-        <div className="space-y-8">
-          <div>
-            <h1 className="text-4xl font-bold text-head-text mb-4">{projectDetails.title}</h1>
-            <p className="text-card-dark-text-light max-w-3xl">{projectDetails.description}</p>
-          </div>
+      <div className="container mx-auto px-4">
+        <div className="space-y-2">
+            <div className="flex items-center space-x-4">
+                <Link
+                  href="/portfolio"
+                  className="inline-flex items-center text-sm text-nav-text hover:opacity-80 transition"
+                >
+                  <ChevronLeft className="w-4 h-4 mr-1" />
+                  Back
+                </Link>
+              <h1 className="text-4xl font-bold text-head-text">
+                {projectDetails.title}
+              </h1>
+            </div>
+            <p className="text-card-dark-text-light max-w-3xl">
+              {projectDetails.description}
+            </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="bg-card-dark-bg">
-              <div className="p-6">
-                <img
-                  src={projectDetails.image}
-                  alt={projectDetails.title}
-                  className="rounded-lg aspect-video object-cover"
-                />
-              </div>
-            </Card>
-
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-xl font-semibold text-card-dark-text mb-4">Key Features</h2>
-                <ul className="space-y-3">
-                  {projectDetails?.features?.map((feature, index) => (
-                    <li key={index} className="flex items-start text-text-color">
-                      <span className="text-gradient-start mr-2">•</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
+            <div className="space-y-4">
+              <Card className="bg-card-dark-bg">
+                <div className="p-6">
+                  <img
+                    src={projectDetails.image}
+                    alt={projectDetails.title}
+                    className="rounded-lg aspect-video object-cover"
+                  />
+                </div>
+              </Card>
               {projectDetails.technologyUsed && (
                 <div>
-                  <h2 className="text-xl font-semibold text-card-dark-text mb-4">Technologies Used</h2>
+                  <h2 className="text-xl font-semibold text-card-dark-text mb-4">
+                    Technologies Used
+                  </h2>
                   <div className="flex flex-wrap gap-2">
                     {projectDetails?.technologyUsed?.map((tech, index) => (
                       <span
                         key={index}
-                        className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold bg-card-dark-bg text-card-dark-text-light"
+                        className="inline-flex items-center rounded-full border  px-3 py-1 text-xs font-semibold bg-card-dark-bg text-card-dark-text-light"
                       >
                         {tech}
                       </span>
@@ -85,7 +76,6 @@ const page = () => {
                   </div>
                 </div>
               )}
-
               <div className="flex gap-4">
                 {projectDetails.link && (
                   <Link
@@ -105,6 +95,24 @@ const page = () => {
                     GitHub
                   </Link>
                 )}
+              </div>
+            </div>
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-xl font-semibold text-card-dark-text mb-4">
+                  Key Features
+                </h2>
+                <ul className="space-y-3 lg:h-[50vh] overflow-y-scroll">
+                  {projectDetails?.features?.map((feature, index) => (
+                    <li
+                      key={index}
+                      className="flex items-start text-text-color"
+                    >
+                      <span className="text-gradient-start mr-2">•</span>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
