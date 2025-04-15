@@ -41,8 +41,8 @@ const Hero = () => {
       <HeroLarge 
         setGlobalCursorVariant={setCursorVariant} 
       />
-      <Introduction />
-      <ContactSection />
+      {/* <Introduction /> */}
+      {/* <ContactSection /> */}
       
       {/* Add custom CSS for animations */}
       <style jsx global>{`
@@ -182,7 +182,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
                 transition={{ duration: 0.3 }}
               >
                 <div
-                  className="text-white text-lg font-semibold justify-center flex items-center gap-2 px-4 py-2 rounded-full"
+                  className="text-white text-lg font-semibold justify-center flex items-center gap-2 p-2 rounded-lg w-full"
                   style={{
                     background: "rgba(0, 0, 0, 0.4)",
                     backdropFilter: "blur(8px)",
@@ -290,7 +290,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
           damping: damping,
           duration: duration,
         }}
-        className="m-2 rounded-lg relative overflow-hidden"
+        className="m-2 rounded-lg hidden lg:block relative overflow-hidden"
         style={{
           background: "rgba(30, 30, 30, 0.7)",
           backdropFilter: "blur(10px)",

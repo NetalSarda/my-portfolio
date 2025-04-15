@@ -3,7 +3,7 @@
     "id": "p1",
     "title": "Taxify",
     "description": "Tax Education Made Simple and Fun. Taxify is a tax education platform that simplifies the complexities of tax laws and regulations.",
-    "link": " ",
+    "link": "",
     "technologyUsed": [
       "Next Js",
       "Tailwind CSS",
@@ -30,7 +30,7 @@
     "id": "p2",
     "title": "EduVoice",
     "description": "EduVoice is an innovative educational platform that leverages AI to enhance the learning experience. It provides a comprehensive solution for students and educators, combining traditional teaching methods with modern technology.",
-    "link": "https://ecommerce.com",
+    "link": "",
     "technologyUsed": [
       "React Js",
       "Tailwind CSS",
@@ -81,21 +81,21 @@
     ],
     "github": "https://github.com/Khanba22/belle-epoque",
     "features": [
-      "Built with React.js – Modular, component-driven architecture for maintainable and scalable code.",
-      "GSAP-Powered Animations – Smooth, high-performance animations throughout the site.",
-      "ScrollTrigger Integration – Triggers animations based on scroll position for an immersive browsing experience.",
-      "Scroll-Based Effects – Includes parallax scrolling, horizontal sections, and animated reveals.",
-      "GSAP Timelines – Controls complex animation sequences with fine-tuned timing and flow.",
-      "Animated Hero Section – Visually engaging landing with dynamic text and image motion.",
-      "Responsive Design – Fully optimized for mobile, tablet, and desktop devices.",
-      "Performance Optimization – Uses React refs, useLayoutEffect, and lazy loading for fast performance.",
-      "Tailwind CSS Styling – Clean, utility-first design system for rapid UI development.",
-      "Interactive User Experience – Engaging visual storytelling through motion and interactivity."
+      "Built with React.js: Modular, component-driven architecture for maintainable and scalable code.",
+      "GSAP-Powered Animations: Smooth, high-performance animations throughout the site.",
+      "ScrollTrigger Integration: Triggers animations based on scroll position for an immersive browsing experience.",
+      "Scroll-Based Effects: Includes parallax scrolling, horizontal sections, and animated reveals.",
+      "GSAP Timelines: Controls complex animation sequences with fine-tuned timing and flow.",
+      "Animated Hero Section: Visually engaging landing with dynamic text and image motion.",
+      "Responsive Design: Fully optimized for mobile, tablet, and desktop devices.",
+      "Performance Optimization: Uses React refs, useLayoutEffect, and lazy loading for fast performance.",
+      "Tailwind CSS Styling: Clean, utility-first design system for rapid UI development.",
+      "Interactive User Experience: Engaging visual storytelling through motion and interactivity."
     ],
     "image": "/portfolio/projects/last_take.png"
   },
   {
-    "id": "p3",
+    "id": "p4",
     "title": "Digital Swag",
     "description": "A Canvas based Digital Swag application that allows users to create and customize their own swag items.",
     "link": "https://digital-swag.vercel.app/",
@@ -116,7 +116,7 @@
     "image": "/portfolio/projects/last_take.png"
   },
   {
-    "id": "p4",
+    "id": "p5",
     "title": "Servico",
     "description": "Web application that enables users to search for daily life services at and order them at doorsteps just with a click.",
     "link": "",
@@ -139,17 +139,32 @@
     "image": "/portfolio/projects/last_take.png"
   },
   {
-    "id": "p5",
+    "id": "p6",
     "title": "Chat Application",
     "description": "Socket-io based Chat application with real time updates and latest functionalities like Reactions Replies, etc",
-    "link": "https://resumebuilder.com",
+    "link": "",
     "technologyUsed": ["react", "openai", "node", "express"],
-    "github": "https://github.com/user/ai-resume-builder",
+    "github": "https://github.com/user/whatsapp-frontend",
     "features": [
       "Real-time chat functionality using Socket.io.",
       "User authentication and profile management.",
       "Message reactions and replies for enhanced communication.",
       "Responsive design for mobile and desktop."
+    ],
+    "image": "/portfolio/projects/last_take.png"
+  },
+  {
+    "id": "p7",
+    "title": "Mehek CRM",
+    "description": "A CRM application that helps users manage their customer relationships and sales processes.",
+    "link": "",
+    "technologyUsed": ["Next JS","Tailwind CSS","JavaScript","MongoDB"],
+    "github": "https://github.com/user/crm-new",
+    "features": [
+      "User-friendly interface for managing customer relationships.",
+      "Sales pipeline management and tracking.",
+      "Integration with email and calendar services.",
+      "Analytics and reporting features."
     ],
     "image": "/portfolio/projects/last_take.png"
   }

@@ -172,7 +172,7 @@ export default function ProjectCards() {
 
                 {/* Action Links */}
                 <div className="flex items-center justify-between pt-3 gap-4">
-                  {project.link && (
+                  {project.link !== "" && (
                     <Link
                       href={project.link}
                       className="inline-flex w-1/2 items-center px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 group flex-1 justify-center"

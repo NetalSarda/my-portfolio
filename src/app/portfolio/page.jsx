@@ -108,8 +108,8 @@ const PortfolioPage = () => {
                     onClick={() => handleTabChange(index)}
                     className={`w-full py-4 px-3 sm:px-6 rounded-xl text-lg font-semibold transition-all duration-300 relative overflow-hidden`}
                     style={{
-                      background:!isActive?
-                      "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))"
+                      background:isActive?
+                      "linear-gradient(180deg, var(--gradient-start), var(--gradient-end))"
                       : "linear-gradient(0deg, var(--gradient-start),var(--gradient-end), var(--gradient-end))",
                       color: "var(--foreground)",
                       boxShadow: "0 10px 25px var(--text-shadow)",
@@ -171,6 +171,7 @@ const PortfolioPage = () => {
           animation: pulse-slow 10s infinite alternate;
         }
       `}</style>
+      
     </div>
   );
 };

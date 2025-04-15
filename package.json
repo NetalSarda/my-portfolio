@@ -12,6 +12,7 @@
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.475.0",
     "next": "15.1.6",
+    "nodemailer": "^6.10.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "run": "^1.5.0",
