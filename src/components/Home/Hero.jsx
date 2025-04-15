@@ -9,7 +9,7 @@ import { ArrowRight, ArrowUpRight, Expand, MoveUpRight, MousePointer } from "luc
 import LeftContent from "./Content/LeftContent";
 import IntroContent from "./Content/IntroContent";
 import RightContent from "./Content/RightContent";
-import Contact from "./Content/Contact";
+import ProjectShowcase from "./Content/FeaturedProject";
 
 const Hero = () => {
   const [cursorVariant, setCursorVariant] = useState("default");
@@ -307,7 +307,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
           }}
         />
         
-        <Contact />
+        <ProjectShowcase />
       </motion.div>
     </>
   );
