@@ -47,29 +47,29 @@ export default function ModernFooter() {
             }`}
           >
             <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-              JULIA HUANG
+              Mushan Khan
             </h2>
             <p className="text-sm text-gray-400 max-w-xs">
-              Transforming spaces through AI-driven design and creative
-              innovation.
+              I&apos;m a passionate software engineer with a focus on creating
+              innovative solutions.
             </p>
             <div className="flex space-x-5">
               <Link
-                href="#"
+                href="https://github.com/Khanba22"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/mushankhan/"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="#"
+                href="https://instagram.com/mushan_khan_22"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Instagram className="h-5 w-5" />
@@ -96,7 +96,7 @@ export default function ModernFooter() {
                   className="transform transition-transform duration-300 hover:-translate-y-1"
                 >
                   <Link
-                    href="#"
+                    href={`/${item.toLowerCase()}`}
                     className="text-gray-400 hover:text-white flex items-center group"
                   >
                     <span className="h-px w-0 bg-blue-400 mr-0 transition-all duration-300 group-hover:w-3 group-hover:mr-2"></span>

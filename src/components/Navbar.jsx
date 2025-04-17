@@ -3,17 +3,18 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useConfig } from "@/contexts/ConfigContext";
-import { AlignJustify, Circle, ListOrdered, X } from "lucide-react";
+import { AlignJustify, List, X } from "lucide-react";
 import { useState } from "react";
 
-export const HamBurgerMenu = ({ open, setOpen }) => {
+export const HamBurgerMenu = () => {
+  const [open, setOpen] = useState(false);
   return (
     <>
       <div
         onClick={() => {
           setOpen(false);
         }}
-        className={`fixed sm:hidden navbar -top-4 -left-4 h-screen w-screen bg-[var(--nav-bg)] backdrop-blur-sm transition-transform z-10 duration-500 ease-in-out ${
+        className={`fixed sm:hidden z-30 navbar h-screen w-screen bg-[var(--nav-bg)] backdrop-blur-sm transition-transform duration-500 ease-in-out ${
           open ? "translate-x-0" : "-translate-x-full"
         } sm:hidden flex flex-col items-center justify-center gap-6`}
       >
@@ -41,8 +42,20 @@ export const HamBurgerMenu = ({ open, setOpen }) => {
           ))}
         </nav>
       </div>
-      <div className="h-14 bg-[var(--nav-bg)] backdrop-blur-sm md:hidden absolute top-0 left-0 w-full flex items-center justify-center rounded-b-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl">
-        
+      <div className="h-20 z-30 md:hidden flex px-8 items-center justify-between sticky top-0 left-0 ">
+        <Link
+          href="/"
+          className="text-xl font-light tracking-wider hover:opacity-70 transition-all duration-300 relative group"
+        >
+          <span className="relative z-10 font-serif">MUSHAN KHAN</span>
+          <motion.div
+            className="absolute inset-0 -z-0 rounded-lg bg-white/0 group-hover:bg-white/20 transition-all duration-300"
+            layoutId="highlight"
+          />
+        </Link>
+        {
+          open ? <X /> : <AlignJustify onClick={()=>{setOpen(!open)}} />
+        }
       </div>
     </>
   );
@@ -50,7 +63,6 @@ export const HamBurgerMenu = ({ open, setOpen }) => {
 export default function Navbar() {
   const config = useConfig();
 
-  const [open, setOpen] = useState(false);
 
   if (config.clicked) return null;
 
@@ -62,9 +74,7 @@ export default function Navbar() {
         transition={{ duration: 0.5 }}
         className={`lg:absolute hidden lg:flex justify-between top-0 w-full h-24 px-4 md:px-4 z-50 pt-4`}
       >
-        <div
-          className="bg-[var(--nav-bg)] navbar flex-row-reverse sm:flex-row backdrop-blur-sm h-full w-full flex items-center justify-between px-2 md:px-12 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl"
-        >
+        <div className="bg-[var(--nav-bg)] navbar flex-row-reverse sm:flex-row backdrop-blur-sm h-full w-full flex items-center justify-between px-2 md:px-12 rounded-2xl shadow-lg border border-white/20 transition-all duration-300 hover:shadow-xl">
           <Link
             href="/"
             className="text-xl font-light tracking-wider hover:opacity-70 transition-all duration-300 relative group"

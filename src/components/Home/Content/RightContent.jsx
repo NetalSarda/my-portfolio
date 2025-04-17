@@ -10,6 +10,7 @@ const RightContent = () => {
           <MoveUpRight
             strokeWidth={1.5}
             width={30}
+            height={30}
             className="h-full aspect-square"
           />
         </div>
