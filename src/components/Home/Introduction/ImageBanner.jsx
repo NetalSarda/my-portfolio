@@ -19,7 +19,7 @@ const ImageBanner = () => {
         {/* Image container with simple entrance animation */}
         <div className="h-full w-full relative">
           <img
-            src="/images/photo.jpg"
+            src="/images/Mushan.jpg"
             className="h-full w-full object-cover"
             alt="Developer profile"
           />
