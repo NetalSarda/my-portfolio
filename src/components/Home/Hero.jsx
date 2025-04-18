@@ -10,6 +10,7 @@ import LeftContent from "./Content/LeftContent";
 import IntroContent from "./Content/IntroContent";
 import RightContent from "./Content/RightContent";
 import ProjectShowcase from "./Content/FeaturedProject";
+import Designation from "./Introduction/Designation";
 
 const Hero = () => {
   const [cursorVariant, setCursorVariant] = useState("default");
@@ -41,9 +42,12 @@ const Hero = () => {
       <HeroLarge 
         setGlobalCursorVariant={setCursorVariant} 
       />
-      {/* <Introduction /> */}
-      {/* <ContactSection /> */}
+      <Introduction />
       
+      {/* <ContactSection /> */}
+      <div className="sm:hidden">
+      <ProjectShowcase/>
+      </div>
       {/* Add custom CSS for animations */}
       <style jsx global>{`
         @keyframes float {
@@ -109,7 +113,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
               damping: damping,
               duration: duration,
             }}
-            className="m-2 rounded-lg px-4 py-8 flex justify-center items-end relative overflow-hidden"
+            className="m-2 rounded-lg px-4 py-8 flex justify-center relative overflow-hidden"
             style={{
               background: "rgba(30, 30, 30, 0.7)",
               backdropFilter: "blur(10px)",
@@ -125,8 +129,8 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
                 filter: "blur(15px)",
               }}
             />
-            
-            <IntroContent />
+            <Designation/>
+            {/* <IntroContent /> */}
           </motion.div>
 
           {/* Second Div - Profile Image */}

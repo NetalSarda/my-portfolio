@@ -7,13 +7,13 @@ import AboutText from "./Introduction/AboutText";
 const Introduction = () => {
   return (
     <div className="lg:h-full sm:hidden flex w-full lg:w-[70%]  flex-col gap-4">
-      <div className="flex h-full lg:flex-row flex-col lg:h-1/2 w-full gap-4 ">
+      <div className="flex h-full lg:flex-row flex-col-reverse lg:h-1/2 w-full gap-4 ">
         <Designation />
         <ImageBanner />
       </div>
       <div className="flex flex-col lg:flex-row h-1/2 w-full gap-4 ">
-        <AboutText />
-        <AboutRight />
+        {/* <AboutText /> */}
+        {/* <AboutRight /> */}
       </div>
     </div>
   );
