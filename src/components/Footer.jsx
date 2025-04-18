@@ -150,7 +150,7 @@ export default function ModernFooter() {
             <ul className="space-y-3">
               <li className="text-gray-400 flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span>Los Angeles, CA</span>
+                <span>Nagpur, Maharashtra, India</span>
               </li>
               <li className="text-gray-400 flex items-center space-x-3 group">
                 <Mail className="h-4 w-4 text-blue-400" />
@@ -158,12 +158,12 @@ export default function ModernFooter() {
                   href="mailto:julia.huang@example.com"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  julia.huang@example.com
+                  mushankhan27@gmail.com
                 </Link>
               </li>
               <li className="text-gray-400 flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span>+1 (323) 555-0123</span>
+                <span>+91 8624909744</span>
               </li>
             </ul>
           </div>
@@ -171,12 +171,12 @@ export default function ModernFooter() {
 
         {/* Bottom Section */}
         <div
-          className={`mt-16 flex flex-col items-center justify-between border-t border-gray-800 pt-8 sm:flex-row transition-all duration-1000 delay-500 ${
+          className={`mt-16 flex flex-col sm:items-center justify-between border-t border-gray-800 pt-8 sm:flex-row transition-all duration-1000 delay-500 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
           <p className="text-xs text-gray-500">
-            © 2025 Julia Huang. All rights reserved.
+            © 2025 Mushan Khan. All rights reserved.
           </p>
           <div className="mt-4 flex space-x-6 sm:mt-0">
             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(

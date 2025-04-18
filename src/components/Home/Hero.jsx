@@ -11,6 +11,7 @@ import IntroContent from "./Content/IntroContent";
 import RightContent from "./Content/RightContent";
 import ProjectShowcase from "./Content/FeaturedProject";
 import Designation from "./Introduction/Designation";
+import ModernFooter from "../Footer";
 
 const Hero = () => {
   const [cursorVariant, setCursorVariant] = useState("default");
@@ -47,6 +48,7 @@ const Hero = () => {
       {/* <ContactSection /> */}
       <div className="sm:hidden">
       <ProjectShowcase/>
+      <ModernFooter/>
       </div>
       {/* Add custom CSS for animations */}
       <style jsx global>{`
