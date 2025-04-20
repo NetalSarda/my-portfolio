@@ -144,7 +144,7 @@
     "description": "Socket-io based Chat application with real time updates and latest functionalities like Reactions Replies, etc",
     "link": "",
     "technologyUsed": ["react", "openai", "node", "express"],
-    "github": "https://github.com/user/whatsapp-frontend",
+    "github": "https://github.com/Khanba22/whatsapp-frontend",
     "features": [
       "Real-time chat functionality using Socket.io.",
       "User authentication and profile management.",
@@ -159,7 +159,7 @@
     "description": "A CRM application that helps users manage their customer relationships and sales processes.",
     "link": "",
     "technologyUsed": ["Next JS","Tailwind CSS","JavaScript","MongoDB"],
-    "github": "https://github.com/user/crm-new",
+    "github": "https://github.com/Khanba22/crm-new",
     "features": [
       "User-friendly interface for managing customer relationships.",
       "Sales pipeline management and tracking.",
