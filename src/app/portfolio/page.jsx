@@ -93,7 +93,8 @@ const PortfolioPage = () => {
             transitionDelay: "200ms",
           }}
         >
-          {["Projects", "Skills", "Certifications", "Testimonials"].map(
+          {/* Add Testimonials for later */}
+          {["Projects", "Skills", "Certifications"].map(
             (section, index) => {
               const isActive = tab === index;
               return (

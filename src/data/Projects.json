@@ -24,7 +24,7 @@
       "Jargon-free simplicity : Focuses on actionable steps rather than complex terms, making finance approachable and practical.",
       "Daily decision-making tool : Encourages consistent engagement, helps cut CA dependency, and builds financial confidence."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/taxify.png"
   },
   {
     "id": "p2",
@@ -65,7 +65,7 @@
       "Educational Technology Integration: Incorporates cutting-edge tools to create a transformative and futuristic educational experience.",
       "Multi-Purpose Application: Suitable for students, educators, and professionals, making it versatile for various training contexts."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/edu_voice.jpg"
   },
   {
     "id": "p3",
@@ -92,7 +92,7 @@
       "Tailwind CSS Styling: Clean, utility-first design system for rapid UI development.",
       "Interactive User Experience: Engaging visual storytelling through motion and interactivity."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/hashtag.png"
   },
   {
     "id": "p4",
@@ -113,7 +113,7 @@
       "Ability to upload images and download designs.",
       "Integration with HackSphere 2.0 website for event-specific swag items."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/digital_swag.png"
   },
   {
     "id": "p5",
@@ -136,7 +136,7 @@
       "Admin panel for managing services and users.",
       "Responsive design for mobile and desktop."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/servico.png"
   },
   {
     "id": "p6",
@@ -151,7 +151,7 @@
       "Message reactions and replies for enhanced communication.",
       "Responsive design for mobile and desktop."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/chat_app.png"
   },
   {
     "id": "p7",
@@ -166,6 +166,6 @@
       "Integration with email and calendar services.",
       "Analytics and reporting features."
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "image": "/portfolio/projects/mehek_crm.png"
   }
 ]
