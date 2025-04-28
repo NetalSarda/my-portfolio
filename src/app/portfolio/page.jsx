@@ -94,7 +94,7 @@ const PortfolioPage = () => {
           }}
         >
           {/* Add Testimonials for later */}
-          {["Projects", "Skills", "Certifications"].map(
+          {["Projects", "Skills", "Certifications","Testimonials"].map(
             (section, index) => {
               const isActive = tab === index;
               return (
