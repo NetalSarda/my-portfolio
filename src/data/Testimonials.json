@@ -1,26 +1,21 @@
 [
     {
-        "person":"Vishal Singh",
-        "position":"Founder - 33 Solutions",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde beatae dolorem ipsa assumenda similique omnis iste eligendi ipsam fugiat consectetur officia, aperiam, reiciendis saepe praesentium dignissimos voluptas rem porro.",
-        "image":"/images/photo.jpg"
+      "person": "Vishal Singh",
+      "position": "Founder - 33 Solutions",
+      "content": "Mushan really impressed us with his contributions at 33 Solutions. He developed a Bounty Reward Platform that helped increase sales for five different businesses, and his work on Azure serverless functions for processing data for over 500 farmers was spot on. He’s a fast learner and always gets things done on time. He’s a great team player and always works hard to make sure everyone is happy and satisfied with the work he does.",
+      "image": "/images/photo.jpg"
     },
     {
-        "person":"Vishal Singh",
-        "position":"Founder - 33 Solutions",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde beatae dolorem ipsa assumenda similique omnis iste eligendi ipsam fugiat consectetur officia, aperiam, reiciendis saepe praesentium dignissimos voluptas rem porro.",
-        "image":"/images/photo.jpg"
+      "person": "Gaurav Rai",
+      "position": "Tech Lead - Zen Study",
+      "content": "Mushan was a valuable asset to our team. He was able to quickly identify and solve complex technical problems, and he was always willing to go the extra mile to ensure that our solutions were optimal. He was also a great communicator, and he was able to explain complex concepts in a way that was easy to understand. He was a great team player, and he was always willing to lend a hand when needed.",
+      "image": "/images/photo.jpg"
     },
     {
-        "person":"Vishal Singh",
-        "position":"Founder - 33 Solutions",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde beatae dolorem ipsa assumenda similique omnis iste eligendi ipsam fugiat consectetur officia, aperiam, reiciendis saepe praesentium dignissimos voluptas rem porro.",
-        "image":"/images/photo.jpg"
-    },
-    {
-        "person":"Vishal Singh",
-        "position":"Founder - 33 Solutions",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde beatae dolorem ipsa assumenda similique omnis iste eligendi ipsam fugiat consectetur officia, aperiam, reiciendis saepe praesentium dignissimos voluptas rem porro.",
-        "image":"/images/photo.jpg"
+      "person": "Rohit Kamath",
+      "position": "Founder - Mehek Chemicals",
+      "content": "Mushan did a fantastic job developing a CRM dashboard for us. It made managing our orders and dispatches much more efficient. His approach was practical, and he really understood our needs. We appreciate his focus on delivering high-quality, user-friendly solutions that actually solve real business problems.",
+      "image": "/images/photo.jpg"
     }
-]
+  ]
+  

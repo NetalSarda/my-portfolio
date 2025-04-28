@@ -60,11 +60,11 @@ export function TestimonialCard({ testimonial, index, isVisible }) {
               transform: hover ? "scale(1.1)" : "scale(1)",
             }}
           >
-            <img
+            {/* <img
               src={testimonial.image || "/placeholder.svg"}
               alt={testimonial.person}
               className="object-cover h-full w-full"
-            />
+            /> */}
           </div>
           <div>
             <h3 
