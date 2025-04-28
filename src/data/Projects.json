@@ -1,15 +1,33 @@
 [
   {
+    "id": "p01",
+    "title": "Educational Extensions Suite",
+    "description": "A suite of tools designed to enhance your learning experience across various platforms like Coursera and Google Forms, with an integrated analytics dashboard for tracking progress.",
+    "link": "https://extension-server-m2j2.onrender.com/",
+    "technologyUsed": [
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "Chrome Extension APIs",
+      "Google Forms API",
+      "AI",
+      "D3.js",
+      "MongoDB"
+    ],
+    "github": "https://github.com/Khanba22/Coursera-autocomplete",
+    "features": [
+      "Coursera Extension: Automates assignment completion tasks on Coursera, allowing you to focus on understanding concepts.",
+      "Google Forms Extension: AI-powered tool for navigating and completing forms accurately and efficiently.",
+      "Analytics Dashboard: Visualizes real-time data for tracking usage and learning progress across all extensions."
+    ],
+    "image": "/portfolio/projects/extension.png"
+  },
+  {
     "id": "p0",
     "title": "Last Take",
     "description": "Last Take is an exciting online multiplayer survival game where players face off in a round-table environment, using strategy, manipulation, and luck to survive and outlast their opponents.",
     "link": "",
-    "technologyUsed": [
-      "React.js",
-      "Three.js",
-      "Socket.io",
-      "Peer.js"
-    ],
+    "technologyUsed": ["React.js", "Three.js", "Socket.io", "Peer.js"],
     "github": "https://github.com/Khanba22/online-game",
     "features": [
       "Multiplayer Gameplay: Play with multiple players in real-time, connected via Socket.io for seamless game interactions.",
@@ -20,7 +38,7 @@
       "Voice Chat: Communicate with other players in real-time using the integrated Peer.js voice chat feature, enabling strategic communication and deception."
     ],
     "image": "/portfolio/projects/last_take.png"
-  },  
+  },
   {
     "id": "p1",
     "title": "Taxify",
@@ -121,13 +139,7 @@
     "title": "Digital Swag",
     "description": "A Canvas based Digital Swag application that allows users to create and customize their own swag items.",
     "link": "https://digital-swag.vercel.app/",
-    "technologyUsed": [
-      "Next JS",
-      "Tailwind CSS",
-      "JavaScript",
-      "Fabric.js"
-
-    ],
+    "technologyUsed": ["Next JS", "Tailwind CSS", "JavaScript", "Fabric.js"],
     "github": "https://github.com/Khanba22/digital-swag",
     "features": [
       "Canvas-based design tool for creating custom swag items.",
@@ -148,7 +160,6 @@
       "Node Js",
       "Express",
       "MongoDB"
-      
     ],
     "github": "https://github.com/Khanba22/servico-frontend",
     "features": [
@@ -180,7 +191,7 @@
     "title": "Mehek CRM",
     "description": "A CRM application that helps users manage their customer relationships and sales processes.",
     "link": "",
-    "technologyUsed": ["Next JS","Tailwind CSS","JavaScript","MongoDB"],
+    "technologyUsed": ["Next JS", "Tailwind CSS", "JavaScript", "MongoDB"],
     "github": "https://github.com/Khanba22/crm-new",
     "features": [
       "User-friendly interface for managing customer relationships.",
