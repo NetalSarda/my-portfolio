@@ -1,0 +1,60 @@
+[
+    {
+    "title": "No-Code Node",
+    "description": "A powerful visual MongoDB schema designer and API generator. Build your backend without writing code using an intuitive interface and TypeScript support.",
+    "link": "https://no-code-node-nine.vercel.app/",
+    "technologyUsed": [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React Flow",
+      "Node.js"
+    ],
+    "features": [
+      "Visual Schema Design: Design your MongoDB schemas visually with an intuitive drag-and-drop interface.",
+      "Auto-Generated APIs: Get fully functional CRUD APIs automatically generated from your schema design.",
+      "TypeScript Support: Generate type-safe MongoDB models with TypeScript interfaces and validations."
+    ],
+    "image": "/portfolio/projects/no-code-node.png"
+  },
+  {
+    "title": "Last Take",
+    "description": "Last Take is an exciting online multiplayer survival game where players face off in a round-table environment, using strategy, manipulation, and luck to survive and outlast their opponents.",
+    "link": "",
+    "technologyUsed": ["React.js", "Three.js", "Socket.io", "Peer.js"],
+    "github": "https://github.com/Khanba22/online-game",
+    "features": [
+      "Multiplayer Gameplay: Play with multiple players in real-time, connected via Socket.io for seamless game interactions.",
+      "3D Environment: Experience an immersive 3D environment built with Three.js, enhancing the overall visual experience.",
+      "Survival Mechanics: Players are seated around a table where a gun is passed around, containing both live and fake bullets, and players must rely on luck and strategy to survive the longest.",
+      "Abilities: Players have access to various abilities and equipment that can be used to deceive, manipulate, or eliminate opponents.",
+      "Luck Factor: With random outcomes influenced by the presence of both live and fake bullets, luck plays a critical role in determining who survives.",
+      "Voice Chat: Communicate with other players in real-time using the integrated Peer.js voice chat feature, enabling strategic communication and deception."
+    ],
+    "image": "/portfolio/projects/last_take.png"
+  },
+  {
+    "title": "UI Component Library",
+    "description": "A fully typed, themeable, and performant React component library designed for building responsive and composable user interfaces with dark mode support.",
+    "link": "https://v0-next-js-component-library.vercel.app/",
+    "technologyUsed": [
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Vite",
+      "Rollup",
+      "Context API"
+    ],
+    "features": [
+      "TypeScript Ready: Fully typed components for better developer experience and fewer bugs.",
+      "Themeable: Customize colors and styles through a centralized theme context.",
+      "Performant: Optimized for performance with minimal bundle size and efficient rendering.",
+      "Composable: Build complex UIs by combining simple, reusable components.",
+      "Responsive: Looks great on any device with responsive design principles.",
+      "Dark Mode: Built-in support for light and dark modes with smooth transitions."
+    ],
+    "image": "/portfolio/projects/ui-library.png"
+  }
+]

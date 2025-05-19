@@ -190,21 +190,20 @@ export default function ProjectCards() {
                       Live Demo
                     </Link>
                   )}
-                  {project.github && (
-                    <Link
-                      href={`/portfolio/${project.id}`}
-                      className="inline-flex max-w-1/2 items-center px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 group flex-1 justify-center"
-                      style={{
-                        background:
-                          "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
-                        color: "var(--foreground)",
-                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.2)",
-                      }}
-                    >
-                      Details
-                      <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-500 group-hover:translate-x-1" />
-                    </Link>
-                  )}
+
+                  <Link
+                    href={`/portfolio/${index}`}
+                    className="inline-flex max-w-1/2 items-center px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 group flex-1 justify-center"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
+                      color: "var(--foreground)",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
+                    Details
+                    <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-500 group-hover:translate-x-1" />
+                  </Link>
                 </div>
               </div>
             </Card>

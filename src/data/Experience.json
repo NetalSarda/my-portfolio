@@ -10,6 +10,17 @@
     ]
   },
   {
+    "role":"Full Stack Developer",
+    "company":"Mehk Chemicals",
+    "duration":"Jan 2025 - Mar 2025",
+    "tasks":[
+      "Built a CRM for their chemical supply agency",
+      "Added analytics and streamlined the order and dispatch process",
+      "Integrated supply requirement system to calculate overall production of various chemicals depending on orders",
+      "Multiple currency support for the export clients"
+    ]
+  },
+  {
     "role": "Full Stack Developer Intern",
     "company": "33 Solutions",
     "duration": "Nov 2024 - Feb 2025",

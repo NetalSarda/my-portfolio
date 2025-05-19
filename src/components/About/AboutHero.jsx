@@ -11,6 +11,15 @@ const AboutHero = () => {
     setIsVisible(true)
   }, [])
 
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.download = "resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div
       className={`w-full min-h-[60vh] my-8 lg:my-16 gap-8 flex flex-col-reverse lg:flex-row p-4 sm:p-8 rounded-xl relative overflow-hidden transition-all duration-700 ${
@@ -31,7 +40,7 @@ const AboutHero = () => {
             textShadow: "0 5px 15px var(--text-shadow)",
           }}
         >
-          Netal Sarda
+          Mushan Khan
         </h1>
 
         <p
@@ -40,41 +49,18 @@ const AboutHero = () => {
           }`}
           style={{ color: "var(--text-color)" }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid exercitationem voluptas quaerat obcaecati at
-          reiciendis consectetur ipsum odio omnis maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Aliquid exercitationem voluptas quaerat obcaecati.
+          Hi, I’m Mushan Khan, a full-stack developer with experience building scalable web applications from the ground up. I specialize in modern JavaScript frameworks like React and Node.js, and I’m passionate about creating seamless user experiences backed by solid backend architecture. I’ve worked across frontend, backend, and DevOps, and I enjoy turning complex problems into clean, efficient solutions.
         </p>
 
-        <div
-          className={`p-5 rounded-xl space-y-2 transition-all duration-1000 delay-200 ${
-            isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
-          }`}
-          style={{
-            background: "rgba(46, 46, 46, 0.4)",
-            backdropFilter: "blur(12px)",
-            boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05)",
-            border: "1px solid rgba(255, 255, 255, 0.05)",
-          }}
-        >
-          <p className="text-sm uppercase tracking-wider font-medium" style={{ color: "var(--head-text)" }}>
-            Education
-          </p>
-          <p className="text-base font-semibold" style={{ color: "var(--card-dark-text-light)" }}>
-            Shri Ramdeobaba College of Engineering and Management
-          </p>
-          <p className="text-sm" style={{ color: "var(--card-dark-text)" }}>
-            CGPA : <span className="font-bold">9.13</span>
-          </p>
-        </div>
 
         <div
-          className={`flex w-full py-4 justify-evenly gap-4 transition-all duration-1000 delay-300 ${
+          className={`md:flex w-full py-4 justify-evenly gap-4 transition-all duration-1000 delay-300 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <Link
-            href="/resume.pdf"
-            className="flex items-center justify-center gap-2 p-3 rounded-lg flex-1 font-medium transition-all duration-500 hover:scale-105 group"
+          <button
+            onClick={downloadResume}
+          className="flex w-full mb-4 md:mb-0 items-center justify-center gap-2 p-3 rounded-lg flex-1 font-medium transition-all duration-500 hover:scale-105 group"
             style={{
               background: "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
               color: "var(--foreground)",
@@ -83,7 +69,7 @@ const AboutHero = () => {
           >
             <Download size={18} className="transition-transform duration-500 group-hover:translate-y-1" />
             <span>Download Resume</span>
-          </Link>
+          </button>
           <Link
             href="/contact"
             className="flex items-center justify-center gap-2 p-3 rounded-lg flex-1 font-medium transition-all duration-500 hover:scale-105 group"
@@ -118,7 +104,7 @@ const AboutHero = () => {
           <img
             className="w-full h-full object-cover rounded-3xl"
             src="/images/Mushan.jpg"
-            alt="Netal Sarda profile picture"
+            alt="Mushan profile picture"
           />
           {/* Inner glow effect */}
           <div

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
-import projects from "@/data/Projects.json";
+import projects from "@/data/FeaturedProjects.json";
 import Link from "next/link";
 
 export default function ProjectShowcase() {
@@ -13,30 +13,6 @@ export default function ProjectShowcase() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
-  // const projects = [
-  //   {
-  //     title: "Modern Web Application",
-  //     description:
-  //       "A responsive dashboard with real-time data visualization built with React and D3.js. This project features user authentication, role-based access control, and interactive charts that update in real-time based on incoming data streams.",
-  //     image: "/api/placeholder/800/500",
-  //     tags: ["React", "D3.js", "Firebase", "Tailwind CSS"],
-  //   },
-  //   {
-  //     title: "E-commerce Platform",
-  //     description:
-  //       "Full-featured online store with payment integration, product catalog management, and a responsive design that works seamlessly across all devices. Includes user accounts, order tracking, and analytics dashboard.",
-  //     image: "/api/placeholder/800/500",
-  //     tags: ["Next.js", "Stripe", "MongoDB", "Redux"],
-  //   },
-  //   {
-  //     title: "Mobile App Design",
-  //     description:
-  //       "Cross-platform application with sleek UI/UX built with React Native. Features include offline functionality, push notifications, and social media integration for a seamless user experience.",
-  //     image: "/api/placeholder/800/500",
-  //     tags: ["React Native", "Expo", "Firebase", "Figma"],
-  //   },
-  // ];
 
   const handleDropdownClick = (index) => {
     setActiveTab(index);

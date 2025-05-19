@@ -21,7 +21,7 @@ const page = () => {
 
   useEffect(() => {
     const pid = window?.location.pathname.split("/").pop();
-    const currentProject = projects.find((project) => project.id === pid);
+    const currentProject = projects[pid]
     setProjectDetails(currentProject);
   }, []);
 

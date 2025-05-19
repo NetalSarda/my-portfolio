@@ -103,10 +103,10 @@ export default function WorkExperience() {
                 </div>
 
                 {/* Mobile layout */}
-                <div className="flex max-w-[calc(100%-20px)] md:hidden">
-                  <div className="relative flex h-10 w-10 items-center justify-center">
+                <div className="flex max-w-[calc(100%-10px)] md:hidden">
+                  <div className="relative top-0 bottom-0 my-auto left-[10px] flex h-10 items-center justify-center">
                     <div 
-                      className="absolute flex h-10 w-10 items-center justify-center rounded-full transition-transform duration-500 hover:scale-110"
+                      className="absolute flex h-10 w-10 z-10 items-center justify-center rounded-full transition-transform duration-500 hover:scale-110"
                       style={{
                         background: "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
                         boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",

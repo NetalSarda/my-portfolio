@@ -1,6 +1,47 @@
 [
   {
-    "id": "p01",
+    "title": "No-Code Node",
+    "description": "A powerful visual MongoDB schema designer and API generator. Build your backend without writing code using an intuitive interface and TypeScript support.",
+    "link": "https://no-code-node-nine.vercel.app/",
+    "technologyUsed": [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React Flow",
+      "Node.js"
+    ],
+    "features": [
+      "Visual Schema Design: Design your MongoDB schemas visually with an intuitive drag-and-drop interface.",
+      "Auto-Generated APIs: Get fully functional CRUD APIs automatically generated from your schema design.",
+      "TypeScript Support: Generate type-safe MongoDB models with TypeScript interfaces and validations."
+    ],
+    "image": "/portfolio/projects/no-code-node.png"
+  },
+  {
+    "title": "UI Component Library",
+    "description": "A fully typed, themeable, and performant React component library designed for building responsive and composable user interfaces with dark mode support.",
+    "link": "https://v0-next-js-component-library.vercel.app/",
+    "technologyUsed": [
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Vite",
+      "Rollup",
+      "Context API"
+    ],
+    "features": [
+      "TypeScript Ready: Fully typed components for better developer experience and fewer bugs.",
+      "Themeable: Customize colors and styles through a centralized theme context.",
+      "Performant: Optimized for performance with minimal bundle size and efficient rendering.",
+      "Composable: Build complex UIs by combining simple, reusable components.",
+      "Responsive: Looks great on any device with responsive design principles.",
+      "Dark Mode: Built-in support for light and dark modes with smooth transitions."
+    ],
+    "image": "/portfolio/projects/ui-library.png"
+  },
+  {
     "title": "Educational Extensions Suite",
     "description": "A suite of tools designed to enhance your learning experience across various platforms like Coursera and Google Forms, with an integrated analytics dashboard for tracking progress.",
     "link": "https://extension-server-m2j2.onrender.com/",
@@ -23,7 +64,6 @@
     "image": "/portfolio/projects/extension.png"
   },
   {
-    "id": "p0",
     "title": "Last Take",
     "description": "Last Take is an exciting online multiplayer survival game where players face off in a round-table environment, using strategy, manipulation, and luck to survive and outlast their opponents.",
     "link": "",
@@ -40,7 +80,6 @@
     "image": "/portfolio/projects/last_take.png"
   },
   {
-    "id": "p1",
     "title": "Taxify",
     "description": "Tax Education Made Simple and Fun. Taxify is a tax education platform that simplifies the complexities of tax laws and regulations.",
     "link": "",
@@ -67,7 +106,6 @@
     "image": "/portfolio/projects/taxify.png"
   },
   {
-    "id": "p2",
     "title": "EduVoice",
     "description": "EduVoice is an innovative educational platform that leverages AI to enhance the learning experience. It provides a comprehensive solution for students and educators, combining traditional teaching methods with modern technology.",
     "link": "",
@@ -108,7 +146,6 @@
     "image": "/portfolio/projects/edu_voice.jpg"
   },
   {
-    "id": "p3",
     "title": "HashTag City",
     "description": "Hashtag city is a travels startup of Nagpur city, The website uses libraries like GSAP and Scroll Trigger to provide a more lively and animated look to the website",
     "link": "https://belle-epoque.vercel.app/",
@@ -135,7 +172,6 @@
     "image": "/portfolio/projects/hashtag.png"
   },
   {
-    "id": "p4",
     "title": "Digital Swag",
     "description": "A Canvas based Digital Swag application that allows users to create and customize their own swag items.",
     "link": "https://digital-swag.vercel.app/",
@@ -150,7 +186,6 @@
     "image": "/portfolio/projects/digital_swag.png"
   },
   {
-    "id": "p5",
     "title": "Servico",
     "description": "Web application that enables users to search for daily life services at and order them at doorsteps just with a click.",
     "link": "",
@@ -172,7 +207,6 @@
     "image": "/portfolio/projects/servico.png"
   },
   {
-    "id": "p6",
     "title": "Chat Application",
     "description": "Socket-io based Chat application with real time updates and latest functionalities like Reactions Replies, etc",
     "link": "",
@@ -187,7 +221,6 @@
     "image": "/portfolio/projects/chat_app.png"
   },
   {
-    "id": "p7",
     "title": "Mehek CRM",
     "description": "A CRM application that helps users manage their customer relationships and sales processes.",
     "link": "",
