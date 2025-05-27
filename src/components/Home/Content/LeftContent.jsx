@@ -3,9 +3,7 @@ import React from "react";
 const LeftContent = () => {
   return (
     <p className="text-justify w-11/12">
-      Mushan Khan is a skilled Full Stack Web Developer with expertise in Python
-      and a range of web technologies. He creates dynamic, user-friendly
-      websites and handles both front-end and back-end tasks efficiently.
+      Hi, I’m Mushan Khan — a full stack developer passionate about building modern, user-friendly web applications. I’ve worked on everything from AI tools to no-code platforms, always aiming to deliver scalable, well-structured solutions. Let’s connect and see how we can build something impactful.
     </p>
   );
 };

@@ -90,7 +90,7 @@ export default function ModernFooter() {
               Quick Links
             </h3>
             <ul className="space-y-3">
-              {["Projects", "About", "Contact"].map((item, index) => (
+              {["Portfolio", "About", "Contact"].map((item, index) => (
                 <li
                   key={index}
                   className="transform transition-transform duration-300 hover:-translate-y-1"
