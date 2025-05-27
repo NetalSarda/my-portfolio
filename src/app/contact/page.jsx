@@ -99,7 +99,7 @@ export default function ContactForm() {
   ];
 
   return (
-    <div className="flex flex-col mt-10 p-8 md:flex-row w-full min-h-[600px] relative overflow-hidden rounded-3xl">
+    <div className="flex flex-col md:mt-10 md:p-8 md:flex-row w-full min-h-[600px] relative overflow-hidden md:rounded-3xl">
       {/* Background orbs */}
       {orbs.map((orb, index) => (
         <div
@@ -117,7 +117,7 @@ export default function ContactForm() {
 
       {/* Contact Form Section */}
       <div
-        className={`flex-1 p-8 md:p-14 relative backdrop-blur-lg transition-all duration-1000 ${
+        className={`flex-1 px-4 py-8 md:p-14 relative backdrop-blur-lg transition-all duration-1000 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
         style={{
@@ -385,7 +385,7 @@ export default function ContactForm() {
         />
 
         <h2
-          className="text-3xl font-bold mb-12 relative"
+          className="text-3xl font-bold md:mb-12 mb-8 relative"
           style={{
             background:
               "linear-gradient(to right, var(--text-gradient-start), var(--text-gradient-end))",
@@ -397,7 +397,7 @@ export default function ContactForm() {
           Connect With Me
         </h2>
 
-        <div className="space-y-8 relative">
+        <div className="md:space-y-4 relative flex md:block justify-evenly items-center gap-4 mb-8">
           {[
             {
               icon: <Instagram size={24} />,
@@ -418,17 +418,16 @@ export default function ContactForm() {
             <a
               key={index}
               href={social.href}
-              className="flex items-center gap-4 p-4 rounded-lg group transition-all duration-300 hover:translate-x-2"
+              className="flex items-center w-[50px] aspect-square md:aspect-auto md:w-[220px] gap-6 md:p-4 rounded-lg group transition-all duration-300 hover:translate-x-2 "
               style={{
                 background: "rgba(255, 255, 255, 0.05)",
                 backdropFilter: "blur(10px)",
                 border: "1px solid rgba(255, 255, 255, 0.05)",
                 boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)",
-                width: "220px",
               }}
             >
               <div
-                className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-500 group-hover:scale-110"
+                className="flex items-center justify-center w-full h-full md:w-10 md:h-10 rounded-full transition-all duration-500 group-hover:scale-110"
                 style={{
                   background:
                     "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
@@ -438,7 +437,7 @@ export default function ContactForm() {
                 {social.icon}
               </div>
               <span
-                className="text-lg transition-all duration-300 relative"
+                className="text-lg transition-all hidden md:block duration-300 relative"
                 style={{ color: "var(--card-dark-text-light)" }}
               >
                 {social.text}
