@@ -7,6 +7,7 @@ import ProjectCards from "@/components/Portfolio/ProjectCard";
 import SkillCards from "@/components/Portfolio/SkillCards";
 import TestimonialCards from "@/components/Portfolio/TestimonialCards";
 
+
 const PortfolioPage = () => {
   const [tab, setTab] = useState(0);
   const [isVisible, setIsVisible] = useState(false);

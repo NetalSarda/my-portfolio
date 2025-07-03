@@ -5,14 +5,14 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 import projects from "@/data/Projects.json";
 import { useEffect, useState } from "react";
 
-export function Card({
+const Card = ({
   className,
   children,
   project,
   index,
   isVisible,
   ...props
-}) {
+}) => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -50,7 +50,7 @@ export function Card({
   );
 }
 
-export default function ProjectCards() {
+const ProjectCard = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -213,3 +213,4 @@ export default function ProjectCards() {
     </div>
   );
 }
+export default ProjectCard;

@@ -14,6 +14,8 @@ const INSTAGRAM_PROFILE = process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE;
 const GITHUB_PROFILE = process.env.NEXT_PUBLIC_GITHUB_PROFILE;
 const LINKEDIN_PROFILE = process.env.NEXT_PUBLIC_LINKEDIN_PROFILE;
 
+
+
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
