@@ -4,6 +4,7 @@ import "./animations.css";
 import Navbar, { HamBurgerMenu } from "@/components/Navbar";
 import { ConfigProvider } from "@/contexts/ConfigContext";
 import { personStructuredData, websiteStructuredData, organizationStructuredData } from "./structured-data";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -148,6 +149,7 @@ export default function RootLayout({ children }) {
         <ConfigProvider>
           {/* Navbar */}
           <Navbar />
+          <Analytics />
           <HamBurgerMenu/>
           {/* <CustomCursor /> */}
           {children}
