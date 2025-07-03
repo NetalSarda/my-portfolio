@@ -1,53 +1,84 @@
 [
   {
-    "role": "Full Stack Developer Intern",
-    "company": "Zen Study",
-    "duration": "Dec 2024 - Current",
+    "role": "Full Stack Developer",
+    "company": "UrbanTap",
+    "duration": "May 2025 - Present",
     "tasks": [
-      "Worked on an education platform where educators can stream and upload videos for students.",
-      "Embedded DRM-protected Shaka Player to prevent content piracy.",
-      "Incorporated live class streaming, automatically storing session recordings on AWS S3."
+      "Developing and maintaining the backend infrastructure of the platform using modern technologies",
+      "Building a comprehensive web portal to streamline the onboarding process for brokerage firms",
+      "Implementing scalable solutions to enhance platform performance and user experience"
     ]
   },
   {
-    "role":"Full Stack Developer",
-    "company":"Mehk Chemicals",
-    "duration":"Jan 2025 - Mar 2025",
-    "tasks":[
-      "Built a CRM for their chemical supply agency",
-      "Added analytics and streamlined the order and dispatch process",
-      "Integrated supply requirement system to calculate overall production of various chemicals depending on orders",
-      "Multiple currency support for the export clients"
+    "role": "Freelance Developer",
+    "company": "Kiorra Farms",
+    "duration": "May 2025 - June 2025",
+    "tasks": [
+      "Developed a modern, responsive website to showcase the company's products and services",
+      "Integrated Shopify e-commerce platform to enable seamless online product sales",
+      "Implemented a comprehensive subscription management system for customer retention",
+      "Integrated secure payment gateway solutions to process transactions efficiently"
+    ]
+  },
+  {
+    "role": "Freelance Developer",
+    "company": "The Civista",
+    "duration": "June 2025 - July 2025",
+    "tasks": [
+      "Designed and developed a professional website for the civil engineering company",
+      "Created dedicated Services and Projects sections to effectively showcase their portfolio",
+      "Implemented a responsive contact form to facilitate client communication and lead generation"
+    ]
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "company": "Zen Study",
+    "duration": "December 2024 - February 2025",
+    "tasks": [
+      "Contributed to the development of an educational platform enabling educators to stream and upload video content",
+      "Implemented DRM-protected Shaka Player integration to prevent content piracy and ensure intellectual property protection",
+      "Developed live class streaming functionality with automatic session recording storage on AWS S3"
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "company": "Mehk Chemicals",
+    "duration": "January 2025 - March 2025",
+    "tasks": [
+      "Developed a comprehensive CRM system for the chemical supply agency",
+      "Implemented advanced analytics and streamlined order and dispatch processes",
+      "Created a supply requirement system to calculate production needs based on order volumes",
+      "Integrated multi-currency support to accommodate international export clients"
     ]
   },
   {
     "role": "Full Stack Developer Intern",
     "company": "33 Solutions",
-    "duration": "Nov 2024 - Feb 2025",
+    "duration": "November 2024 - February 2025",
     "tasks": [
-      "Developed a Bounty Reward Platform to boost sales for 5 businesses.",
-      "Built Azure serverless functions to process KERN Seed data for 500+ farmers.",
-      "Created a CRM dashboard for Mehek Chemicals, streamlining orders and dispatches for 1,000+ customers and 200+ employees."
+      "Developed a Bounty Reward Platform that successfully boosted sales for 5 partner businesses",
+      "Built Azure serverless functions to efficiently process KERN Seed data for 500+ farmers",
+      "Created a comprehensive CRM dashboard for Mehek Chemicals, optimizing operations for 1,000+ customers and 200+ employees"
     ]
   },
   {
     "role": "President",
     "company": "The CodeBreakers Club",
-    "duration": "Sep 2024 - Current",
+    "duration": "September 2024 - Present",
     "tasks": [
-      "Organized workshops and hackathons to enhance coding skills among members.",
-      "Collaborated with industry experts to provide mentorship and guidance.",
-      "Led a team of 20+ members in various coding competitions and projects."
+      "Organized technical workshops and hackathons to enhance members' coding skills and industry knowledge",
+      "Established partnerships with industry experts to provide mentorship and career guidance",
+      "Led a dynamic team of 20+ members in competitive coding competitions and collaborative projects"
     ]
   },
   {
     "role": "Content Lead",
     "company": "The CodeBreakers Club",
-    "duration": "Sep 2023 - Sep 2024",
+    "duration": "September 2023 - September 2024",
     "tasks": [
-      "Developed and managed content for the club's website and social media platforms.",
-      "Coordinated with team members to create engaging articles and tutorials.",
-      "Organized events and workshops to promote coding and technology awareness."
+      "Developed and managed content strategy for the club's website and social media platforms",
+      "Coordinated with cross-functional teams to create engaging technical articles and tutorials",
+      "Organized educational events and workshops to promote coding skills and technology awareness within the community"
     ]
   },
   {
@@ -55,9 +86,9 @@
     "company": "Hashtag City",
     "duration": "March 2022 - April 2022",
     "tasks": [
-      "Collaborated with the team to design and develop the UI and animations.",
-      "Implemented responsive design and ensured cross-browser compatibility.",
-      "Participated in code reviews and provided constructive feedback to other developers."
+      "Collaborated with the design and development team to create intuitive UI components and smooth animations",
+      "Implemented responsive design principles and ensured cross-browser compatibility across multiple platforms",
+      "Participated in code reviews and provided constructive feedback to maintain code quality standards"
     ]
   }
 ]

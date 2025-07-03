@@ -22,6 +22,7 @@ export const HamBurgerMenu = () => {
           {[
             { href: "/about", label: "ABOUT" },
             { href: "/portfolio", label: "PORTFOLIO" },
+            { href: "/services", label: "SERVICES" },
             { href: "/contact", label: "CONTACT" },
           ].map(({ href, label }) => (
             <Link
@@ -90,6 +91,7 @@ export default function Navbar() {
             {[
               { href: "/about", label: "ABOUT" },
               { href: "/portfolio", label: "PORTFOLIO" },
+              { href: "/services", label: "SERVICES" },
               { href: "/contact", label: "CONTACT" },
             ].map(({ href, label }, index) => (
               <Link
