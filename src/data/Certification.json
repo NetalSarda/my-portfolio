@@ -1,23 +1,23 @@
 [
     {
-        "name": "Introduction to Microsoft Azure Cloud Services",
+        "name": "Data Analysis and Visualization with Power BI",
         "provider": "Microsoft",
         "grade": "100%",
-        "link": "https://coursera.org/share/236b35527f2ca7e852c69e0ca25c46ad",
-        "pdf": "/courses/Introduction_to_Microsoft_Azure_Cloud_Services.pdf"
+        "link": "https://coursera.org/verify/5C9L3EEMTBFH",
+        "pdf": "/courses/powerbi.pdf"
     },
     {
-        "name": "Microsoft Azure Management Tools and Security Solutions",
+        "name": "Deploy and Maintain Power BI Assets and Capstone project",
         "provider": "Microsoft",
         "grade": "100%",
-        "link": "https://coursera.org/share/1071604dd020db67d46f250fd10ba005",
-        "pdf": "/courses/Microsoft_Azure_Management_Tools_and_Security_Solutions.pdf"
+        "link": "https://coursera.org/verify/BYXDB8HLVV55",
+        "pdf": "/courses/powerbi_assets.pdf"
     },
     {
-        "name": "Microsoft Azure Services and Lifecycles",
-        "provider": "Microsoft",
+        "name": "Artificial Intelligence Industrial Control Systems Security",
+        "provider": "John Hopkins University",
         "grade": "100%",
-        "link": "https://coursera.org/share/2be85993fc630170bb1de1e2008e5f8c",
+        "link": "https://coursera.org/verify/6N2N46TG7Y9X",
         "pdf": "/courses/Microsoft_Azure_Services_and_Lifecycles.pdf"
     },
     {
