@@ -19,7 +19,7 @@
       "Gesture Classification: Used scikit-learn for model training and evaluation to classify gesture patterns.",
       "Visualization: Plotted gesture path trajectories and classification results using Matplotlib for interpretability."
     ],
-    "image": "/portfolio/projects/gesture_path.png"
+    "image": "/portfolio/projects/gesturepath.png"
   },
   {
     "title": "Git Connect AI",
@@ -39,7 +39,7 @@
       "Meeting & Documentation Integration: Uses Assembly AI to analyze discussions and auto-generate meeting documentation.",
       "Improved Onboarding: Helps new contributors get context quickly with auto-summary and code walkthrough features."
     ],
-    "image": "/portfolio/projects/git_connect_ai.png"
+    "image": "/portfolio/projects/gitconnectai.png"
   },
   {
     "title": "FacePings",

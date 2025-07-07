@@ -1,237 +1,148 @@
 [
   {
-    "title": "No-Code Node",
-    "description": "A powerful visual MongoDB schema designer and API generator. Build your backend without writing code using an intuitive interface and TypeScript support.",
-    "link": "https://no-code-node-nine.vercel.app/",
+    "title": "Gesture Path",
+    "description": "Real-time hand gesture recognition and path tracking using OpenCV, MediaPipe, and TensorFlow.",
+    "link": "https://github.com/NetalSarda/Gesture__Path.git",
     "technologyUsed": [
-      "React.js",
+      "Python",
+      "OpenCV",
+      "MediaPipe",
+      "TensorFlow",
+      "NumPy",
+      "Pandas",
+      "scikit-learn",
+      "Matplotlib"
+    ],
+    "features": [
+      "Real-Time Recognition: Tracks and classifies hand gestures using webcam input.",
+      "Preprocessing: Used NumPy and Pandas for dataset cleaning and frame filtering.",
+      "Classification: Leveraged scikit-learn models to accurately classify user gestures.",
+      "Visualization: Real-time gesture visualization with plotted paths using Matplotlib."
+    ],
+    "image": "/portfolio/projects/gesture_path.png"
+  },
+  {
+    "title": "Git Connect AI",
+    "description": "An AI-powered platform that simplifies collaboration by letting contributors query repositories, analyze commits, and manage team meetings intelligently.",
+    "link": "https://git-connect-ai.vercel.app",
+    "technologyUsed": [
+      "Next.js",
       "TypeScript",
-      "Tailwind CSS",
-      "MongoDB",
-      "Express.js",
-      "React Flow",
-      "Node.js"
-    ],
-    "features": [
-      "Visual Schema Design: Design your MongoDB schemas visually with an intuitive drag-and-drop interface.",
-      "Auto-Generated APIs: Get fully functional CRUD APIs automatically generated from your schema design.",
-      "TypeScript Support: Generate type-safe MongoDB models with TypeScript interfaces and validations."
-    ],
-    "image": "/portfolio/projects/no-code-node.png"
-  },
-  {
-    "title": "UI Component Library",
-    "description": "A fully typed, themeable, and performant React component library designed for building responsive and composable user interfaces with dark mode support.",
-    "link": "https://v0-next-js-component-library.vercel.app/",
-    "technologyUsed": [
-      "TypeScript",
-      "React.js",
-      "Tailwind CSS",
-      "Vite",
-      "Rollup",
-      "Context API"
-    ],
-    "features": [
-      "TypeScript Ready: Fully typed components for better developer experience and fewer bugs.",
-      "Themeable: Customize colors and styles through a centralized theme context.",
-      "Performant: Optimized for performance with minimal bundle size and efficient rendering.",
-      "Composable: Build complex UIs by combining simple, reusable components.",
-      "Responsive: Looks great on any device with responsive design principles.",
-      "Dark Mode: Built-in support for light and dark modes with smooth transitions."
-    ],
-    "image": "/portfolio/projects/ui-library.png"
-  },
-  {
-    "title": "Educational Extensions Suite",
-    "description": "A suite of tools designed to enhance your learning experience across various platforms like Coursera and Google Forms, with an integrated analytics dashboard for tracking progress.",
-    "link": "https://extension-server-m2j2.onrender.com/",
-    "technologyUsed": [
-      "React.js",
-      "Node.js",
-      "JavaScript",
-      "Chrome Extension APIs",
-      "Google Forms API",
-      "AI",
-      "D3.js",
-      "MongoDB"
-    ],
-    "github": "https://github.com/Khanba22/Coursera-autocomplete",
-    "features": [
-      "Coursera Extension: Automates assignment completion tasks on Coursera, allowing you to focus on understanding concepts.",
-      "Google Forms Extension: AI-powered tool for navigating and completing forms accurately and efficiently.",
-      "Analytics Dashboard: Visualizes real-time data for tracking usage and learning progress across all extensions."
-    ],
-    "image": "/portfolio/projects/extension.png"
-  },
-  {
-    "title": "Last Take",
-    "description": "Last Take is an exciting online multiplayer survival game where players face off in a round-table environment, using strategy, manipulation, and luck to survive and outlast their opponents.",
-    "link": "",
-    "technologyUsed": ["React.js", "Three.js", "Socket.io", "Peer.js"],
-    "github": "https://github.com/Khanba22/online-game",
-    "features": [
-      "Multiplayer Gameplay: Play with multiple players in real-time, connected via Socket.io for seamless game interactions.",
-      "3D Environment: Experience an immersive 3D environment built with Three.js, enhancing the overall visual experience.",
-      "Survival Mechanics: Players are seated around a table where a gun is passed around, containing both live and fake bullets, and players must rely on luck and strategy to survive the longest.",
-      "Abilities: Players have access to various abilities and equipment that can be used to deceive, manipulate, or eliminate opponents.",
-      "Luck Factor: With random outcomes influenced by the presence of both live and fake bullets, luck plays a critical role in determining who survives.",
-      "Voice Chat: Communicate with other players in real-time using the integrated Peer.js voice chat feature, enabling strategic communication and deception."
-    ],
-    "image": "/portfolio/projects/last_take.png"
-  },
-  {
-    "title": "Taxify",
-    "description": "Tax Education Made Simple and Fun. Taxify is a tax education platform that simplifies the complexities of tax laws and regulations.",
-    "link": "",
-    "technologyUsed": [
-      "Next Js",
-      "Tailwind CSS",
-      "Typescript",
-      "MongoDB",
       "Gemini",
       "LangChain",
-      "Flask",
-      "Python"
+      "Assembly AI",
+      "GitHub API"
     ],
-    "github": "https://github.com/Khanba22/new-merged",
     "features": [
-      "Built for small businesses : Helps users manage taxes and understand economic systems without stress or high costs.",
-      "Reduces tax overpayment : Empowers users with the knowledge to handle basic tasks without relying on costly CAs.",
-      "Gamified learning : Delivers daily bite-sized lessons through interactive, real-world tax and finance scenarios.",
-      "Earn as you learn : Users score points for making smart financial decisions, reinforcing habits that lead to real-life savings.",
-      "Powered by RAG models : Always up to date with the latest insights from trusted sources like the Income Tax Department.",
-      "Jargon-free simplicity : Focuses on actionable steps rather than complex terms, making finance approachable and practical.",
-      "Daily decision-making tool : Encourages consistent engagement, helps cut CA dependency, and builds financial confidence."
+      "AI Code Understanding: Uses Gemini and LangChain to explain complex Git codebases.",
+      "Query Repositories: Ask natural questions and locate relevant commits and files.",
+      "Meeting Analysis: Uses Assembly AI for transcript generation and documentation.",
+      "Smart Onboarding: Auto-generated insights to onboard new contributors efficiently."
     ],
-    "image": "/portfolio/projects/taxify.png"
+    "image": "/portfolio/projects/git_connect_ai.png"
   },
   {
-    "title": "EduVoice",
-    "description": "EduVoice is an innovative educational platform that leverages AI to enhance the learning experience. It provides a comprehensive solution for students and educators, combining traditional teaching methods with modern technology.",
-    "link": "",
+    "title": "FacePings",
+    "description": "A face recognition-based attendance system built in Python using OpenCV and face_recognition for secure real-time face detection and logging.",
+    "link": "https://github.com/NetalSarda/FacePings.git",
     "technologyUsed": [
-      "React Js",
-      "Tailwind CSS",
-      "JavaScript",
-      "Node Js",
-      "MongoDB",
-      "Groq",
-      "LangChain",
-      "Flask",
       "Python",
-      "WebRTC",
-      "Socket.io",
-      "Peerjs",
-      "Express"
+      "OpenCV",
+      "face_recognition",
+      "NumPy",
+      "SQLite"
     ],
-    "github": "https://github.com/Khanba22/edu-voice",
     "features": [
-      "AI-Driven Content Interpretation: Analyzes static presentations (PDFs, PPTs) to extract and simplify key topics for learners.",
-      "Multimedia Integration: Enhances learning materials with voice-overs and audio-visual elements, making lessons immersive and engaging.",
-      "Generative AI Models: Produces human-like voice outputs and contextual explanations for complex subjects.",
-      "Text-to-Speech (TTS) Technology: Converts written content into natural-sounding speech, improving accessibility and comprehension.",
-      "Interactive Chatbot Assistance: Real-time chatbot provides instant support by answering questions, promoting an engaging learning atmosphere.",
-      "Personalized Learning Experience: Tailors content and explanations to individual learning preferences, supporting self-paced study.",
-      "Active Learning and Participation: Encourages student engagement via interactive channels and real-time discussions.",
-      "Comprehensive Topic Coverage: Uses AI to identify and elaborate on essential topics for better understanding and retention.",
-      "Real-Time Communication Platform: Integrates a Discord-style server for collaborative learning, enabling discussion and knowledge sharing.",
-      "Bridging Traditional and Modern Education: Combines conventional educational methods with advanced AI for enhanced learning.",
-      "Multi-Channel Access: Offers text, voice, and multimedia learning modalities, accommodating diverse learner needs.",
-      "Immersive and Fun Learning: Turns learning into an enjoyable process with interactive and engaging content.",
-      "Focus on Complex Subjects: Simplifies challenging topics, making them easier to understand and memorize.",
-      "Self-Paced Learning: Allows learners to study at their convenience while still receiving detailed explanations.",
-      "Educational Technology Integration: Incorporates cutting-edge tools to create a transformative and futuristic educational experience.",
-      "Multi-Purpose Application: Suitable for students, educators, and professionals, making it versatile for various training contexts."
+      "Real-Time Face Detection: Uses webcam and face encodings to match known users.",
+      "Secure Logging: Logs time-stamped attendance into a local database securely.",
+      "Minimal UI: Lightweight desktop interface for quick access and monitoring.",
+      "Best Practices: Sensitive image data is securely handled and not exposed."
     ],
-    "image": "/portfolio/projects/edu_voice.jpg"
+    "image": "/portfolio/projects/facepings.png"
   },
   {
-    "title": "HashTag City",
-    "description": "Hashtag city is a travels startup of Nagpur city, The website uses libraries like GSAP and Scroll Trigger to provide a more lively and animated look to the website",
-    "link": "https://belle-epoque.vercel.app/",
-    "technologyUsed": [
-      "React Js",
-      "Tailwind CSS",
-      "JavaScript",
-      "GSAP",
-      "ScrollTrigger"
-    ],
-    "github": "https://github.com/Khanba22/belle-epoque",
+    "title": "AimBooster",
+    "description": "A browser-based aim training game where players must quickly shoot a moving spaceship target using keyboard/mouse interactions.",
+    "link": "",
+    "technologyUsed": ["HTML", "CSS", "JavaScript", "Canvas API", "GSAP"],
     "features": [
-      "Built with React.js: Modular, component-driven architecture for maintainable and scalable code.",
-      "GSAP-Powered Animations: Smooth, high-performance animations throughout the site.",
-      "ScrollTrigger Integration: Triggers animations based on scroll position for an immersive browsing experience.",
-      "Scroll-Based Effects: Includes parallax scrolling, horizontal sections, and animated reveals.",
-      "GSAP Timelines: Controls complex animation sequences with fine-tuned timing and flow.",
-      "Animated Hero Section: Visually engaging landing with dynamic text and image motion.",
-      "Responsive Design: Fully optimized for mobile, tablet, and desktop devices.",
-      "Performance Optimization: Uses React refs, useLayoutEffect, and lazy loading for fast performance.",
-      "Tailwind CSS Styling: Clean, utility-first design system for rapid UI development.",
-      "Interactive User Experience: Engaging visual storytelling through motion and interactivity."
+      "Dynamic Targeting: The spaceship moves across the canvas in random directions and speeds.",
+      "Hit Tracking: Maintains accuracy and hit-rate stats for every session.",
+      "Keyboard Interactions: Option to switch between mouse clicks and keyboard hits.",
+      "GSAP Animations: Smooth transitions and feedback using advanced CSS and JS animations."
     ],
-    "image": "/portfolio/projects/hashtag.png"
+    "image": "/portfolio/projects/aimbooster.png"
   },
   {
-    "title": "Digital Swag",
-    "description": "A Canvas based Digital Swag application that allows users to create and customize their own swag items.",
-    "link": "https://digital-swag.vercel.app/",
-    "technologyUsed": ["Next JS", "Tailwind CSS", "JavaScript", "Fabric.js"],
-    "github": "https://github.com/Khanba22/digital-swag",
+    "title": "Monsters Rolodex",
+    "description": "A beginner React.js project featuring a dynamic search interface that filters a list of monsters using input from the user.",
+    "link": "",
+    "technologyUsed": ["React.js", "JavaScript", "CSS"],
     "features": [
-      "Canvas-based design tool for creating custom swag items.",
-      "Real-time preview of designs on various swag items.",
-      "Ability to upload images and download designs.",
-      "Integration with HackSphere 2.0 website for event-specific swag items."
+      "Real-time Search Filtering: Instant updates as the user types.",
+      "Props & State: Reinforces core React concepts with reusable components.",
+      "Static API Data Fetching: Pulls mock monster data and maps into UI cards."
     ],
-    "image": "/portfolio/projects/digital_swag.png"
+    "image": "/portfolio/projects/monsters_rolodex.png"
+  },
+  {
+    "title": "Password Torch UI",
+    "description": "A creative password visibility toggle UI using a 'torchlight' animation — when the torch is on, the password is visible, otherwise hidden.",
+    "link": "",
+    "technologyUsed": ["HTML", "CSS", "JavaScript", "CSS Keyframes", "DOM Manipulation"],
+    "features": [
+      "Torchlight Animation: Used CSS keyframes to simulate light-on and light-off transitions.",
+      "Custom Visibility Toggle: Replaces generic eye icon with animated torch switch.",
+      "Modern UI Design: Clean, responsive layout with shadow-based depth simulation."
+    ],
+    "image": "/portfolio/projects/password_torch.png"
+  },
+  {
+    "title": "PawSwipe",
+    "description": "A humorous Tinder-style swipe application for dogs and pets. Built with a minimalist aesthetic and swipe-left/right logic.",
+    "link": "",
+    "technologyUsed": ["HTML", "CSS", "JavaScript", "DOM Events", "CSS Grid"],
+    "features": [
+      "Swipe Interface: Left/right swipe to accept or reject dog profiles.",
+      "Card Stack UI: Dog cards dynamically update with animations and transitions.",
+      "Responsive Design: Mobile-friendly layout for pet lovers on the go.",
+      "Creative Branding: Designed to parody Tinder while offering a fun experience."
+    ],
+    "image": "/portfolio/projects/pawswipe.png"
   },
   {
     "title": "Servico",
-    "description": "Web application that enables users to search for daily life services at and order them at doorsteps just with a click.",
+    "description": "A service-based e-commerce platform to book daily services like electricians, mechanics, or chefs — complete with calendar selection and admin dashboard.",
     "link": "",
-    "technologyUsed": [
-      "React Js",
-      "JavaScript",
-      "Node Js",
-      "Express",
-      "MongoDB"
-    ],
+    "technologyUsed": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
     "github": "https://github.com/Khanba22/servico-frontend",
     "features": [
-      "User-friendly interface for searching and ordering services.",
-      "Real-time updates on service availability.",
-      "Secure payment gateway integration.",
-      "Admin panel for managing services and users.",
-      "Responsive design for mobile and desktop."
+      "Booking System: Allows users to select service, date, time, and confirm bookings.",
+      "Calendar Integration: Service availability linked to custom calendar slots.",
+      "Admin Panel: Admin can manage bookings, availability, and worker assignments.",
+      "Secure Backend: API routes for authentication and data handling with JWT support."
     ],
     "image": "/portfolio/projects/servico.png"
   },
   {
-    "title": "Chat Application",
-    "description": "Socket-io based Chat application with real time updates and latest functionalities like Reactions Replies, etc",
+    "title": "System Log Analyzer",
+    "description": "A blockchain-powered security solution to log, track, and verify system-level activities in real-time — built as part of SIH problem statement.",
     "link": "",
-    "technologyUsed": ["react", "openai", "node", "express"],
-    "github": "https://github.com/Khanba22/whatsapp-frontend",
-    "features": [
-      "Real-time chat functionality using Socket.io.",
-      "User authentication and profile management.",
-      "Message reactions and replies for enhanced communication.",
-      "Responsive design for mobile and desktop."
+    "technologyUsed": [
+      "Solidity",
+      "Ethereum",
+      "Blockchain",
+      "React.js",
+      "Node.js",
+      "Web3.js",
+      "IPFS"
     ],
-    "image": "/portfolio/projects/chat_app.png"
-  },
-  {
-    "title": "Mehek CRM",
-    "description": "A CRM application that helps users manage their customer relationships and sales processes.",
-    "link": "",
-    "technologyUsed": ["Next JS", "Tailwind CSS", "JavaScript", "MongoDB"],
-    "github": "https://github.com/Khanba22/crm-new",
     "features": [
-      "User-friendly interface for managing customer relationships.",
-      "Sales pipeline management and tracking.",
-      "Integration with email and calendar services.",
-      "Analytics and reporting features."
+      "Event Logging: Captures system activity (file access, login attempts, etc.) and pushes it to a secure blockchain ledger.",
+      "Immutable Audit Trail: Blockchain ensures tamper-proof activity logs for forensic analysis.",
+      "Web3 Interface: Frontend dashboard to view, verify, and analyze logs in real time.",
+      "Decentralized Storage: Utilizes IPFS to store large logs while keeping hashes on-chain."
     ],
-    "image": "/portfolio/projects/mehek_crm.png"
+    "image": "/portfolio/projects/log_analyzer.png"
   }
 ]
