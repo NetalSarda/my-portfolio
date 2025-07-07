@@ -18,151 +18,109 @@
         "provider": "John Hopkins University",
         "grade": "100%",
         "link": "https://coursera.org/verify/6N2N46TG7Y9X",
-        "pdf": "/courses/Microsoft_Azure_Services_and_Lifecycles.pdf"
+        "pdf": "/courses/ai_industries.pdf"
     },
     {
-        "name": "Data Storage in Microsoft Azure",
-        "provider": "Microsoft",
+        "name": "DevOps, DataOps, MLOps",
+        "provider": "DUKE university",
         "grade": "98.44%",
-        "link": "https://coursera.org/share/ec7f39f2fd46047dc0f9c9ea780d91ca",
-        "pdf": "/courses/Data_Storage_in_Microsoft_Azure.pdf"
+        "link": "https://coursera.org/verify/EN8Y6UG9GMUL",
+        "pdf": "/courses/DDM.pdf"
     },
     {
-        "name": "Natural Language Processing",
+        "name": " Tweet Emotion Recognition with TensorFlow",
         "provider": "DeepLearning.AI",
-        "link": "https://coursera.org/share/0a1df806d08f1f04156d1d9b258b743b",
-        "pdf": "/courses/Natural_Language_Processing.pdf"
+        "link": "https://coursera.org/verify/2ZPZ0LSMYKDD",
+        "pdf": "/courses/tensorflow.pdf"
     },
     {
-        "name": "Natural Language Processing with Classification and Vector Spaces",
+        "name": "Deep Learning with PyTorch : Object Localization",
         "provider": "DeepLearning.AI",
         "grade": "100%",
-        "link": "https://coursera.org/share/915b99413fb7cd25f90239d4db549bfb",
-        "pdf": "/courses/Natural_Language_Processing_with_Classification_and_Vector_Spaces.pdf"
+        "link": "https://coursera.org/verify/QCBKU9C7K652",
+        "pdf": "/courses/pytorch.pdf"
     },
     {
-        "name": "Natural Language Processing with Attention Models",
-        "provider": "DeepLearning.AI",
+        "name": " Data Engineering with Rust",
+        "provider": "DUKE university",
         "grade": "93.96%",
-        "link": "https://coursera.org/share/c5179ca7ad38c7ef843cb9d259ea2225",
-        "pdf": "/courses/Natural_Language_Processing_with_Attention_Models.pdf"
+        "link": "https://coursera.org/verify/MNHPS3G6DOA5",
+        "pdf": "/courses/rust.pdf"
     },
     {
-        "name": "Natural Language Processing with Probabilistic Models",
+        "name": "Creating Multi Task Models With Keras",
         "provider": "DeepLearning.AI",
         "grade": "89.60%",
-        "link": "https://coursera.org/share/82500a0812b6faee5ce2f8e18afcb0b6",
-        "pdf": "/courses/Natural_Language_Processing_with_Probabilistic_Models.pdf"
+        "link": "https://coursera.org/verify/EVL7DE4ODEM4",
+        "pdf": "/courses/keras.pdf"
     },
     {
-        "name": "Natural Language Processing with Sequence Models",
+        "name": " Build Basic Generative Adversarial Networks(GANs)",
         "provider": "DeepLearning.AI",
         "grade": "81.10%",
-        "link": "https://coursera.org/share/30af733f42c2637a230c09d23917efd1",
-        "pdf": "/courses/Natural_Language_Processing_with_Sequence_Models.pdf"
+        "link": "https://coursera.org/verify/IKBKR56ZROAX",
+        "pdf": "/courses/build.pdf"
     },
     {
-        "name": "Generative Adversarial Networks (GANs)",
+        "name": "Apply Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
-        "link": "https://coursera.org/share/311f1f29650ba8123dd9322fadab0a39",
-        "pdf": "/courses/Generative_Adversarial_Networks.pdf"
+        "link": "https://coursera.org/verify/QOL9FOA0561E",
+        "pdf": "/courses/apply.pdf"
     },
     {
         "name": "Build Better Generative Adversarial Networks (GANs)",
         "provider": "DeepLearning.AI",
         "grade": "98.12%",
-        "link": "https://coursera.org/share/a81e293a18dcb20c9a3b7bb6bcc9edaf",
-        "pdf": "/courses/Build_Better_Generative_Adversarial_Networks.pdf"
+        "link": "https://coursera.org/verify/5RT60M41TT3E",
+        "pdf": "/courses/better.pdf"
     },
     {
-        "name": "Apply Generative Adversarial Networks (GANs)",
-        "provider": "DeepLearning.AI",
-        "grade": "100%",
-        "link": "https://coursera.org/share/3b76a9539153189f46d06c00a6b0cc11",
-        "pdf": "/courses/Apply_Generative_Adversarial_Networks.pdf"
-    },
-    {
-        "name": "Build Basic Generative Adversarial Networks (GANs)",
-        "provider": "DeepLearning.AI",
-        "grade": "100%",
-        "link": "https://coursera.org/share/62b487f311446e613e03d66c25c0391c",
-        "pdf": "/courses/Build_Basic_Generative_Adversarial_Networks.pdf"
-    },
-    {
-        "name": "Advanced React",
+        "name": " React Basics",
         "provider": "Meta",
-        "grade": "93.33%",
-        "link": "https://coursera.org/share/8f31b0142e76e318e140582f9265fa3c",
-        "pdf": "/courses/Advanced_React.pdf"
+        "grade": "100%",
+        "link": "https://coursera.org/verify/XLYHY4Y22QXW",
+        "pdf": "/courses/react.pdf"
     },
     {
-        "name": "React Native",
+        "name": " Django Web Framework",
+        "provider": "Meta",
+        "grade": "100%",
+        "link": "https://coursera.org/verify/DTLE871JU5O4",
+        "pdf": "/courses/Django.pdf"
+    },
+    {
+        "name": " Foundations of Digital Marketing and E-commerce",
+        "provider": "Google",
+        "grade": "93.33%",
+        "link": "https://coursera.org/verify/CKNPQJFYAEDJ",
+        "pdf": "/courses/digital_marketing.pdf"
+    },
+    {
+        "name": " Introduction to Social Media Marketing",
         "provider": "Meta",
         "grade": "97.50%",
-        "link": "https://coursera.org/share/ff647c6f7390c2e03c2d56baca38283b",
-        "pdf": "/courses/React_Native.pdf"
+        "link": "https://coursera.org/verify/FR5547URTUD2 ",
+        "pdf": "/courses/social_media.pdf"
     },
     {
-        "name": "React Basics",
-        "provider": "Meta",
+        "name": " C++ For C Programmers, Part A",
+        "provider": "US Santa Cruz",
         "grade": "100%",
-        "link": "https://coursera.org/share/8f24a8dbf3d7e8e4faa14e397a5122e3",
-        "pdf": "/courses/React_Basics.pdf"
+        "link": "https://coursera.org/verify/FPM7MSRMK54K",
+        "pdf": "/courses/c++.pdf"
     },
     {
-        "name": "Version Control",
-        "provider": "Meta",
+        "name": " Introduction to the Internet of Things and Embedded Systems",
+        "provider": "University of California, Irvine",
         "grade": "100%",
-        "link": "https://coursera.org/share/5a0f3f89567b965bcc723188d43fffa7",
-        "pdf": "/courses/Version_Control.pdf"
+        "link": "https://coursera.org/verify/2GC5Q3NC34MT",
+        "pdf": "/courses/iot.pdf"
     },
     {
-        "name": "Introduction to MongoDB",
-        "provider": "MongoDB Inc.",
+        "name": "Supervised Machine Learning: Regression and Classification",
+        "provider": "DeepLearning.AI",
         "grade": "72.84%",
-        "link": "https://coursera.org/share/54c2d14bbf754470d22d64870c2ba5ae",
-        "pdf": "/courses/Introduction_to_MongoDB.pdf"
-    },
-    {
-        "name": "Developing Back-End Apps with Node.js and Express",
-        "provider": "IBM",
-        "grade": "85%",
-        "link": "https://coursera.org/share/aabc3f17b3e81db18c74faa4fc88cced",
-        "pdf": "/courses/Developing_Back-End_Apps_with_Node.js_and_Express.pdf"
-    },
-    {
-        "name": "Python for Data Science, AI & Development",
-        "provider": "IBM",
-        "grade": "88.33%",
-        "link": "https://coursera.org/share/ca107d8f1642d71e58a13c6686ced191",
-        "pdf": "/courses/Python_for_Data_Science,_AI_&_Development.pdf"
-    },
-    {
-        "name": "Programming for Everybody (Getting Started with Python)",
-        "provider": "University of Michigan",
-        "grade": "97.52%",
-        "link": "https://coursera.org/share/35baca2983b8c3b67bc80752f988ca27",
-        "pdf": "/courses/Programming_for_Everybody.pdf"
-    },
-    {
-        "name": "Python Data Structures",
-        "provider": "University of Michigan",
-        "grade": "96.80%",
-        "link": "https://coursera.org/share/20e5c824b0811b1f051a39c8168c3b25",
-        "pdf": "/courses/Python_Data_Structures.pdf"
-    },
-    {
-        "name": "AWS Cloud Technical Essentials",
-        "provider": "Amazon Web Services",
-        "grade": "98.33%",
-        "link": "https://coursera.org/share/fd343f982dd58bec7c4e5826737b6749",
-        "pdf": "/courses/AWS_Cloud_Technical_Essentials.pdf"
-    },
-    {
-        "name": "Foundations: Data, Data, Everywhere",
-        "provider": "Google",
-        "grade": "95%",
-        "link": "https://coursera.org/share/88a2d8451da100875fba5cf3234dbafd",
-        "pdf": "/courses/Foundations_Data_Data_Everywhere.pdf"
+        "link": "https://coursera.org/verify/ZSGPSYK47YJV",
+        "pdf": "/courses/supervised_machine_learning.pdf"
     }
 ]

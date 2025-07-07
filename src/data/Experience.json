@@ -1,73 +1,61 @@
 [
   {
-    "role": "Freelance Developer",
-    "company": "The Civista",
-    "duration": "June 2025 - July 2025",
+    "role": "CRM Intern",
+    "company": "UrbanTap",
+    "duration": "May 2025 – Present",
     "tasks": [
-      "Designed and developed a professional website for the civil engineering company",
-      "Created dedicated Services and Projects sections to effectively showcase their portfolio",
-      "Implemented a responsive contact form to facilitate client communication and lead generation"
+      "Strengthened relationships across a network of 2000+ real estate brokers on UrbanTap, a Dubai-based B2B platform",
+      "Maintained consistent feedback loops with clients, ensuring long-term satisfaction through timely support and personalized communication",
+      "Built trust-driven connections using strong communication skills, boosting broker retention and platform advocacy"
     ]
   },
   {
-    "role": "Full Stack Developer Intern",
-    "company": "Zen Study",
-    "duration": "December 2024 - February 2025",
+    "role": "Client Outreach Specialist",
+    "company": "HerMark Press",
+    "duration": "September 2024 – May 2025",
     "tasks": [
-      "Contributed to the development of an educational platform enabling educators to stream and upload video content",
-      "Implemented DRM-protected Shaka Player integration to prevent content piracy and ensure intellectual property protection",
-      "Developed live class streaming functionality with automatic session recording storage on AWS S3"
+      "Empowered 20+ women writers by guiding them through the publishing journey at HerMark, a startup dedicated to amplifying untold stories and giving women a voice in literature",
+      "Built meaningful relationships with authors, ensuring personalized support and increased engagement throughout the publication cycle"
     ]
   },
   {
-    "role": "Full Stack Developer",
-    "company": "Mehk Chemicals",
-    "duration": "January 2025 - March 2025",
+    "role": "Program Manager",
+    "company": "theDevArmy",
+    "duration": "June 2023 – November 2024",
     "tasks": [
-      "Developed a comprehensive CRM system for the chemical supply agency",
-      "Implemented advanced analytics and streamlined order and dispatch processes",
-      "Created a supply requirement system to calculate production needs based on order volumes",
-      "Integrated multi-currency support to accommodate international export clients"
+      "Managed end-to-end onboarding process of new student members, enhancing community structure and engagement",
+      "Conducted virtual networking meetups to foster connections and boost collaborative growth among members",
+      "Organized monthly meetups for like-minded individuals, curating topics and onboarding renowned speakers regularly"
     ]
   },
   {
-    "role": "Full Stack Developer Intern",
-    "company": "33 Solutions",
-    "duration": "November 2024 - February 2025",
+    "role": "Vice-President & Former Events Co-Lead",
+    "company": "The CodeBreakers Club, RBU",
+    "duration": "August 2023 – June 2025",
     "tasks": [
-      "Developed a Bounty Reward Platform that successfully boosted sales for 5 partner businesses",
-      "Built Azure serverless functions to efficiently process KERN Seed data for 500+ farmers",
-      "Created a comprehensive CRM dashboard for Mehek Chemicals, optimizing operations for 1,000+ customers and 200+ employees"
+      "Led a team of 50+ members, organizing 10+ events including national-level hackathons, workshops, and speaker sessions",
+      "Collaborated with cross-functional teams to ensure seamless execution of technical and recruitment events",
+      "Drove technical growth and student engagement by conducting hackathons and fostering leadership among members"
     ]
   },
   {
-    "role": "President",
-    "company": "The CodeBreakers Club",
-    "duration": "September 2024 - Present",
+    "role": "UI/UX Designer",
+    "company": "GBJ Buzz",
+    "duration": "March – May 2024",
     "tasks": [
-      "Organized technical workshops and hackathons to enhance members' coding skills and industry knowledge",
-      "Established partnerships with industry experts to provide mentorship and career guidance",
-      "Led a dynamic team of 20+ members in competitive coding competitions and collaborative projects"
+      "Enhanced user satisfaction by optimizing 10+ web and mobile interfaces in Figma",
+      "Developed interactive pages with CSS animations and Framer Motion, enhancing user engagement",
+      "Replicated 5+ major website designs to refine UI/UX skills, contributing to faster project turnaround times"
     ]
   },
   {
-    "role": "Content Lead",
-    "company": "The CodeBreakers Club",
-    "duration": "September 2023 - September 2024",
+    "role": "Executive Member",
+    "company": "DASCA",
+    "duration": "December 2023 – June 2025",
     "tasks": [
-      "Developed and managed content strategy for the club's website and social media platforms",
-      "Coordinated with cross-functional teams to create engaging technical articles and tutorials",
-      "Organized educational events and workshops to promote coding skills and technology awareness within the community"
-    ]
-  },
-  {
-    "role": "Frontend Developer",
-    "company": "Hashtag City",
-    "duration": "March 2022 - April 2022",
-    "tasks": [
-      "Collaborated with the design and development team to create intuitive UI components and smooth animations",
-      "Implemented responsive design principles and ensured cross-browser compatibility across multiple platforms",
-      "Participated in code reviews and provided constructive feedback to maintain code quality standards"
+      "Organized engaging community events including Git, GitHub, LinkedIn, and hands-on technical sessions",
+      "Planned and executed fun activities to increase member participation and team bonding",
+      "Contributed to knowledge-sharing initiatives by hosting interactive learning workshops"
     ]
   }
 ]
