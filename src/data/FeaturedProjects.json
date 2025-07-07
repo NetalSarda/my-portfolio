@@ -1,60 +1,63 @@
 [
-    {
-    "title": "No-Code Node",
-    "description": "A powerful visual MongoDB schema designer and API generator. Build your backend without writing code using an intuitive interface and TypeScript support.",
-    "link": "https://no-code-node-nine.vercel.app/",
+  {
+    "title": "Gesture Path",
+    "description": "Real-time hand gesture recognition and path tracking using OpenCV, MediaPipe, and TensorFlow.",
+    "link": "https://github.com/NetalSarda/Gesture__Path.git",
     "technologyUsed": [
-      "React.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "MongoDB",
-      "Express.js",
-      "React Flow",
-      "Node.js"
+      "Python",
+      "OpenCV",
+      "MediaPipe",
+      "TensorFlow",
+      "NumPy",
+      "Pandas",
+      "scikit-learn",
+      "Matplotlib"
     ],
     "features": [
-      "Visual Schema Design: Design your MongoDB schemas visually with an intuitive drag-and-drop interface.",
-      "Auto-Generated APIs: Get fully functional CRUD APIs automatically generated from your schema design.",
-      "TypeScript Support: Generate type-safe MongoDB models with TypeScript interfaces and validations."
+      "Real-Time Recognition: Tracks and classifies hand gestures in real-time using a webcam feed.",
+      "Preprocessing Pipeline: Implemented data cleaning and preprocessing using NumPy and Pandas to improve accuracy.",
+      "Gesture Classification: Used scikit-learn for model training and evaluation to classify gesture patterns.",
+      "Visualization: Plotted gesture path trajectories and classification results using Matplotlib for interpretability."
     ],
-    "image": "/portfolio/projects/no-code-node.png"
+    "image": "/portfolio/projects/gesture_path.png"
   },
   {
-    "title": "Last Take",
-    "description": "Last Take is an exciting online multiplayer survival game where players face off in a round-table environment, using strategy, manipulation, and luck to survive and outlast their opponents.",
-    "link": "",
-    "technologyUsed": ["React.js", "Three.js", "Socket.io", "Peer.js"],
-    "github": "https://github.com/Khanba22/online-game",
-    "features": [
-      "Multiplayer Gameplay: Play with multiple players in real-time, connected via Socket.io for seamless game interactions.",
-      "3D Environment: Experience an immersive 3D environment built with Three.js, enhancing the overall visual experience.",
-      "Survival Mechanics: Players are seated around a table where a gun is passed around, containing both live and fake bullets, and players must rely on luck and strategy to survive the longest.",
-      "Abilities: Players have access to various abilities and equipment that can be used to deceive, manipulate, or eliminate opponents.",
-      "Luck Factor: With random outcomes influenced by the presence of both live and fake bullets, luck plays a critical role in determining who survives.",
-      "Voice Chat: Communicate with other players in real-time using the integrated Peer.js voice chat feature, enabling strategic communication and deception."
+    "title": "Git Connect AI",
+    "description": "An AI-powered platform that simplifies collaboration by letting contributors query repositories, analyze commits, and manage team meetings intelligently.",
+    "link": "https://git-connect-ai.vercel.app",
+    "technologyUsed": [
+      "Next.js",
+      "TypeScript",
+      "Gemini",
+      "LangChain",
+      "Assembly AI",
+      "GitHub API"
     ],
-    "image": "/portfolio/projects/last_take.png"
+    "features": [
+      "AI-Powered Code Understanding: Leverages Gemini and LangChain to explain code logic and structure within Git repositories.",
+      "Contributor Query System: Allows users to ask natural language questions about code and view exact commit references.",
+      "Meeting & Documentation Integration: Uses Assembly AI to analyze discussions and auto-generate meeting documentation.",
+      "Improved Onboarding: Helps new contributors get context quickly with auto-summary and code walkthrough features."
+    ],
+    "image": "/portfolio/projects/git_connect_ai.png"
   },
   {
-    "title": "UI Component Library",
-    "description": "A fully typed, themeable, and performant React component library designed for building responsive and composable user interfaces with dark mode support.",
-    "link": "https://v0-next-js-component-library.vercel.app/",
+    "title": "FacePings",
+    "description": "A face recognition-based attendance system using Python, OpenCV, and the face_recognition library for real-time identification and logging.",
+    "link": "https://github.com/NetalSarda/FacePings.git",
     "technologyUsed": [
-      "TypeScript",
-      "React.js",
-      "Tailwind CSS",
-      "Vite",
-      "Rollup",
-      "Context API"
+      "Python",
+      "OpenCV",
+      "face_recognition",
+      "NumPy",
+      "SQLite"
     ],
     "features": [
-      "TypeScript Ready: Fully typed components for better developer experience and fewer bugs.",
-      "Themeable: Customize colors and styles through a centralized theme context.",
-      "Performant: Optimized for performance with minimal bundle size and efficient rendering.",
-      "Composable: Build complex UIs by combining simple, reusable components.",
-      "Responsive: Looks great on any device with responsive design principles.",
-      "Dark Mode: Built-in support for light and dark modes with smooth transitions."
+      "Face Detection and Encoding: Real-time face detection using webcam input and encoding with the face_recognition library.",
+      "Attendance Logging: Automatically marks and logs attendance by matching captured faces against known encodings.",
+      "Secure Design: Sensitive credentials and images are handled securely to follow best practices.",
+      "Database Integration: Attendance records are stored and retrieved using an SQLite database."
     ],
-    "image": "/portfolio/projects/ui-library.png"
+    "image": "/portfolio/projects/facepings.png"
   }
 ]

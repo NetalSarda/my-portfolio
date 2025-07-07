@@ -1,16 +1,5 @@
 [
-    {
-      "name": "AWS",
-      "iconName": "aws"
-    },
-    {
-      "name": "Azure",
-      "iconName": "azure"
-    },
-    {
-      "name": "Google Cloud",
-      "iconName": "gcloud"
-    },
+    
     {
       "name": "Fire Base",
       "iconName": "firebase"
@@ -51,11 +40,7 @@
       "name": "MongoDB",
       "iconName": "mongodb"
     },
-    {
-      "name": "GraphQL",
-      "iconName": "graphql"
-    },
-
+    
     {
       "name": "Redux",
       "iconName": "redux"
@@ -76,10 +61,7 @@
       "name": "Next.js",
       "iconName": "nextjs"
     },
-    {
-      "name": "Three.js",
-      "iconName": "threejs"
-    },
+    
     {
       "name": "Tailwind CSS",
       "iconName": "tailwindcss"
@@ -92,10 +74,7 @@
       "name": "HTML",
       "iconName": "html5"
     },
-    {
-      "name": "Postman",
-      "iconName": "postman"
-    },
+    
     {
       "name": "Git",
       "iconName": "git"
@@ -107,6 +86,27 @@
     {
       "name": "Figma",
       "iconName": "figma"
+    },
+    {
+      "name": "Canva",
+      "iconName": "canva"
+    },
+    {
+      "name": "Microsoft Teams",
+      "iconName": "Teams"
+    },
+    {
+      "name": "Microsoft Excel",
+      "iconName": "Excel"
+    },
+  
+  {
+      "name": "Photoshop",
+      "iconName": "photoshop"
+    },
+    {
+      "name": "Adobe",
+      "iconName": "adobe"
     }
   ]
   
