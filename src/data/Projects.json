@@ -19,8 +19,51 @@
       "Classification: Leveraged scikit-learn models to accurately classify user gestures.",
       "Visualization: Real-time gesture visualization with plotted paths using Matplotlib."
     ],
-    "image": "/portfolio/projects/gesture_path.png"
+    "image": "/portfolio/projects/gesturepath.png"
   },
+  {
+  "title": "Amrit Air Quality Dashboard",
+  "description": "A modern, interactive dashboard for visualizing air quality and sensor data across regions, featuring real-time map overlays, customizable controls, and live statistics.",
+  "link": "https://github.com/yourusername/amrit-dashboard-frontend",  
+  "technologyUsed": [
+    "React",
+    "Vite",
+    "React Leaflet",
+    "JavaScript",
+    "Context API",
+    "SWR",
+    "CSS"
+  ],
+  "features": [
+    "Interactive Map: Visualizes air quality and sensor data with polygons and markers.",
+    "Mock & Real Data Modes: Instantly switch between demo data and live API data.",
+    "Customizable Controls: Filter by date, time, sampling period, and pollutant.",
+    "Auto-Refresh: Dashboard updates automatically at user-defined intervals.",
+    "Legend & Stats: Color-coded legend and live statistics for selected regions.",
+    "Responsive UI: Works on desktop and mobile devices."
+  ],
+  "image": "/portfolio/projects/amrit.png"
+},
+{
+  "title": "Tukido",
+  "description": "A comprehensive Figma design for TUKIDO, an online tutoring platform featuring both mobile and web views, interactive animations, advanced prototyping, and detailed wireframing.",
+  "link": "https://www.figma.com/file/yourfigmaprojectlink",
+  "technologyUsed": [
+    "Figma",
+    "Prototyping",
+    "Wireframing",
+    "UI/UX Design",
+    "Animation"
+  ],
+  "features": [
+    "Multi-Platform Design: Separate layouts for both mobile and web experiences.",
+    "Interactive Animations: Engaging transitions and micro-interactions throughout the user journey.",
+    "Advanced Prototyping: Clickable flows simulating real user interactions for both students and tutors.",
+    "Comprehensive Wireframes: Detailed wireframes for all major screens and user flows.",
+    "Modern UI: Clean, accessible, and visually appealing interface tailored for online education."
+  ],
+  "image": "/portfolio/projects/tukido.png"  
+},
   {
     "title": "Git Connect AI",
     "description": "An AI-powered platform that simplifies collaboration by letting contributors query repositories, analyze commits, and manage team meetings intelligently.",
@@ -39,7 +82,7 @@
       "Meeting Analysis: Uses Assembly AI for transcript generation and documentation.",
       "Smart Onboarding: Auto-generated insights to onboard new contributors efficiently."
     ],
-    "image": "/portfolio/projects/git_connect_ai.png"
+    "image": "/portfolio/projects/gitconnectai.png"
   },
   {
     "title": "FacePings",
@@ -83,7 +126,7 @@
       "Props & State: Reinforces core React concepts with reusable components.",
       "Static API Data Fetching: Pulls mock monster data and maps into UI cards."
     ],
-    "image": "/portfolio/projects/monsters_rolodex.png"
+    "image": "/portfolio/projects/monster.png"
   },
   {
     "title": "Password Torch UI",
@@ -95,7 +138,7 @@
       "Custom Visibility Toggle: Replaces generic eye icon with animated torch switch.",
       "Modern UI Design: Clean, responsive layout with shadow-based depth simulation."
     ],
-    "image": "/portfolio/projects/password_torch.png"
+    "image": "/portfolio/projects/password.png"
   },
   {
     "title": "PawSwipe",
@@ -144,5 +187,66 @@
       "Decentralized Storage: Utilizes IPFS to store large logs while keeping hashes on-chain."
     ],
     "image": "/portfolio/projects/log_analyzer.png"
-  }
+  },
+
+  {
+  "title": "Social Hub Website Design",
+  "description": "A feature-rich Figma project for Social Hub, a modern social networking platform. The design includes high-fidelity mockups, interactive prototypes, and advanced animations for both desktop and mobile views. The project demonstrates a complete product design workflow, from wireframing and user flow mapping to pixel-perfect UI, accessibility considerations, and developer handoff assets.",
+  "link": "https://www.figma.com/file/your-social-hub-figma-link",  
+  "technologyUsed": [
+    "Figma",
+    "UI/UX Design",
+    "Wireframing",
+    "Prototyping",
+    "High-Fidelity Mockups",
+    "Component Libraries",
+    "Design Tokens",
+    "Auto Layout",
+    "Smart Animate",
+    "Micro-Interactions",
+    "Responsive Design",
+    "Accessibility (a11y)",
+    "Developer Handoff"
+  ],
+  "features": [
+    "Multi-Device Mockups: Separate, fully responsive layouts for desktop and mobile.",
+    "Interactive Prototyping: Clickable flows simulating real user journeys, including onboarding, posting, messaging, and notifications.",
+    "Advanced Animations: Smooth transitions, hover effects, and micro-interactions using Figma’s Smart Animate and prototyping tools.",
+    "Component-Based Design: Reusable components, variants, and design tokens for scalable UI development.",
+    "Wireframes to Final UI: Complete workflow from low-fidelity wireframes to polished, branded high-fidelity screens.",
+    "Accessibility-First: Color contrast, font choices, and navigation designed for inclusivity.",
+    "Developer Handoff: Well-organized layers, naming conventions, and Figma’s inspect mode for easy collaboration with developers."
+  ],
+  "image": "/portfolio/projects/social_hub_figma.png" 
+},
+{
+  "title": "Shopify Store Design for Natural Homemade Products",
+  "description": "A professional Figma design project for a Shopify-based e-commerce brand specializing in natural, homemade products such as ghee and oils. The project covers the full design lifecycle, including wireframing, high-fidelity mockups, interactive prototyping, and engaging animations. The design emphasizes a clean, organic aesthetic, intuitive navigation, and conversion-focused UI elements tailored for artisanal product sales.",
+  "link": "https://www.figma.com/file/your-shopify-figma-link",
+  "technologyUsed": [
+    "Figma",
+    "UI/UX Design",
+    "Wireframing",
+    "Prototyping",
+    "Auto Layout",
+    "Smart Animate",
+    "Micro-Interactions",
+    "Responsive Design",
+    "E-commerce UX",
+    "Shopify Design System",
+    "Branding",
+    "Developer Handoff"
+  ],
+  "features": [
+    "E-commerce Focused: Product listing, detail, cart, and checkout flows designed for Shopify integration.",
+    "Organic Branding: Visuals and color palette inspired by natural, homemade products.",
+    "Interactive Prototyping: Clickable user flows for browsing, adding to cart, and purchasing.",
+    "Advanced Animations: Smooth transitions and micro-interactions for a delightful shopping experience.",
+    "Mobile-First & Responsive: Designs optimized for both mobile and desktop shoppers.",
+    "Component-Based UI: Reusable Figma components and variants for scalable design.",
+    "Wireframes to Final UI: Complete journey from low-fidelity wireframes to polished, branded screens.",
+    "Developer Handoff: Organized layers, clear naming, and Figma inspect mode for seamless collaboration."
+  ],
+  "image": "/portfolio/projects/ghee.png"  
+}
 ]
