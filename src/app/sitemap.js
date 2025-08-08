@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://my-portfolio-mushan-khan.vercel.app/'; // Replace with your actual domain
+  const baseUrl = 'https://my-portfolio-netal-sarda.vercel.app/'; // Replace with your actual domain
   
   return [
     {

@@ -57,7 +57,7 @@ export default function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          to: "mushankhan27@gmail.com", // The recipient email
+          to: "netalsarda@gmail.com", // The recipient email
           subject: `Contact Form Submission from ${formData.name}`,
         }),
       });

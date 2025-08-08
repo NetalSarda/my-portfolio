@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mushankhan.com/sitemap.xml
+Sitemap: https://netalsarda.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1 

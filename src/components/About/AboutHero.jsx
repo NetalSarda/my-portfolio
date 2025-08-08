@@ -40,7 +40,7 @@ const AboutHero = () => {
             textShadow: "0 5px 15px var(--text-shadow)",
           }}
         >
-          Mushan Khan
+          Netal Sarda
         </h1>
 
         <p
@@ -49,7 +49,7 @@ const AboutHero = () => {
           }`}
           style={{ color: "var(--text-color)" }}
         >
-          Hi, I’m Mushan Khan, a full-stack developer with experience building scalable web applications from the ground up. I specialize in modern JavaScript frameworks like React and Node.js, and I’m passionate about creating seamless user experiences backed by solid backend architecture. I’ve worked across frontend, backend, and DevOps, and I enjoy turning complex problems into clean, efficient solutions.
+          Hi, I'm Netal Sarda, a full-stack developer with experience building scalable web applications from the ground up. I specialize in modern JavaScript frameworks like React and Node.js, and I'm passionate about creating seamless user experiences backed by solid backend architecture. I've worked across frontend, backend, and DevOps, and I enjoy turning complex problems into clean, efficient solutions.
         </p>
 
 

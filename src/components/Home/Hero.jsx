@@ -169,7 +169,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
                 boxShadow: "0 15px 35px rgba(0, 0, 0, 0.3)",
                 border: "1px solid rgba(255, 255, 255, 0.1)",
               }}
-              src="/images/Mushan.jpg"
+              src="/images/Netal.jpg"
             />
             <div
               className={`absolute bottom-0 left-0 right-0 top-0 transition-all duration-500 rounded-lg flex items-end p-8 ${

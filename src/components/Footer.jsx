@@ -47,7 +47,7 @@ export default function ModernFooter() {
             }`}
           >
             <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-              Mushan Khan
+                              Netal Sarda
             </h2>
             <p className="text-sm text-gray-400 max-w-xs">
               I&apos;m a passionate software engineer with a focus on creating
@@ -55,21 +55,21 @@ export default function ModernFooter() {
             </p>
             <div className="flex space-x-5">
               <Link
-                href="https://github.com/Khanba22"
+                href="https://github.com/netalsarda"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://www.linkedin.com/in/mushankhan/"
+                href="https://www.linkedin.com/in/netalsarda/"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="https://instagram.com/mushan_khan_22"
+                href="https://instagram.com/netal_sarda"
                 className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
               >
                 <Instagram className="h-5 w-5" />
@@ -158,7 +158,7 @@ export default function ModernFooter() {
                   href="mailto:julia.huang@example.com"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  mushankhan27@gmail.com
+                  netalsarda@gmail.com
                 </Link>
               </li>
               <li className="text-gray-400 flex items-center space-x-3">
@@ -176,7 +176,7 @@ export default function ModernFooter() {
           }`}
         >
           <p className="text-xs text-gray-500">
-            © 2025 Mushan Khan. All rights reserved.
+                            © 2025 Netal Sarda. All rights reserved.
           </p>
           <div className="mt-4 flex space-x-6 sm:mt-0">
             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(

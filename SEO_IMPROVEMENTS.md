@@ -1,4 +1,4 @@
-# SEO Improvements for Mushan Khan Portfolio
+# SEO Improvements for Netal Sarda Portfolio
 
 ## Overview
 This document outlines the comprehensive SEO improvements made to the portfolio website to enhance search engine visibility and user experience.
@@ -93,7 +93,7 @@ Added three types of structured data:
 ## Next Steps
 
 ### 1. Domain Configuration
-- Replace `https://mushankhan.com` with your actual domain in:
+- Replace `https://netalsarda.com` with your actual domain in:
   - `src/app/layout.js` (metadataBase and URLs)
   - `src/app/sitemap.js` (baseUrl)
   - `public/robots.txt` (Sitemap URL)

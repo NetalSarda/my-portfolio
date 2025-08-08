@@ -158,7 +158,7 @@
     "description": "A service-based e-commerce platform to book daily services like electricians, mechanics, or chefs — complete with calendar selection and admin dashboard.",
     "link": "",
     "technologyUsed": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    "github": "https://github.com/Khanba22/servico-frontend",
+    "github": "https://github.com/netalsarda/servico-frontend",
     "features": [
       "Booking System: Allows users to select service, date, time, and confirm bookings.",
       "Calendar Integration: Service availability linked to custom calendar slots.",
