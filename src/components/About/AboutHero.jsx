@@ -100,9 +100,9 @@ const AboutHero = () => {
             padding: "4px",
             boxShadow: "0 20px 50px rgba(0, 0, 0, 0.3)",
             animation: "float 6s ease-in-out infinite",
-            height: '200px', // set a fixed height for the image container
+            height: '400px', // doubled from 200px to 400px
             minHeight: 'unset',
-            maxHeight: '200px',
+            maxHeight: '400px', // doubled from 200px to 400px
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

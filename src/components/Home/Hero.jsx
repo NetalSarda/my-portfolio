@@ -138,17 +138,17 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
           {/* Second Div - Profile Image */}
           <motion.div
             initial={{
-              height: "75%",
+              height: "85%",
               x: "145%",
-              width: "25%",
+              width: "30%",
               y: "50%",
               opacity: 1,
             }}
             animate={{
-              height: clicked ? "75%" : "auto",
+              height: clicked ? "85%" : "auto",
               x: clicked ? "145%" : "0%",
               y: clicked ? "50%" : "0%",
-              width: clicked ? "25%" : "40%",
+              width: clicked ? "30%" : "45%",
             }}
             transition={{
               type: "spring",
@@ -165,7 +165,7 @@ const HeroLarge = ({ setGlobalCursorVariant }) => {
             <img
               className="h-full w-full object-cover rounded-lg overflow-hidden transition-all duration-700"
               style={{
-                filter: clicked ? "grayscale(100%)" : "grayscale(15%)",
+                filter: "none", // removed grayscale filter to keep image colored
                 boxShadow: "0 15px 35px rgba(0, 0, 0, 0.3)",
                 border: "1px solid rgba(255, 255, 255, 0.1)",
               }}

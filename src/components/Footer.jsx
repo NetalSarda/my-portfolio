@@ -31,9 +31,9 @@ export default function ModernFooter() {
   return (
     <footer
       id="modern-footer"
-      className="bg-gradient-to-b to-[rgba(0,0,0,0.8)] from-[rgba(0,0,0,0.2)] text-white relative overflow-hidden"
+      className="bg-gradient-to-b from-gray-50 to-gray-100 text-gray-800 relative overflow-hidden border-t border-gray-200"
       style={{
-        boxShadow: "0 -10px 30px rgba(0, 0, 0, 0.2)",
+        boxShadow: "0 -10px 30px rgba(0, 0, 0, 0.1)",
       }}
     >
       <div className="container mx-auto px-6 py-16 relative z-10">
@@ -46,31 +46,31 @@ export default function ModernFooter() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                               Netal Sarda
             </h2>
-            <p className="text-sm text-gray-400 max-w-xs">
+            <p className="text-sm text-gray-600 max-w-xs">
               I&apos;m a passionate software engineer with a focus on creating
               innovative solutions.
             </p>
             <div className="flex space-x-5">
               <Link
                 href="https://github.com/netalsarda"
-                className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-300 transform hover:scale-110"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
                 href="https://www.linkedin.com/in/netalsarda/"
-                className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-300 transform hover:scale-110"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
                 href="https://instagram.com/netal_sarda"
-                className="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-300 transform hover:scale-110"
               >
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
@@ -86,7 +86,7 @@ export default function ModernFooter() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-300 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-400 after:to-blue-500 after:mt-2">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-600 after:to-blue-600 after:mt-2">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -97,9 +97,9 @@ export default function ModernFooter() {
                 >
                   <Link
                     href={`/${item.toLowerCase()}`}
-                    className="text-gray-400 hover:text-white flex items-center group"
+                    className="text-gray-600 hover:text-gray-900 flex items-center group"
                   >
-                    <span className="h-px w-0 bg-blue-400 mr-0 transition-all duration-300 group-hover:w-3 group-hover:mr-2"></span>
+                    <span className="h-px w-0 bg-blue-600 mr-0 transition-all duration-300 group-hover:w-3 group-hover:mr-2"></span>
                     {item}
                   </Link>
                 </li>
@@ -115,7 +115,7 @@ export default function ModernFooter() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-300 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-400 after:to-blue-500 after:mt-2">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-600 after:to-blue-600 after:mt-2">
               Services
             </h3>
             <ul className="space-y-3">
@@ -127,9 +127,9 @@ export default function ModernFooter() {
               ].map((service, index) => (
                 <li
                   key={index}
-                  className="text-gray-400 flex items-center group"
+                  className="text-gray-600 flex items-center group"
                 >
-                  <span className="h-px w-0 bg-purple-400 mr-0 transition-all duration-300 group-hover:w-3 group-hover:mr-2"></span>
+                  <span className="h-px w-0 bg-purple-600 mr-0 transition-all duration-300 group-hover:w-3 group-hover:mr-2"></span>
                   {service}
                 </li>
               ))}
@@ -144,25 +144,25 @@ export default function ModernFooter() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-300 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-400 after:to-blue-500 after:mt-2">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700 after:content-[''] after:block after:w-12 after:h-1 after:bg-gradient-to-r after:from-purple-600 after:to-blue-600 after:mt-2">
               Contact Info
             </h3>
             <ul className="space-y-3">
-              <li className="text-gray-400 flex items-center space-x-3">
-                <MapPin className="h-4 w-4 text-blue-400" />
+              <li className="text-gray-600 flex items-center space-x-3">
+                <MapPin className="h-4 w-4 text-blue-600" />
                 <span>Nagpur, Maharashtra, India</span>
               </li>
-              <li className="text-gray-400 flex items-center space-x-3 group">
-                <Mail className="h-4 w-4 text-blue-400" />
+              <li className="text-gray-600 flex items-center space-x-3 group">
+                <Mail className="h-4 w-4 text-blue-600" />
                 <Link
-                  href="mailto:julia.huang@example.com"
-                  className="hover:text-white transition-colors duration-300"
+                  href="mailto:netalsarda@gmail.com"
+                  className="hover:text-gray-900 transition-colors duration-300"
                 >
                   netalsarda@gmail.com
                 </Link>
               </li>
-              <li className="text-gray-400 flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-blue-400" />
+              <li className="text-gray-600 flex items-center space-x-3">
+                <Phone className="h-4 w-4 text-blue-600" />
                 <span>+91 8624909744</span>
               </li>
             </ul>
@@ -171,7 +171,7 @@ export default function ModernFooter() {
 
         {/* Bottom Section */}
         <div
-          className={`mt-16 flex flex-col sm:items-center justify-between border-t border-gray-800 pt-8 sm:flex-row transition-all duration-1000 delay-500 ${
+          className={`mt-16 flex flex-col sm:items-center justify-between border-t border-gray-300 pt-8 sm:flex-row transition-all duration-1000 delay-500 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -184,7 +184,7 @@ export default function ModernFooter() {
                 <Link
                   key={index}
                   href="#"
-                  className="text-xs text-gray-500 hover:text-white transition-colors duration-300"
+                  className="text-xs text-gray-500 hover:text-gray-700 transition-colors duration-300"
                 >
                   {item}
                 </Link>
