@@ -1,25 +1,24 @@
 export const personStructuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Mushan Khan",
-  "jobTitle": "Software Engineer",
-  "description": "Hi, I'm Mushan Khan, a passionate Software Engineer and Full Stack Developer. I specialize in React, Node.js, and modern web technologies.",
-  "url": "https://mushankhan",
-  "image": "https://mushankhan.com/images/profile_mushan.png",
+  "name": "Netal Sarda",
+  "jobTitle": "Full Stack Developer & Data Analyst",
+  "description": "Hi, I’m Netal Sarda — a full stack developer and data enthusiast passionate about building scalable and impactful web applications.",
+  "url": "https://netalsarda.dev",  // Change to your actual portfolio URL if any
+  "image": "https://netalsarda.dev/images/profile.png",  // Replace with your actual profile image link
   "sameAs": [
-    "https://github.com/mushankhan",
-    "https://linkedin.com/in/mushankhan",
-    "https://instagram.com/mushankhan"
+    "https://github.com/netalsarda",
+    "https://linkedin.com/in/netalsarda"
   ],
   "knowsAbout": [
     "React",
     "Node.js",
     "JavaScript",
-    "TypeScript",
-    "Next.js",
-    "Web Development",
-    "Full Stack Development",
-    "Software Engineering"
+    "SQL",
+    "Data Analysis",
+    "Python",
+    "MongoDB",
+    "Full Stack Development"
   ],
   "alumniOf": {
     "@type": "EducationalOrganization",
@@ -34,16 +33,16 @@ export const personStructuredData = {
 export const websiteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Mushan Khan Portfolio",
-  "description": "Hi, I'm Mushan Khan, a passionate Software Engineer and Full Stack Developer. I specialize in React, Node.js, and modern web technologies.",
-  "url": "https://mushankhan",
+  "name": "Netal Sarda Portfolio",
+  "description": "Portfolio of Netal Sarda — Full Stack Developer and Data Analyst specializing in web development and insightful data solutions.",
+  "url": "https://netalsarda.dev",  // Your portfolio URL
   "author": {
     "@type": "Person",
-    "name": "Mushan Khan"
+    "name": "Netal Sarda"
   },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://mushankhan.com/search?q={search_term_string}",
+    "target": "https://netalsarda.dev/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 };
@@ -51,13 +50,13 @@ export const websiteStructuredData = {
 export const organizationStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Mushan Khan",
-  "url": "https://mushankhan",
-  "logo": "https://mushankhan.com/icon.png",
-  "description": "Software Engineer and Full Stack Developer specializing in React, Node.js, and modern web technologies.",
+  "name": "Netal Sarda",
+  "url": "https://netalsarda.dev",
+  "logo": "https://netalsarda.dev/icon.png",  // Replace with your actual favicon or logo
+  "description": "Full Stack Developer and Data Analyst skilled in building responsive applications and driving insights through data.",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
-    "email": "mushankhan27@gmail.com"
+    "email": "netalsarda11@gmail.com"
   }
-}; 
+};

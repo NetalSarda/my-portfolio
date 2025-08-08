@@ -12,30 +12,28 @@ const Designation = () => {
   const [typingSpeed, setTypingSpeed] = useState(30);
 
   const texts = [
-    "Full Stack Developer Redefining Web Applications with Innovative Solutions",
-    "Creative Engineer Crafting Seamless User Experiences with Modern Technologies",
+    "Full Stack Developer & Data Analyst",
+    "Engineer Bridging Web Applications and Data Insights",
+    "Developer Empowering Products with Code and Data",
   ];
 
   const lowerTexts = [
-    "Crafting exceptional digital experiences through code",
-    "Crafting seamless user experiences with modern technologies",
+    "Turning data into features. Turning ideas into web apps.",
+    "Code meets data to create seamless digital experiences.",
+    "Blending backend logic with real-world analytics.",
   ];
 
   const typingRef = useRef(null);
 
-  // Handle initial visibility
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
-  // Typing animation effect
   useEffect(() => {
     const currentText = texts[textIndex];
 
     if (isDeleting) {
-      // Deleting text
       setIsHovered(false);
-
       if (displayText.length > 0) {
         typingRef.current = setTimeout(() => {
           setDisplayText(currentText.substring(0, displayText.length - 1));
@@ -43,20 +41,18 @@ const Designation = () => {
       } else {
         setIsDeleting(false);
         setTextIndex((textIndex + 1) % texts.length);
-        setTypingSpeed(50); // Slightly slower when starting to type
+        setTypingSpeed(50);
       }
     } else {
-      // Typing text
       setIsHovered(true);
       if (displayText.length < currentText.length) {
         typingRef.current = setTimeout(() => {
           setDisplayText(currentText.substring(0, displayText.length + 1));
         }, typingSpeed);
       } else {
-        // Pause at the end before starting to delete
         typingRef.current = setTimeout(() => {
           setIsDeleting(true);
-          setTypingSpeed(15); // Faster when deleting
+          setTypingSpeed(15);
         }, 2000);
       }
     }
@@ -67,7 +63,7 @@ const Designation = () => {
   }, [displayText, isDeleting, textIndex, typingSpeed, texts]);
 
   return (
-    <div className="relative overflow-hidden h-full flex flex-col justify-between w-full ">
+    <div className="relative overflow-hidden h-full flex flex-col justify-between w-full">
       <div
         className={`relative flex flex-col justify-between h-full gap-4 transition-all duration-1000 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -120,9 +116,7 @@ const Designation = () => {
         <div>
           <div
             className={`flex gap-2 px-6 sm:px-4 transition-all duration-500 ${
-              isHovered
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-4"
+              isHovered ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
             <Sparkles
@@ -137,13 +131,11 @@ const Designation = () => {
             </p>
           </div>
 
-          {/* Animated underline */}
           <div
             className="h-px mx-6 sm:m-4 mt-2 transition-all duration-700"
             style={{
               width: isHovered ? "200px" : "0px",
-              backgroundImage:
-                "linear-gradient(to right, #EAEAEA, transparent)",
+              backgroundImage: "linear-gradient(to right, #EAEAEA, transparent)",
             }}
           />
         </div>

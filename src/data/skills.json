@@ -1,112 +1,132 @@
 [
-    
-    {
-      "name": "Fire Base",
-      "iconName": "firebase"
-    },
-    {
-      "name": "Docker",
-      "iconName": "docker"
-    },
-    {
-      "name": "Java",
-      "iconName": "java"
-    },
-    {
-      "name": "C++",
-      "iconName": "c++"
-    },
-    {
-      "name": "Python",
-      "iconName": "python"
-    },
-    {
-      "name": "Flask",
-      "iconName": "flask"
-    },
-    {
-      "name": "Node.js",
-      "iconName": "nodejs"
-    },
-    {
-      "name": "PostgreSQL",
-      "iconName": "postgresql"
-    },
-    {
-      "name": "MySQL",
-      "iconName": "mysql"
-    },
-    {
-      "name": "MongoDB",
-      "iconName": "mongodb"
-    },
-    
-    {
-      "name": "Redux",
-      "iconName": "redux"
-    },
-    {
-      "name": "TypeScript",
-      "iconName": "typescript"
-    },
-    {
-      "name": "JavaScript",
-      "iconName": "js"
-    },
-    {
-      "name": "React",
-      "iconName": "reactjs"
-    },
-    {
-      "name": "Next.js",
-      "iconName": "nextjs"
-    },
-    
-    {
-      "name": "Tailwind CSS",
-      "iconName": "tailwindcss"
-    },
-    {
-      "name": "CSS",
-      "iconName": "css3"
-    },
-    {
-      "name": "HTML",
-      "iconName": "html5"
-    },
-    
-    {
-      "name": "Git",
-      "iconName": "git"
-    },
-    {
-      "name": "GitHub",
-      "iconName": "github"
-    },
-    {
-      "name": "Figma",
-      "iconName": "figma"
-    },
-    {
-      "name": "Canva",
-      "iconName": "canva"
-    },
-    {
-      "name": "Microsoft Teams",
-      "iconName": "Teams"
-    },
-    {
-      "name": "Microsoft Excel",
-      "iconName": "Excel"
-    },
+  {
+    "name": "Fire Base",
+    "iconName": "firebase"
+  },
+  {
+    "name": "Java",
+    "iconName": "java"
+  },
+  {
+    "name": "C++",
+    "iconName": "c++"
+  },
+  {
+    "name": "Python",
+    "iconName": "python"
+  },
   
   {
-      "name": "Photoshop",
-      "iconName": "photoshop"
-    },
-    {
-      "name": "Adobe",
-      "iconName": "adobe"
-    }
-  ]
+    "name": "Node.js",
+    "iconName": "nodejs"
+  },
+  {
+    "name": "PostgreSQL",
+    "iconName": "postgresql"
+  },
+  {
+    "name": "MySQL",
+    "iconName": "mysql"
+  },
+  {
+    "name": "MongoDB",
+    "iconName": "mongodb"
+  },
   
+  {
+    "name": "TypeScript",
+    "iconName": "typescript"
+  },
+  {
+    "name": "JavaScript",
+    "iconName": "js"
+  },
+  {
+    "name": "React",
+    "iconName": "reactjs"
+  },
+  {
+    "name": "Next.js",
+    "iconName": "nextjs"
+  },
+  {
+    "name": "Tailwind CSS",
+    "iconName": "tailwindcss"
+  },
+  {
+    "name": "CSS",
+    "iconName": "css3"
+  },
+  {
+    "name": "HTML",
+    "iconName": "html5"
+  },
+  {
+    "name": "Git",
+    "iconName": "git"
+  },
+  {
+    "name": "GitHub",
+    "iconName": "github"
+  },
+  {
+    "name": "Figma",
+    "iconName": "figma"
+  },
+  {
+    "name": "Canva",
+    "iconName": "canva"
+  },
+  {
+    "name": "Microsoft Teams",
+    "iconName": "Teams"
+  },
+  {
+    "name": "Microsoft Excel",
+    "iconName": "Excel"
+  },
+  {
+    "name": "Photoshop",
+    "iconName": "photoshop"
+  },
+  {
+    "name": "Adobe",
+    "iconName": "adobe"
+  },
+  {
+    "name": "Salesforce",
+    "iconName": "salesforce"
+  },
+  
+  {
+    "name": "Slack",
+    "iconName": "slack"
+  },
+ 
+  {
+    "name": "Notion",
+    "iconName": "notion"
+  },
+  {
+    "name": "Trello",
+    "iconName": "trello"
+  },
+  {
+    "name": "ClickUp",
+    "iconName": "clickup"
+  },
+  
+  
+  {
+    "name": "Google Analytics",
+    "iconName": "googleanalytics"
+  },
+  {
+    "name": "Adobe XD",
+    "iconName": "adobexd"
+  },
+  {
+    "name": "Illustrator",
+    "iconName": "illustrator"
+  }
+]

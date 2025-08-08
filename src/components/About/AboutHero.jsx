@@ -88,23 +88,31 @@ const AboutHero = () => {
       </div>
 
       <div
-        className={`flex-1 h-full flex items-center justify-center p-4 lg:p-8 transition-all duration-1000 delay-400 ${
+        className={`flex-1 h-full flex items-start justify-center p-4 lg:p-8 transition-all duration-1000 delay-400 ${
           isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
         }`}
+        style={{ marginTop: '-2rem' }}
       >
         <div
-          className="relative w-full max-w-md mx-auto overflow-hidden rounded-3xl transition-all duration-500 hover:scale-105 animate-float"
+          className="relative w-2/3 max-w-md mx-auto overflow-hidden rounded-3xl transition-all duration-500 hover:scale-105 animate-float"
           style={{
             background: "linear-gradient(135deg, var(--gradient-start), var(--gradient-end))",
             padding: "4px",
             boxShadow: "0 20px 50px rgba(0, 0, 0, 0.3)",
             animation: "float 6s ease-in-out infinite",
+            height: '200px', // set a fixed height for the image container
+            minHeight: 'unset',
+            maxHeight: '200px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
           <img
             className="w-full h-full object-cover rounded-3xl"
-            src="/images/Mushan.jpg"
-            alt="Mushan profile picture"
+            src="/images/Netal.jpg"
+            alt="Netal profile picture"
+            style={{ height: '100%', objectFit: 'cover' }}
           />
           {/* Inner glow effect */}
           <div

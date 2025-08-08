@@ -13,14 +13,24 @@ const ProjectCard = () => {
           ipsum odio omnis maxime?
         </p>
         <div className="flex w-2/5 justify-evenly gap-4">
-          <button className="p-2 font-semibold text-white bg-[var(--background)] rounded-lg flex-1">
+          <button className="p-2 font-semibold rounded-lg flex-1"
+                  style={{
+                    background: "var(--background)",
+                    color: "var(--button-text-on-pink)"
+                  }}>
             View Project
           </button>
         
         </div>
         <div className="flex w-fit flex-wrap gap-2 items-center my-4">
           {["react", "node", "next.js", 3, 4, 5, 6, 7, 8, 9, 0].map((el) => (
-            <p className="px-2 text-sm border border-neutral-700 min-w-12 py-[2px] text-[var(--background)] font-semibold border-[var(--background)] rounded-lg " key={el}>{el}</p>
+            <p className="px-2 text-sm border border-neutral-700 min-w-12 py-[2px] font-semibold rounded-lg" 
+               style={{
+                 background: "var(--tag-bg-on-pink)",
+                 color: "var(--tag-text-on-pink)",
+                 border: "1px solid var(--background)"
+               }}
+               key={el}>{el}</p>
           ))}
         </div>
       </div>

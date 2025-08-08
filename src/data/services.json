@@ -1,118 +1,33 @@
 {
-    "webapps": [
-      {
-        "title": "Full-Stack Web Applications",
-        "description": "Complete web solutions from concept to deployment. Specializing in modern frameworks, real-time features, and scalable architectures for businesses and educational platforms.",
-        "features": ["React/Next.js", "Node.js/Express", "Real-time Features", "Cloud Integration"],
-        "icon": "Code",
-        "price": "Starting from $2,500"
-      },
-      {
-        "title": "Educational Platforms",
-        "description": "Custom learning management systems with video streaming, content protection, and collaborative features for modern education.",
-        "features": ["Video Streaming", "Content Protection", "User Management", "Analytics"],
-        "icon": "Monitor",
-        "price": "Custom Pricing"
-      },
-      {
-        "title": "Business Automation",
-        "description": "Streamline operations with custom web applications, CRM systems, and automated workflows to boost productivity and efficiency.",
-        "features": ["CRM Dashboards", "Process Automation", "Data Integration", "Reporting"],
-        "icon": "Server",
-        "price": "Custom Pricing"
-      }
-    ],
-    "shopify": [
-      {
-        "title": "Custom Shopify Development",
-        "description": "Tailored Shopify solutions including custom themes, app development, and store optimization to maximize your e-commerce success.",
-        "features": ["Custom Themes", "App Development", "Store Optimization", "Analytics"],
-        "icon": "ShoppingCart",
-        "price": "Starting from $1,500"
-      },
-      {
-        "title": "Shopify App Development",
-        "description": "Extend your store's functionality with custom apps for automation, analytics, and third-party integrations.",
-        "features": ["Custom Apps", "API Integration", "Automation", "Analytics"],
-        "icon": "Code",
-        "price": "Starting from $2,500"
-      },
-      {
-        "title": "Store Optimization",
-        "description": "Enhance performance, SEO, and conversion rates through comprehensive store optimization and analytics implementation.",
-        "features": ["Performance", "SEO", "Conversion", "Analytics"],
-        "icon": "Monitor",
-        "price": "Starting from $800"
-      }
-    ],
-    "ai": [
-      {
-        "title": "AI Integration & Chatbots",
-        "description": "Intelligent AI solutions including chatbots, analytics, and automation to enhance user engagement and business insights.",
-        "features": ["AI Chatbots", "Analytics", "Automation", "NLP"],
-        "icon": "Brain",
-        "price": "Starting from $1,200"
-      },
-      {
-        "title": "AI-Powered Analytics",
-        "description": "Advanced analytics with AI to uncover patterns, trends, and actionable insights from your business data.",
-        "features": ["Data Analysis", "Pattern Recognition", "Predictive Analytics", "Insights"],
-        "icon": "Brain",
-        "price": "Starting from $2,000"
-      },
-      {
-        "title": "Machine Learning Solutions",
-        "description": "Custom ML models for data analysis, prediction, and automation to drive business efficiency and growth.",
-        "features": ["ML Models", "Data Analysis", "Prediction", "Automation"],
-        "icon": "Brain",
-        "price": "Starting from $3,000"
-      }
-    ],
-    "frontend": [
+    "Services": [
       {
         "title": "Modern Frontend Development",
         "description": "Cutting-edge frontend solutions using React, Next.js, and modern technologies for exceptional user experiences.",
-        "features": ["React/Next.js", "TypeScript", "Responsive Design", "Performance"],
+        "features": ["React.js", "TypeScript", "Responsive Design", "Performance"],
         "icon": "Code",
         "price": "Starting from $1,500"
       },
-      {
-        "title": "UI/UX Design",
-        "description": "User-centered design with modern interfaces, intuitive navigation, and engaging user experiences.",
-        "features": ["Wireframing", "Prototyping", "User Testing", "Design Systems"],
-        "icon": "Monitor",
-        "price": "Starting from $1,000"
-      },
-      {
-        "title": "Interactive Applications",
-        "description": "Real-time, collaborative, and interactive applications for games, education, and business with modern web technologies.",
-        "features": ["Real-time", "Collaboration", "WebRTC", "Interactivity"],
-        "icon": "Monitor",
-        "price": "Custom Pricing"
-      }
-    ],
-    "backend": [
-      {
-        "title": "API & Backend Development",
-        "description": "Scalable, secure backend systems and APIs using modern technologies and cloud services for high-performance applications.",
-        "features": ["REST/GraphQL APIs", "Database Design", "Authentication", "Cloud Deployment"],
-        "icon": "Server",
-        "price": "Starting from $1,800"
-      },
-      {
-        "title": "Database Architecture",
-        "description": "Database design, optimization, and management for scalable and efficient data storage solutions.",
-        "features": ["Database Design", "Optimization", "Migration", "Backup"],
-        "icon": "Server",
-        "price": "Starting from $1,200"
-      },
-      {
-        "title": "Cloud Infrastructure",
-        "description": "Cloud infrastructure setup, deployment automation, and server management for reliable application hosting.",
-        "features": ["Cloud Setup", "CI/CD", "Monitoring", "Security"],
-        "icon": "Server",
-        "price": "Starting from $1,500"
-      }
-    ]
+      
+  {
+    "title": "UI/UX Design for Web Apps",
+    "description": "Intuitive and modern UI/UX design for web and mobile applications using tools like Figma and Adobe XD.",
+    "features": ["Wireframes", "Prototyping", "Design Systems", "User Flow"],
+    "icon": "Layout",
+    "price": "Starting from $700"
+  },
+  {
+    "title": "Sales & Lead Generation",
+    "description": "Result-driven sales outreach and lead generation services using CRM tools, market research, and tailored strategies to boost conversions.",
+    "features": ["Cold Outreach", "Lead Qualification", "CRM Tools", "Follow-up Sequences"],
+    "icon": "Phone",
+    "price": "Custom Pricing"
+  },
+  {
+    "title": "Operations & Client Coordination",
+    "description": "Support for day-to-day business operations including project tracking, team coordination, client follow-ups, and reporting.",
+    "features": ["Task Management", "Client Communication", "Follow-ups", "Status Reporting"],
+    "icon": "Briefcase",
+    "price": "Custom Pricing"
   }
-  
+]
+}

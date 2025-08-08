@@ -13,7 +13,7 @@ export default function WorkExperience() {
 
   return (
     <div 
-      className="min-h-screen px-4 py-16 md:px-8 lg:px-16 relative overflow-hidden"
+      className="min-h-screen px-4 py-8 md:px-8 lg:px-16 relative overflow-hidden"
       style={{
         color: "var(--text-color)",
       }}
@@ -135,10 +135,10 @@ function TimelineCard({ role, company, duration, tasks, isRight }) {
     <div 
       className="rounded-xl p-6 transition-all duration-500 hover:scale-105"
       style={{
-        background: "rgba(30, 30, 30, 0.7)",
+        background: "var(--card-bg)",
         backdropFilter: "blur(10px)",
-        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.3)",
-        border: "1px solid rgba(255, 255, 255, 0.05)",
+        boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
+        border: "1px solid var(--background)",
         transform: hover ? "translateY(-5px)" : "translateY(0px)",
       }}
       onMouseEnter={() => setHover(true)}

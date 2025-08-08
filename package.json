@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "overrides": {
+  "react": "18.2.0",
+  "react-dom": "18.2.0"
+  },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.4.7",
@@ -15,10 +19,11 @@
     "next": "15.1.6",
     "nodemailer": "^6.10.1",
     "react": "18.2.0",
-"react-dom": "18.2.0",
-
+    "react-dom": "18.2.0",
     "run": "^1.5.0",
     "tech-stack-icons": "^2.1.0"
+
+    
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

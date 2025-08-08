@@ -16,6 +16,7 @@
 
   --nav-text: #000000;
   --nav-bg: #fad6d5;
+  --nav-link: #000000;
   --text-right: #fad8dd;
   --head-text: #685957;
 
@@ -26,8 +27,15 @@
   --card-dark-text: #8F5953;
   --card-dark-text-light: #ffffff;
 
-  --gradient-start: #2a021a;
-  --gradient-end: #360729;
+  /* Button and Text Contrast Colors */
+  --button-text-on-pink: #ffffff;
+  --button-text-on-dark: #ffffff;
+  --button-text-on-light: #000000;
+  --tag-text-on-pink: #000000;
+  --tag-bg-on-pink: #ffffff;
+
+  --gradient-start: #fad6d5; /* light pink */
+  --gradient-end: #fba39d;   /* soft pink */
 
   --text-gradient-start: #fba39d;
   --text-gradient-end: #fba39d;
